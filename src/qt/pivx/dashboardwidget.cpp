@@ -461,14 +461,14 @@ void DashboardWidget::changeChartColors()
     QColor backgroundColor;
     QColor gridY;
     if (isLightTheme()) {
-        gridLineColorX = QColor(255,255,255);
+        gridLineColorX = QColor(15,15,15);
         linePenColorY = gridLineColorX;
         backgroundColor = linePenColorY;
-        axisY->setGridLineColor(QColor("#1a000000"));
+        axisY->setGridLineColor(QColor("#40ffffff"));
     } else {
         gridY = QColor("#40ffffff");
         axisY->setGridLineColor(gridY);
-        gridLineColorX = QColor(15,11,22);
+        gridLineColorX = QColor(15,15,15);
         linePenColorY =  gridLineColorX;
         backgroundColor = linePenColorY;
     }
