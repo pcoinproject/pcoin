@@ -129,7 +129,7 @@ TopBar::TopBar(PIVXGUI* _mainWindow, QWidget *parent) :
     ui->pushButtonBalanceInfo->installEventFilter(watcher);
 
     // QR image
-    QPixmap pixmap("://img-qr-test");
+    QPixmap pixmap("://img-qr");
     ui->btnQr->setIcon(
                 QIcon(pixmap.scaled(
                          70,
