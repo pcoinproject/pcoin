@@ -172,3 +172,6 @@ build*
 pivxd.*
 pivxd-new-gui.*
 /cov-int/
+src/chiabls/configure~
+src/chiabls/contrib/relic/include/relic_conf.h.old
+src/univalue/configure~
