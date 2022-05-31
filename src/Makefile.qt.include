@@ -604,7 +604,7 @@ endif
 
 RES_IMAGES = \
   qt/res/images/about.png \
-  qt/res/images/splash.png \
+  qt/res/images/splash.png
 
 RES_CSS = \
   qt/res/css/default.css \
