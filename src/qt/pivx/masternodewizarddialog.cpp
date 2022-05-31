@@ -98,7 +98,7 @@ MasterNodeWizardDialog::MasterNodeWizardDialog(WalletModel* model, MNModel* _mnM
     if (walletModel->isRegTestNetwork()) {
         ui->lineEditPort->setText("51476");
     } else if (walletModel->isTestNetwork()) {
-        ui->lineEditPort->setText("51474");
+        ui->lineEditPort->setText("22503");
     } else {
         ui->lineEditPort->setText("22501");
     }
