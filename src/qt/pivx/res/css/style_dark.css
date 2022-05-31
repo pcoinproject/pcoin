@@ -1968,7 +1968,7 @@ QComboBox[cssClass="btn-combo-secundary"] {
 }
 
 QComboBox[cssClass="btn-combo-secundary"]::down-arrow {
-    image: url("://ic-arrow-drop-down-purple");
+    image: url("://ic-arrow-drop-down-blue");
     width: 24px;
     height: 24px;
 }
@@ -2577,7 +2577,7 @@ QSpinBox[cssClass="btn-spin-box"], QDoubleSpinBox[cssClass="btn-spin-box"] {
 
 
 QSpinBox[cssClass="btn-spin-box"]::up-button, QDoubleSpinBox[cssClass="btn-spin-box"]::up-button {
-    image: url("://ic-arrow-drop-up-purple");
+    image: url("://ic-arrow-drop-up-blue");
     subcontrol-position: top right; width: 20px; height: 20px;
     border: 0px;
     padding:0px;
@@ -2585,7 +2585,7 @@ QSpinBox[cssClass="btn-spin-box"]::up-button, QDoubleSpinBox[cssClass="btn-spin-
 }
 
 QSpinBox[cssClass="btn-spin-box"]::down-button, QDoubleSpinBox[cssClass="btn-spin-box"]::down-button {
-    image: url("://ic-arrow-drop-down-purple");
+    image: url("://ic-arrow-drop-down-blue");
     subcontrol-position: bottom right; width: 20px; height: 20px;
     border: 0px;
     padding:0px;
@@ -2895,9 +2895,9 @@ QPushButton[cssClass="ic-step-confirm"] {
     background-image: url("://ic-check-white");
     background-position:center;
     background-repeat:no-repeat;
-    border:  1px solid #6C529D;
+    border:  1px solid #0a80ab;
     border-radius:11px;
-    background-color:#6C529D;
+    background-color:#0a80ab;
 }
 
 
@@ -3357,9 +3357,9 @@ QPushButton[cssClass="ic-step-confirm-welcome"] {
     background-image: url("://ic-check-white");
     background-position:center;
     background-repeat:no-repeat;
-    border:  1px solid #6C529D;
+    border:  1px solid #0a80ab;
     border-radius:11px;
-    background-color:#6C529D;
+    background-color:#0a80ab;
 }
 
 *[cssClass="text-title-welcome"] {
@@ -3401,34 +3401,6 @@ QPushButton[cssClass="ic-step-confirm-welcome"] {
     border-radius: 4px;
 }
 
-*[cssClass="container-welcome-step1"] {
-    background-image: url("://img-welcome-step1");
-    background-position:left bottom;
-    background-repeat:no-repeat;
-    background-color: transparent;
-}
-
-*[cssClass="container-welcome-step2"] {
-    background-image: url("://img-welcome-step2");
-    background-position:left bottom;
-    background-repeat:no-repeat;
-    background-color: transparent;
-}
-
-*[cssClass="container-welcome-step3"] {
-    background-image: url("://img-welcome-step3");
-    background-position:left bottom;
-    background-repeat:no-repeat;
-    background-color: transparent;
-}
-
-*[cssClass="container-welcome-step4"] {
-    background-image: url("://img-welcome-step4");
-    background-position:left bottom;
-    background-repeat:no-repeat;
-    background-color: transparent;
-}
-
 QComboBox[cssClass="btn-combo-welcome"] {
     background-color:#0e1d33;
     padding:10px 20px 10px 10px;
@@ -3437,9 +3409,8 @@ QComboBox[cssClass="btn-combo-welcome"] {
     color: #FFFFFF;
 }
 
-
 QComboBox[cssClass="btn-combo-welcome"]::down-arrow {
-    image: url("://ic-arrow-purple-down");
+    image: url("://ic-arrow-blue-down");
     width: 42px;
     height: 42px;
 }

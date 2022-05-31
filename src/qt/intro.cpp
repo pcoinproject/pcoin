@@ -118,7 +118,6 @@ Intro::Intro(QWidget* parent) : QDialog(parent, Qt::WindowSystemMenuHint | Qt::W
     ui->setupUi(this);
     this->setStyleSheet(GUIUtil::loadStyleSheet());
 
-    setCssProperty(ui->frame, "container-welcome-step2");
     setCssProperty(ui->container, "container-welcome-stack");
     setCssProperty(ui->frame_2, "container-welcome");
     setCssProperty(ui->welcomeLabel, "text-title-welcome");

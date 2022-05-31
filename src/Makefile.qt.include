@@ -301,7 +301,6 @@ RES_ICONS = \
   qt/pivx/res/img/ic-nav-cold-staking-active.svg \
   qt/pivx/res/img/ic-nav-dashboard-active.svg \
   qt/pivx/res/img/ic-wallet-status-locked.svg \
-  qt/pivx/res/img/bg-splash.svg \
   qt/pivx/res/img/bg-splash.png \
   qt/pivx/res/img/ic-check-mint.svg \
   qt/pivx/res/img/ic-nav-dashboard-hover.svg \
@@ -312,28 +311,18 @@ RES_ICONS = \
   qt/pivx/res/img/ic-check-peers.svg \
   qt/pivx/res/img/ic-nav-master-active.svg \
   qt/pivx/res/img/ic-watch-password-white.svg \
-  qt/pivx/res/img/bg-welcome-container.jpg \
   qt/pivx/res/img/bg-welcome-container.png \
-  qt/pivx/res/img/bg-welcome-container.svg \
-  qt/pivx/res/img/bg-welcome-container@2x.png \
-  qt/pivx/res/img/bg-welcome-container@3x.png \
   qt/pivx/res/img/ic-check-staking-off.svg \
   qt/pivx/res/img/ic-nav-master-hover.svg \
   qt/pivx/res/img/ic-watch-password.svg \
-  qt/pivx/res/img/bg-welcome.jpg \
-  qt/pivx/res/img/bg-welcome.svg \
-  qt/pivx/res/img/bg-welcome@2x.jpg \
-  qt/pivx/res/img/bg-welcome@3x.jpg \
   qt/pivx/res/img/bg-welcome.png \
   qt/pivx/res/img/ic-check-staking.svg \
   qt/pivx/res/img/ic-nav-master.svg \
-  qt/pivx/res/img/img-dashboard-banner.jpg \
   qt/pivx/res/img/btn-radio-active.svg \
   qt/pivx/res/img/ic-check-sync-off.svg \
   qt/pivx/res/img/ic-nav-privacy-active.svg \
   qt/pivx/res/img/img-empty-contacts.svg \
   qt/pivx/res/img/btn-radio-off.svg \
-  qt/pivx/res/img/ic-check-sync.png \
   qt/pivx/res/img/ic-nav-privacy-hover.svg \
   qt/pivx/res/img/img-empty-dark-contacts.svg \
   qt/pivx/res/img/ic-contact-arrow-down.svg \
@@ -351,7 +340,7 @@ RES_ICONS = \
   qt/pivx/res/img/ic-check-theme-light.svg \
   qt/pivx/res/img/ic-nav-receive-hover.svg \
   qt/pivx/res/img/img-empty-dark-multisend.svg \
-  qt/pivx/res/img/ic-add-purple.svg \
+  qt/pivx/res/img/ic-add-blue.svg \
   qt/pivx/res/img/ic-check-white.svg \
   qt/pivx/res/img/ic-nav-receive.svg \
   qt/pivx/res/img/img-empty-dark-peers.svg \
@@ -374,7 +363,7 @@ RES_ICONS = \
   qt/pivx/res/img/ic-nav-settings-active.svg \
   qt/pivx/res/img/img-empty-masternode.svg \
   qt/pivx/res/img/ic-address-send-white.svg \
-  qt/pivx/res/img/ic-clear-purple.svg \
+  qt/pivx/res/img/ic-clear-blue.svg \
   qt/pivx/res/img/ic-nav-settings-hover.svg \
   qt/pivx/res/img/img-empty-multisend.svg \
   qt/pivx/res/img/ic-address-send.svg \
@@ -392,34 +381,28 @@ RES_ICONS = \
   qt/pivx/res/img/ic-receive-off.svg \
   qt/pivx/res/img/img-empty-staking-on.svg \
   qt/pivx/res/img/ic-arrow-drop-up-white.svg \
-  qt/pivx/res/img/ic-coin-zpiv.png \
   qt/pivx/res/img/ic-receive-on.svg \
   qt/pivx/res/img/img-empty-transactions.svg \
   qt/pivx/res/img/ic-arrow-drop-up.svg \
   qt/pivx/res/img/ic-coin-zpiv.svg \
   qt/pivx/res/img/ic-received.svg \
-  qt/pivx/res/img/img-logo-pivx.png \
   qt/pivx/res/img/ic-arrow-drop-white-down.svg \
   qt/pivx/res/img/ic-combo-box.svg \
   qt/pivx/res/img/ic-send.svg \
-  qt/pivx/res/img/img-logo-pivx@2x.png \
-  qt/pivx/res/img/ic-arrow-purple-down.svg \
+  qt/pivx/res/img/ic-arrow-blue-down.svg \
   qt/pivx/res/img/ic-connect.svg \
   qt/pivx/res/img/ic-submenu-lock.svg \
-  qt/pivx/res/img/img-logo-pivx@3x.png \
   qt/pivx/res/img/img-logo-pivx.svg \
   qt/pivx/res/img/ic-arrow-right-white.svg \
   qt/pivx/res/img/ic-arrow-left-white.svg \
   qt/pivx/res/img/ic-arrow-left.svg \
   qt/pivx/res/img/ic-copy-liliac.svg \
   qt/pivx/res/img/ic-submenu-staking.svg \
-  qt/pivx/res/img/img-nav-logo-pivx.png \
   qt/pivx/res/img/ic-arrow-right.svg \
   qt/pivx/res/img/ic-copy.svg \
   qt/pivx/res/img/ic-copy-big.svg \
   qt/pivx/res/img/ic-copy-big-white.svg \
   qt/pivx/res/img/ic-submenu-unlock.svg \
-  qt/pivx/res/img/img-nav-logo.png \
   qt/pivx/res/img/ic-arrow-white-left.svg \
   qt/pivx/res/img/ic-exit.svg \
   qt/pivx/res/img/ic-switch-liliac-on.svg \
@@ -431,7 +414,6 @@ RES_ICONS = \
   qt/pivx/res/img/ic-check-active.svg \
   qt/pivx/res/img/ic-folder.svg \
   qt/pivx/res/img/ic-switch-on.svg \
-  qt/pivx/res/img/img-qr-test.png \
   qt/pivx/res/img/ic-check-box.svg \
   qt/pivx/res/img/ic-check-box-light.svg \
   qt/pivx/res/img/ic-check-box-dark-active.svg \
@@ -458,30 +440,26 @@ RES_ICONS = \
   qt/pivx/res/img/dark/ic-transaction-mint-inactive.svg \
   qt/pivx/res/img/ic-transaction-received-inactive.svg \
   qt/pivx/res/img/dark/ic-transaction-received-inactive.svg \
-  qt/pivx/res/img/img-welcome-step1.png \
   qt/pivx/res/img/ic-check-connect.svg \
   qt/pivx/res/img/ic-menu-hover.svg \
   qt/pivx/res/img/ic-transaction-sent.svg \
   qt/pivx/res/img/ic-transaction-sent-inactive.svg \
   qt/pivx/res/img/dark/ic-transaction-sent.svg \
   qt/pivx/res/img/dark/ic-transaction-sent-inactive.svg \
-  qt/pivx/res/img/img-welcome-step2.png \
   qt/pivx/res/img/ic-check-dark.svg \
   qt/pivx/res/img/ic-mint.svg \
   qt/pivx/res/img/ic-transaction-staked.svg \
   qt/pivx/res/img/ic-transaction-staked-inactive.svg \
   qt/pivx/res/img/dark/ic-transaction-staked.svg \
   qt/pivx/res/img/dark/ic-transaction-staked-inactive.svg \
-  qt/pivx/res/img/img-welcome-step3.png \
   qt/pivx/res/img/ic-check-liliac-on.svg \
   qt/pivx/res/img/ic-nav-address-active.svg \
   qt/pivx/res/img/ic-unlock-staking.svg \
-  qt/pivx/res/img/img-welcome-step4.png \
   qt/pivx/res/img/ic-check-locked-off.svg \
   qt/pivx/res/img/ic-nav-address-hover.svg \
   qt/pivx/res/img/ic-update-liliac.svg \
-  qt/pivx/res/img/ic-arrow-drop-down-purple.svg \
-  qt/pivx/res/img/ic-arrow-drop-up-purple.svg \
+  qt/pivx/res/img/ic-arrow-drop-down-blue.svg \
+  qt/pivx/res/img/ic-arrow-drop-up-blue.svg \
   qt/pivx/res/img/ic-check-liliac-indeterminate.svg \
   qt/pivx/res/img/ic-check-box-liliac-indeterminate.svg \
   qt/pivx/res/img/ic-transaction-stake-delegated.svg \

@@ -100,24 +100,20 @@ WelcomeContentWidget::WelcomeContentWidget(QWidget *parent) :
     ui->stackedWidget->setCurrentIndex(0);
 
     // Frame 1
-    ui->page_1->setProperty("cssClass", "container-welcome-step1");
     ui->labelTitle1->setProperty("cssClass", "text-title-welcome");
     ui->comboBoxLanguage->setProperty("cssClass", "btn-combo-welcome");
     ui->comboBoxLanguage->setView(new QListView());
 
     // Frame 2
-    ui->page_2->setProperty("cssClass", "container-welcome-step2");
     ui->labelTitle2->setProperty("cssClass", "text-title-welcome");
     ui->labelTitle2->setText(ui->labelTitle2->text().arg(PACKAGE_NAME));
     ui->labelMessage2->setProperty("cssClass", "text-main-white");
 
     // Frame 3
-    ui->page_3->setProperty("cssClass", "container-welcome-step3");
     ui->labelTitle3->setProperty("cssClass", "text-title-welcome");
     ui->labelMessage3->setProperty("cssClass", "text-main-white");
 
     // Frame 4
-    ui->page_4->setProperty("cssClass", "container-welcome-step4");
     ui->labelTitle4->setProperty("cssClass", "text-title-welcome");
     ui->labelMessage4->setProperty("cssClass", "text-main-white");
 

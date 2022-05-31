@@ -172,6 +172,14 @@ build*
 pivxd.*
 pivxd-new-gui.*
 /cov-int/
+
+#Remove
 src/chiabls/configure~
 src/chiabls/contrib/relic/include/relic_conf.h.old
 src/univalue/configure~
+.vscode/*
+*/config.h
+*.awk   
+conftest
+configure~
+src/qt/libbitcoinqt.a.OEbSTH
