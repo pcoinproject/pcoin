@@ -56,7 +56,7 @@ CoinControlDialog::CoinControlDialog(QWidget* parent, bool _forDelegation) : QDi
                     ui->layoutDust,
                     ui->layoutFee,
                     ui->layoutQuantity
-                    }, "container-border-purple");
+                    }, "container-border-blue");
 
     // Title
     ui->labelTitle->setProperty("cssClass", "text-title-dialog");
@@ -69,7 +69,7 @@ CoinControlDialog::CoinControlDialog(QWidget* parent, bool _forDelegation) : QDi
                     ui->labelCoinControlLowOutputText,
                     ui->labelCoinControlFeeText,
                     ui->labelCoinControlQuantityText
-                    }, "text-main-purple");
+                    }, "text-main-blue");
 
     // Value Style
     setCssProperty({ui->labelCoinControlAfterFee,
@@ -79,11 +79,11 @@ CoinControlDialog::CoinControlDialog(QWidget* parent, bool _forDelegation) : QDi
                     ui->labelCoinControlLowOutput,
                     ui->labelCoinControlFee,
                     ui->labelCoinControlQuantity
-                    }, "text-main-purple");
+                    }, "text-main-blue");
 
     ui->groupBox_2->setProperty("cssClass", "group-box");
     ui->treeWidget->setProperty("cssClass", "table-tree");
-    ui->labelLocked->setProperty("cssClass", "text-main-purple");
+    ui->labelLocked->setProperty("cssClass", "text-main-blue");
 
     // Buttons
     setCssProperty({ui->pushButtonSelectAll, ui->pushButtonToggleLock}, "btn-check");

@@ -41,12 +41,12 @@ HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*/
     background-color:#bababa;
 }
 
-*[cssClass="container-purple"] {
+*[cssClass="container-blue"] {
     background-color:#0a80ab;
     border:  0;
 }
 
-*[cssClass="container-border-purple"] {
+*[cssClass="container-border-blue"] {
     background-color:#FFFFFF;
     border:  1px solid #0a80ab;
     border-radius:2px;
@@ -905,7 +905,7 @@ QProgressBar[cssClass="progress-sync"]::chunk:horizontal {
 HH       LISTS ELEMENTS
 HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*/
 
-*[cssClass="text-list-title-purple"] {
+*[cssClass="text-list-title-blue"] {
     color:#0a80ab;
     font-size:20px;
 }
@@ -920,7 +920,7 @@ HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*/
     font-size:16px;
 }
 
-*[cssClass="text-list-body1-purple"] {
+*[cssClass="text-list-body1-blue"] {
     color:#0a80ab;
     font-size:14px;
 }
@@ -1042,7 +1042,7 @@ HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*/
     font-size:22px;
 }
 
-*[cssClass="btn-title-purple"] {
+*[cssClass="btn-title-blue"] {
     color:#0a80ab;
     font-size:22px;
 }
@@ -1093,12 +1093,12 @@ HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*/
     font-size:18px;
 }
 
-*[cssClass="text-main-purple"] {
+*[cssClass="text-main-blue"] {
     color:#0a80ab;
     font-size:17px;
 }
 
-*[cssClass="text-title-purple"] {
+*[cssClass="text-title-blue"] {
     color:#0a80ab;
     font-size:22px;
 }
@@ -2461,12 +2461,12 @@ HH       SELECT MASTER NODE
 HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*/
 
 
-*[cssClass="text-title-purple"] {
+*[cssClass="text-title-blue"] {
     color: #0a80ab;
     font-size: 14px;
 }
 
-*[cssClass="text-purple"] {
+*[cssClass="text-blue"] {
     color: #0a80ab;
     font-size: 14px;
     padding-left: 8px;
@@ -2849,7 +2849,7 @@ QScrollBar::top-arrow:horizontal, QScrollBar::bottom-arrow:horizontal
 HH       DIALOG MASTER NODE
 HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*/
 
-*[cssClass="line-purple"] {
+*[cssClass="line-blue"] {
     background-color:#0a80ab;
 }
 

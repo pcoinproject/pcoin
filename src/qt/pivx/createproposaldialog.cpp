@@ -37,7 +37,7 @@ CreateProposalDialog::CreateProposalDialog(PIVXGUI* parent, GovernanceModel* _go
 
     setCssProperty(ui->frame, "container-dialog");
     ui->frame->setContentsMargins(10,10,10,10);
-    setCssProperty({ui->labelLine1, ui->labelLine2}, "line-purple");
+    setCssProperty({ui->labelLine1, ui->labelLine2}, "line-blue");
     setCssProperty({ui->groupBoxName, ui->groupContainer}, "container-border");
     setCssProperty({ui->pushNumber1, ui->pushNumber2, ui->pushNumber3}, "btn-number-check");
     setCssProperty({ui->pushName1, ui->pushName2, ui->pushName3}, "btn-name-check");
