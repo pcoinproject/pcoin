@@ -3689,8 +3689,8 @@ Wystąpił błąd podczas próby zapisania listy adresów w %1. Proszę spróbuj
         <translation>2) Dlaczego mojego PIV nie można wydać?</translation>
     </message>
     <message>
-        <source>https://PIVX.org/</source>
-        <translation>https://PIVX.org/</translation>
+        <source>https://pcoin.dev/</source>
+        <translation>https://pcoin.dev/</translation>
     </message>
     <message>
         <source>1</source>

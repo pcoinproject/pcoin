@@ -3801,8 +3801,8 @@ Ha habido un error al tratar de guardar la libreta de direcciones en %1. Por fav
         <translation>2) ¿Por qué mis PIV no se pueden gastar?</translation>
     </message>
     <message>
-        <source>https://PIVX.org/</source>
-        <translation>https://PIVX.org/</translation>
+        <source>https://pcoin.dev/</source>
+        <translation>https://pcoin.dev/</translation>
     </message>
     <message>
         <source>1</source>

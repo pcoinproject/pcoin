@@ -3953,8 +3953,8 @@ Es gab ein Problem bei dem Versuch die Adressen unter %1 zu speichern. Bitte ver
         <translation>2) Wieso kann ich meine PIV nicht ausgeben?</translation>
     </message>
     <message>
-        <source>https://PIVX.org/</source>
-        <translation>https://PIVX.org/</translation>
+        <source>https://pcoin.dev/</source>
+        <translation>https://pcoin.dev/</translation>
     </message>
     <message>
         <source>1</source>
@@ -4040,7 +4040,7 @@ PIVX nutzt einen Proof of Stake (PoS) Konsensalgorithmus, der es den Besitzern v
         <source>
                            &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
                            We have support channels in most of our official chat groups, for example
-                           &lt;a style='color: #13b9f6' href='https://discord.PIVX.org'&gt;
+                           &lt;a style='color: #13b9f6' href='https://discord.pcoin.dev'&gt;
                            #support in our Discord&lt;/a&gt;.
                            If you prefer to submit a ticket, You can do so at
                            &lt;a style='color: #13b9f6' href='https://PIVX.freshdesk.com'&gt;
@@ -4050,7 +4050,7 @@ PIVX nutzt einen Proof of Stake (PoS) Konsensalgorithmus, der es den Besitzern v
         <translation>
 &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
 Wir haben Support-Kanäle in den meisten unserer offiziellen Chatgruppen, z.B.
-&lt;a style='color: #13b9f6' href='https://discord.PIVX.org'&gt;
+&lt;a style='color: #13b9f6' href='https://discord.pcoin.dev'&gt;
 #support in Discord&lt;/a&gt;
 Wenn Sie bevorzugen, uns ein Ticket zu schicken, besuchen Sie
 &lt;a style='color: #13b9f6' href='https://PIVX.freshdesk.com'&gt;

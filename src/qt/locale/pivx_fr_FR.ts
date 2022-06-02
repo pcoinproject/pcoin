@@ -3799,8 +3799,8 @@ Il y a eu une erreur de sauvegarde de la liste d'adresses vers %1. SVP rééssay
         <translation>2) Pourquoi mes PIV ne peuvent pas être dépensés?</translation>
     </message>
     <message>
-        <source>https://PIVX.org/</source>
-        <translation>https://PIVX.org/</translation>
+        <source>https://pcoin.dev/</source>
+        <translation>https://pcoin.dev/</translation>
     </message>
     <message>
         <source>1</source>
@@ -3870,7 +3870,7 @@ pour voir votre solde de monnaie dépensable sur le réseau.
         <source>
                            &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
                            We have support channels in most of our official chat groups, for example
-                           &lt;a style='color: #13b9f6' href='https://discord.PIVX.org'&gt;
+                           &lt;a style='color: #13b9f6' href='https://discord.pcoin.dev'&gt;
                            #support in our Discord&lt;/a&gt;.
                            If you prefer to submit a ticket, You can do so at
                            &lt;a style='color: #13b9f6' href='https://PIVX.freshdesk.com'&gt;
@@ -3880,7 +3880,7 @@ pour voir votre solde de monnaie dépensable sur le réseau.
         <translation>
                            &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
                            We have support channels in most of our official chat groups, for example
-                           &lt;a style='color: #13b9f6' href='https://discord.PIVX.org'&gt;
+                           &lt;a style='color: #13b9f6' href='https://discord.pcoin.dev'&gt;
                            #support in our Discord&lt;/a&gt;.
                            If you prefer to submit a ticket, You can do so at
                            &lt;a style='color: #13b9f6' href='https://PIVX.freshdesk.com'&gt;
