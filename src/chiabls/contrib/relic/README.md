@@ -2,7 +2,6 @@
 =====
 
 [![Project stats](https://www.openhub.net/p/relic-toolkit/widgets/project_thin_badge.gif)](https://www.openhub.net/p/relic-toolkit)
-[![Build Status](https://travis-ci.org/relic-toolkit/relic.svg?branch=main)](https://travis-ci.org/relic-toolkit/relic)
 [![Code Quality: Cpp](https://img.shields.io/lgtm/grade/cpp/g/relic-toolkit/relic.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/relic-toolkit/relic/context:cpp)
 [![Total Alerts](https://img.shields.io/lgtm/alerts/g/relic-toolkit/relic.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/relic-toolkit/relic/alerts)
 
