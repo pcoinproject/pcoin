@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # Copyright (c) 2016-2018 The Bitcoin Core developers
-# Copyright (c) 2018-2019 The PCOIN developers
+# Copyright (c) 2022 The PCOIN developers
 # Distributed under the MIT software license, see the accompanying
 # file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -120,6 +120,7 @@ EXPECTED_HOLDER_NAMES = [
     r"The Dash Developers",
     r"The Dash Core developers",
     r"The PCOIN developers",
+    r"The PIVX developers",
     r"The PPCoin developers",
     r"The NovaCoin Developers",
     r"The BlackCoin Developers",
