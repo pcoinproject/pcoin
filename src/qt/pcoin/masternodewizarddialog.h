@@ -1,14 +1,14 @@
-// Copyright (c) 2019 The PIVX developers
+// Copyright (c) 2019 The PCOIN developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #ifndef MASTERNODEWIZARDDIALOG_H
 #define MASTERNODEWIZARDDIALOG_H
 
-#include "qt/pivx/focuseddialog.h"
-#include "qt/pivx/snackbar.h"
+#include "qt/pcoin/focuseddialog.h"
+#include "qt/pcoin/snackbar.h"
 #include "masternodeconfig.h"
-#include "qt/pivx/pwidget.h"
+#include "qt/pcoin/pwidget.h"
 
 class MNModel;
 class WalletModel;

@@ -1,10 +1,10 @@
-// Copyright (c) 2019-2020 The PIVX developers
+// Copyright (c) 2019-2020 The PCOIN developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "qt/pivx/settings/settingsbittoolwidget.h"
-#include "qt/pivx/settings/forms/ui_settingsbittoolwidget.h"
-#include "qt/pivx/qtutils.h"
+#include "qt/pcoin/settings/settingsbittoolwidget.h"
+#include "qt/pcoin/settings/forms/ui_settingsbittoolwidget.h"
+#include "qt/pcoin/qtutils.h"
 
 #include "guiutil.h"
 #include "walletmodel.h"
@@ -18,7 +18,7 @@
 #include <vector>
 
 
-SettingsBitToolWidget::SettingsBitToolWidget(PIVXGUI* _window, QWidget *parent) :
+SettingsBitToolWidget::SettingsBitToolWidget(PCOINGUI* _window, QWidget *parent) :
     PWidget(_window, parent),
     ui(new Ui::SettingsBitToolWidget)
 {

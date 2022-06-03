@@ -122,12 +122,12 @@
         <translation>Ontvangstadressen</translation>
     </message>
     <message>
-        <source>These are your PIVX addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Dit zijn uw PIVX adressen om betalingen mee te verzenden. Controleer altijd zowel het bedrag als het ontvangstadres voor het verzenden van geld.</translation>
+        <source>These are your PCOIN addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Dit zijn uw PCOIN adressen om betalingen mee te verzenden. Controleer altijd zowel het bedrag als het ontvangstadres voor het verzenden van geld.</translation>
     </message>
     <message>
-        <source>These are your PIVX addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Dit zijn uw PIVX adressen waarop betalingen kunnen worden ontvangen. Het wordt aangeraden om een nieuw ontvangstadres voor elke transactie te gebruiken.</translation>
+        <source>These are your PCOIN addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Dit zijn uw PCOIN adressen waarop betalingen kunnen worden ontvangen. Het wordt aangeraden om een nieuw ontvangstadres voor elke transactie te gebruiken.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -364,8 +364,8 @@ voor bewijs van Inzet</translation>
         <translation>Annuleren</translation>
     </message>
     <message>
-        <source>PIVX will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PIVs from being stolen by malware infecting your computer.</source>
-        <translation>PIVX zal nu afsluiten om het versleutelingsproces te voltooien. Onthoud dat het versleutelen van uw portemonnee u niet volledig kan beschermen tegen malware infecties op uw computer die uw PIV's kunnen stelen.</translation>
+        <source>PCOIN will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PCOINs from being stolen by malware infecting your computer.</source>
+        <translation>PCOIN zal nu afsluiten om het versleutelingsproces te voltooien. Onthoud dat het versleutelen van uw portemonnee u niet volledig kan beschermen tegen malware infecties op uw computer die uw PCOIN's kunnen stelen.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -457,8 +457,8 @@ voor bewijs van Inzet</translation>
         <translation>Besparingen</translation>
     </message>
     <message>
-        <source>0,00 PIV</source>
-        <translation>0,00 PIV</translation>
+        <source>0,00 PCOIN</source>
+        <translation>0,00 PCOIN</translation>
     </message>
     <message>
         <source>address</source>
@@ -499,8 +499,8 @@ voor bewijs van Inzet</translation>
         <translation>Munt Selectie</translation>
     </message>
     <message>
-        <source>Select PIV Outputs to Spend</source>
-        <translation>Selecteer PIV Outputs om te besteden</translation>
+        <source>Select PCOIN Outputs to Spend</source>
+        <translation>Selecteer PCOIN Outputs om te besteden</translation>
     </message>
     <message>
         <source>Dust:</source>
@@ -527,8 +527,8 @@ voor bewijs van Inzet</translation>
         <translation>Bedrag</translation>
     </message>
     <message>
-        <source>0.00 PIV</source>
-        <translation>0.00 PIV</translation>
+        <source>0.00 PCOIN</source>
+        <translation>0.00 PCOIN</translation>
     </message>
     <message>
         <source>0</source>
@@ -726,9 +726,9 @@ voor bewijs van Inzet</translation>
         <translation>Fout bij laden delegaties: %1</translation>
     </message>
     <message>
-        <source>You can delegate your PIVs, letting a hot node (24/7 online node)
+        <source>You can delegate your PCOINs, letting a hot node (24/7 online node)
 stake on your behalf, while you keep the keys securely offline.</source>
-        <translation>Je kan jouw PIVs delegeren en een hot node (24/7 online node)
+        <translation>Je kan jouw PCOINs delegeren en een hot node (24/7 online node)
 voor je laten staken, terwijl je de sleutels veilig offline opslag bewaart.</translation>
     </message>
     <message>
@@ -736,8 +736,8 @@ voor je laten staken, terwijl je de sleutels veilig offline opslag bewaart.</tra
         <translation>Voer eigenaarsadres in</translation>
     </message>
     <message>
-        <source>Accept PIV delegation / Delegate PIV</source>
-        <translation>Accepteer PIV delegatie / Delegeer PIV</translation>
+        <source>Accept PCOIN delegation / Delegate PCOIN</source>
+        <translation>Accepteer PCOIN delegatie / Delegeer PCOIN</translation>
     </message>
     <message>
         <source>Cold Staking address</source>
@@ -941,8 +941,8 @@ address</source>
         <translation>Bekijk de geschiedenis van uw account</translation>
     </message>
     <message>
-        <source>How to get PIV</source>
-        <translation>Hoe PIV verkrijgen</translation>
+        <source>How to get PCOIN</source>
+        <translation>Hoe PCOIN verkrijgen</translation>
     </message>
     <message>
         <source>Sort by</source>
@@ -965,8 +965,8 @@ address</source>
         <translation>Filter volgens</translation>
     </message>
     <message>
-        <source>Amount of PIV and zPIV staked.</source>
-        <translation>Hoeveelheid aan gestaked PIV en zPIV.</translation>
+        <source>Amount of PCOIN and zPCOIN staked.</source>
+        <translation>Hoeveelheid aan gestaked PCOIN en zPCOIN.</translation>
     </message>
     <message>
         <source>Please wait until the wallet is fully synced to see your correct balance</source>
@@ -1061,8 +1061,8 @@ Het zal automatisch starten zodra de portemonnee voldoende bevestigingen heeft o
         <translation>Wijzig verzend adres</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid PIVX address.</source>
-        <translation>Het ingevoerde adres: "%1" is geen geldig PIVX adres.</translation>
+        <source>The entered address "%1" is not a valid PCOIN address.</source>
+        <translation>Het ingevoerde adres: "%1" is geen geldig PCOIN adres.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1114,16 +1114,16 @@ Het zal automatisch starten zodra de portemonnee voldoende bevestigingen heeft o
         <translation>versie</translation>
     </message>
     <message>
-        <source>PIVX Core</source>
-        <translation>PIVX Core</translation>
+        <source>PCOIN Core</source>
+        <translation>PCOIN Core</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About PIVX Core</source>
-        <translation>Over PIVX Core</translation>
+        <source>About PCOIN Core</source>
+        <translation>Over PCOIN Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1177,16 +1177,16 @@ Het zal automatisch starten zodra de portemonnee voldoende bevestigingen heeft o
         <translation>Welkom</translation>
     </message>
     <message>
-        <source>Welcome to PIVX Core.</source>
-        <translation>Welkom bij PIVX Core.</translation>
+        <source>Welcome to PCOIN Core.</source>
+        <translation>Welkom bij PCOIN Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where PIVX Core will store its data.</source>
-        <translation>Aangezien dit de eerste keer is dat het programma is gestart, kun je kiezen waar PIVX Core zijn data opslaat.</translation>
+        <source>As this is the first time the program is launched, you can choose where PCOIN Core will store its data.</source>
+        <translation>Aangezien dit de eerste keer is dat het programma is gestart, kun je kiezen waar PCOIN Core zijn data opslaat.</translation>
     </message>
     <message>
-        <source>PIVX Core will download and store a copy of the PIVX block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>PIVX Core zal een kopie van de PIVX blockchain downloaden en opslaan. Tenminste %1GB aan data zal worden opgeslagen in deze map en het zal over de tijd groeien. De portemonnee zal ook in deze map worden opgeslagen.</translation>
+        <source>PCOIN Core will download and store a copy of the PCOIN block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>PCOIN Core zal een kopie van de PCOIN blockchain downloaden en opslaan. Tenminste %1GB aan data zal worden opgeslagen in deze map en het zal over de tijd groeien. De portemonnee zal ook in deze map worden opgeslagen.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1205,8 +1205,8 @@ Het zal automatisch starten zodra de portemonnee voldoende bevestigingen heeft o
         <translation>Akkoord</translation>
     </message>
     <message>
-        <source>PIVX Core</source>
-        <translation>PIVX Core</translation>
+        <source>PCOIN Core</source>
+        <translation>PCOIN Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1313,8 +1313,8 @@ Het zal automatisch starten zodra de portemonnee voldoende bevestigingen heeft o
         <translation>Creëer Nieuwe Masternode Controller</translation>
     </message>
     <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;To create a PIVX Masternode you must dedicate 10,000 PIV (the unit of PIVX) to the network (however, these coins are still yours and will never leave your possession). &lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;You can deactivate the node and unlock the coins at any time.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Om een PIVX Masternode te creëren moet u 10.000 PIV (de eenheid van PIVX) aan het netwerk wijden (deze munten zijn echter nog steeds van u en zullen nooit uw bezit verlaten). &lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;U kunt de node op elk gewenst moment deactiveren en de munten ontgrendelen.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;To create a PCOIN Masternode you must dedicate 10,000 PCOIN (the unit of PCOIN) to the network (however, these coins are still yours and will never leave your possession). &lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;You can deactivate the node and unlock the coins at any time.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Om een PCOIN Masternode te creëren moet u 10.000 PCOIN (de eenheid van PCOIN) aan het netwerk wijden (deze munten zijn echter nog steeds van u en zullen nooit uw bezit verlaten). &lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;U kunt de node op elk gewenst moment deactiveren en de munten ontgrendelen.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <source>Set Masternode Name</source>
@@ -1333,8 +1333,8 @@ Het zal automatisch starten zodra de portemonnee voldoende bevestigingen heeft o
         <translation>Zorg ervoor dat je deze hoeveelheid munten hebt.</translation>
     </message>
     <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;A transaction of 10,000 PIV will be made&lt;/p&gt;&lt;p&gt;to a new empty address in your wallet.&lt;/p&gt;&lt;p&gt;The Address is labeled under the master node's name.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Een transactie van 10,000 PIV zal gemaakt worden&lt;/p&gt;&lt;p&gt;naar een nieuw leeg adres in uw portemonnee.&lt;/p&gt;&lt;p&gt;Het adres is gelabeld onder de masternode's naam.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;A transaction of 10,000 PCOIN will be made&lt;/p&gt;&lt;p&gt;to a new empty address in your wallet.&lt;/p&gt;&lt;p&gt;The Address is labeled under the master node's name.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Een transactie van 10,000 PCOIN zal gemaakt worden&lt;/p&gt;&lt;p&gt;naar een nieuw leeg adres in uw portemonnee.&lt;/p&gt;&lt;p&gt;Het adres is gelabeld onder de masternode's naam.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <source>Address of the node that must always be online running the actual master node.</source>
@@ -1540,7 +1540,7 @@ Gelieve nog enkele minuten te wachten (het onderpand van een masternode vereist 
 on a remote server to your clipboard.
 
 
-You will only have to paste the data in the pivx.conf file
+You will only have to paste the data in the pcoin.conf file
 of your remote server and start it, then start the Masternode using
 this controller wallet (select the Masternode in the list and press "start").
 </source>
@@ -1548,7 +1548,7 @@ this controller wallet (select the Masternode in the list and press "start").
 op een externe server aan uw klembord.
 
 
-U hoeft alleen de gegevens in het pivx.conf bestand te plakken
+U hoeft alleen de gegevens in het pcoin.conf bestand te plakken
 van uw externe server en start deze vervolgens de Masternode met
 deze controller portemonnee (selecteer de Masternode in de lijst en druk op "start").
 </translation>
@@ -1738,8 +1738,8 @@ STAKING</translation>
         <translation>Ingelezen data te groot</translation>
     </message>
     <message>
-        <source>Invalid URI, not starting with "pivx" prefix</source>
-        <translation>Ongeldige URI, begint niet met de "pivx" prefix</translation>
+        <source>Invalid URI, not starting with "pcoin" prefix</source>
+        <translation>Ongeldige URI, begint niet met de "pcoin" prefix</translation>
     </message>
 </context>
 <context>
@@ -1784,8 +1784,8 @@ STAKING</translation>
         <translation>Als je de uitgaven van onbevestigde wijzigingen uitschakelt, de wijziging van een transactie&lt;br/&gt;kan niet worden gebruikt tot die transactie tenminste één bevestiging heeft.&lt;br/&gt;Dit beïnvloedt ook hoe uw saldo is berekend.</translation>
     </message>
     <message>
-        <source>Automatically open the PIVX client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Open de PIVX client poort automatisch op de router. Dit werkt alleen als je router UPnP ondersteunt en het is ingeschakeld.</translation>
+        <source>Automatically open the PCOIN client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Open de PCOIN client poort automatisch op de router. Dit werkt alleen als je router UPnP ondersteunt en het is ingeschakeld.</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
@@ -1804,12 +1804,12 @@ STAKING</translation>
         <translation>Expert</translation>
     </message>
     <message>
-        <source>Automatically start PIVX after logging in to the system.</source>
-        <translation>PIVX automatisch opstarten na inloggen op het systeem.</translation>
+        <source>Automatically start PCOIN after logging in to the system.</source>
+        <translation>PCOIN automatisch opstarten na inloggen op het systeem.</translation>
     </message>
     <message>
-        <source>&amp;Start PIVX on system login</source>
-        <translation>&amp;PIVX starten bij systeemlogin</translation>
+        <source>&amp;Start PCOIN on system login</source>
+        <translation>&amp;PCOIN starten bij systeemlogin</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1836,52 +1836,52 @@ STAKING</translation>
         <translation>&amp;Netwerk</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting PIVX.</source>
-        <translation>De gebruikersinterface taal kan hier ingesteld worden. Deze instelling zal uitgevoerd na herstart van PIVX.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting PCOIN.</source>
+        <translation>De gebruikersinterface taal kan hier ingesteld worden. Deze instelling zal uitgevoerd na herstart van PCOIN.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
         <translation>Map poort gebruikt &amp;UPnP</translation>
     </message>
     <message>
-        <source>Enable automatic minting of PIV units to zPIV</source>
-        <translation>Schakel automatisch slaan van PIV-eenheden in op zPIV</translation>
+        <source>Enable automatic minting of PCOIN units to zPCOIN</source>
+        <translation>Schakel automatisch slaan van PCOIN-eenheden in op zPCOIN</translation>
     </message>
     <message>
-        <source>Enable zPIV Automint</source>
-        <translation>Schakel zPIV Automint in</translation>
+        <source>Enable zPCOIN Automint</source>
+        <translation>Schakel zPCOIN Automint in</translation>
     </message>
     <message>
-        <source>Enable automatic zPIV minting from specific addresses</source>
-        <translation>Automatische zPIV munting inschakelen vanuit specifiek adres</translation>
+        <source>Enable automatic zPCOIN minting from specific addresses</source>
+        <translation>Automatische zPCOIN munting inschakelen vanuit specifiek adres</translation>
     </message>
     <message>
         <source>Enable Automint Addresses</source>
         <translation>Automint Adressen Inschakelen</translation>
     </message>
     <message>
-        <source>Percentage of incoming PIV which get automatically converted to zPIV via Zerocoin Protocol (min: 10%)</source>
-        <translation>Percentage inkomende PIV die automatisch wordt omgezet naar zPIV via Zerocoin Protocol (min: 10%)</translation>
+        <source>Percentage of incoming PCOIN which get automatically converted to zPCOIN via Zerocoin Protocol (min: 10%)</source>
+        <translation>Percentage inkomende PCOIN die automatisch wordt omgezet naar zPCOIN via Zerocoin Protocol (min: 10%)</translation>
     </message>
     <message>
-        <source>Percentage of autominted zPIV</source>
-        <translation>Percentage autominted zPIV</translation>
+        <source>Percentage of autominted zPCOIN</source>
+        <translation>Percentage autominted zPCOIN</translation>
     </message>
     <message>
-        <source>Wait with automatic conversion to Zerocoin until enough PIV for this denomination is available</source>
-        <translation>Wacht met automatische omzetting naar Zerocoin totdat er genoeg PIV voor deze denominatie beschikbaar is</translation>
+        <source>Wait with automatic conversion to Zerocoin until enough PCOIN for this denomination is available</source>
+        <translation>Wacht met automatische omzetting naar Zerocoin totdat er genoeg PCOIN voor deze denominatie beschikbaar is</translation>
     </message>
     <message>
-        <source>Preferred Automint zPIV Denomination</source>
-        <translation>Gewenste Automint zPIV denominatie</translation>
+        <source>Preferred Automint zPCOIN Denomination</source>
+        <translation>Gewenste Automint zPCOIN denominatie</translation>
     </message>
     <message>
         <source>Stake split threshold:</source>
         <translation>Stake splitsdrempel:</translation>
     </message>
     <message>
-        <source>Connect to the PIVX network through a SOCKS5 proxy.</source>
-        <translation>Maak verbinding met het PIVX netwerk via een SOCKS5 proxy.</translation>
+        <source>Connect to the PCOIN network through a SOCKS5 proxy.</source>
+        <translation>Maak verbinding met het PCOIN netwerk via een SOCKS5 proxy.</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -2025,10 +2025,10 @@ STAKING</translation>
     </message>
 </context>
 <context>
-    <name>PIVXGUI</name>
+    <name>PCOINGUI</name>
     <message>
-        <source>PIVX Core</source>
-        <translation>PIVX Core</translation>
+        <source>PCOIN Core</source>
+        <translation>PCOIN Core</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -2055,8 +2055,8 @@ STAKING</translation>
         <translation>Programma afsluiten</translation>
     </message>
     <message>
-        <source>PIVX Core client</source>
-        <translation>PIVX Core client</translation>
+        <source>PCOIN Core client</source>
+        <translation>PCOIN Core client</translation>
     </message>
     <message>
         <source>Error</source>
@@ -2122,12 +2122,12 @@ Adres: %4
         <translation>Ongeldig betalingsadres %1</translation>
     </message>
     <message>
-        <source>Cannot start pivx: click-to-pay handler</source>
-        <translation>Kan pivx niet starten: click-to-pay handler</translation>
+        <source>Cannot start pcoin: click-to-pay handler</source>
+        <translation>Kan pcoin niet starten: click-to-pay handler</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid PIVX address or malformed URI parameters.</source>
-        <translation>URL kan niet ontleed worden! Dit kan worden veroorzaakt door een ongeldig PIVX adres of misvormde URL parameters.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid PCOIN address or malformed URI parameters.</source>
+        <translation>URL kan niet ontleed worden! Dit kan worden veroorzaakt door een ongeldig PCOIN adres of misvormde URL parameters.</translation>
     </message>
     <message>
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
@@ -2216,8 +2216,8 @@ Adres: %4
         <translation>Bedrag</translation>
     </message>
     <message>
-        <source>Enter PIVX address (e.g. %1)</source>
-        <translation>Voer een PIVX adres in (b.v. %1)</translation>
+        <source>Enter PCOIN address (e.g. %1)</source>
+        <translation>Voer een PCOIN adres in (b.v. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -2260,12 +2260,12 @@ Adres: %4
         <translation>%1 ms</translation>
     </message>
     <message>
-        <source>A fatal error occurred. PIVX can no longer continue safely and will quit.</source>
-        <translation>Een kritieke fout is opgelopen. PIVX kan niet langer veilig uitgevoerd worden en zal afsluiten.</translation>
+        <source>A fatal error occurred. PCOIN can no longer continue safely and will quit.</source>
+        <translation>Een kritieke fout is opgelopen. PCOIN kan niet langer veilig uitgevoerd worden en zal afsluiten.</translation>
     </message>
     <message>
-        <source>PIVX Core</source>
-        <translation>PIVX Core</translation>
+        <source>PCOIN Core</source>
+        <translation>PCOIN Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" does not exist.</source>
@@ -2284,8 +2284,8 @@ Adres: %4
         <translation>Fout bij het lezen van het masternode configuratiebestand: %1</translation>
     </message>
     <message>
-        <source>PIVX Core didn't yet exit safely...</source>
-        <translation>PIVX Core is nog niet veilig afgesloten...</translation>
+        <source>PCOIN Core didn't yet exit safely...</source>
+        <translation>PCOIN Core is nog niet veilig afgesloten...</translation>
     </message>
     <message>
         <source>Contact</source>
@@ -2523,8 +2523,8 @@ Adres: %4
         <translation>Blockchain</translation>
     </message>
     <message>
-        <source>Open the PIVX debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Open het PIVX debug log bestand uit de huidige data directory. Dit kan enkele seconden duren voor grote logbestanden.</translation>
+        <source>Open the PCOIN debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Open het PCOIN debug log bestand uit de huidige data directory. Dit kan enkele seconden duren voor grote logbestanden.</translation>
     </message>
     <message>
         <source>Number of Masternodes</source>
@@ -2667,8 +2667,8 @@ Adres: %4
         <translation>Aangepast back-up pad:</translation>
     </message>
     <message>
-        <source>Custom zPIV Backup Path:</source>
-        <translation>Aangepast zPIV back-up pad:</translation>
+        <source>Custom zPCOIN Backup Path:</source>
+        <translation>Aangepast zPCOIN back-up pad:</translation>
     </message>
     <message>
         <source>Custom Backups Threshold:</source>
@@ -2747,8 +2747,8 @@ Adres: %4
         <translation>Uit:</translation>
     </message>
     <message>
-        <source>Welcome to the PIVX RPC console.</source>
-        <translation>Welkom bij de PIVX RPC console.</translation>
+        <source>Welcome to the PCOIN RPC console.</source>
+        <translation>Welkom bij de PCOIN RPC console.</translation>
     </message>
     <message>
         <source>&amp;Disconnect Node</source>
@@ -2885,8 +2885,8 @@ Adres: %4
         <translation>Formulier</translation>
     </message>
     <message>
-        <source>Scan the QR code or copy the address to receive PIV</source>
-        <translation>Scan de QR code of kopieer het adres om PIV te ontvangen</translation>
+        <source>Scan the QR code or copy the address to receive PCOIN</source>
+        <translation>Scan de QR code of kopieer het adres om PCOIN te ontvangen</translation>
     </message>
     <message>
         <source>Add Label</source>
@@ -3011,12 +3011,12 @@ Adres: %4
         <translation>Bedrag</translation>
     </message>
     <message>
-        <source>PIV</source>
-        <translation>PIV</translation>
+        <source>PCOIN</source>
+        <translation>PCOIN</translation>
     </message>
     <message>
-        <source>Instead of sharing only a PIVX address, you can create a payment request, bundling up more information</source>
-        <translation>In plaats van een PIVX-adres te delen, kunt u een betalingsverzoek creëren dat meer informatie bundelt.</translation>
+        <source>Instead of sharing only a PCOIN address, you can create a payment request, bundling up more information</source>
+        <translation>In plaats van een PCOIN-adres te delen, kunt u een betalingsverzoek creëren dat meer informatie bundelt.</translation>
     </message>
     <message>
         <source>D7VFR83SQbiezrW72hjcWJtcfip5krte2Z </source>
@@ -3106,8 +3106,8 @@ Adres: %4
         <translation>Aangepast wijzigingsadres</translation>
     </message>
     <message>
-        <source>The remainder of the value resultant from the inputs minus the outputs value goes to the "change" PIVX address</source>
-        <translation>De rest van de waarde die resulteert uit de ingangen minus de waarde van de uitgangen gaat naar het "wijzig" PIVX-adres</translation>
+        <source>The remainder of the value resultant from the inputs minus the outputs value goes to the "change" PCOIN address</source>
+        <translation>De rest van de waarde die resulteert uit de ingangen minus de waarde van de uitgangen gaat naar het "wijzig" PCOIN-adres</translation>
     </message>
     <message>
         <source>SAVE</source>
@@ -3137,8 +3137,8 @@ Adres: %4
         <translation>Aanbevolen</translation>
     </message>
     <message>
-        <source>PIV/kilobyte</source>
-        <translation>PIV/kilobyte</translation>
+        <source>PCOIN/kilobyte</source>
+        <translation>PCOIN/kilobyte</translation>
     </message>
     <message>
         <source>0.00 KB</source>
@@ -3436,9 +3436,9 @@ Vergeet deze niet op te schrijven en veilig te bewaren, anders verlies je mogeli
         <translation>BIP38 Tool</translation>
     </message>
     <message>
-        <source>Encrypt your PIVX addresses (key pair actually) using BIP38 encryption.
+        <source>Encrypt your PCOIN addresses (key pair actually) using BIP38 encryption.
 Using this mechanism you can share your keys without middle-man risk, only need to store your passphrase safely</source>
-        <translation>Encrypteer uw PIVX-adressen (met key pair) gebruikmakende van BIP38 versleuteling.
+        <translation>Encrypteer uw PCOIN-adressen (met key pair) gebruikmakende van BIP38 versleuteling.
 Door gebruik te maken van dit mechanisme kan je jouw sleutels delen zonder het risico van een tussenpersoon, je moet enkel je wachtwoordzin veilig opbergen</translation>
     </message>
     <message>
@@ -3474,8 +3474,8 @@ Door gebruik te maken van dit mechanisme kan je jouw sleutels delen zonder het r
         <translation>DECRYPTEER SLEUTEL</translation>
     </message>
     <message>
-        <source>PIVX address</source>
-        <translation>PIVX adres</translation>
+        <source>PCOIN address</source>
+        <translation>PCOIN adres</translation>
     </message>
     <message>
         <source>Enter address</source>
@@ -3607,8 +3607,8 @@ Verify that you have installed a predetermined text editor.</source>
 Controleer of u een vooraf bepaalde teksteditor hebt geïnstalleerd.</translation>
     </message>
     <message>
-        <source>Welcome to the PIVX RPC console.</source>
-        <translation>Welkom bij de PIVX RPC console.</translation>
+        <source>Welcome to the PCOIN RPC console.</source>
+        <translation>Welkom bij de PCOIN RPC console.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and %1 to clear screen.</source>
@@ -3717,12 +3717,12 @@ Controleer of u een vooraf bepaalde teksteditor hebt geïnstalleerd.</translatio
         <translation>Exporteer Adreslijst</translation>
     </message>
     <message>
-        <source>PIVX_tx_csv_export(*.csv)</source>
-        <translation>PIVX_tx_csv_export(*.csv)</translation>
+        <source>PCOIN_tx_csv_export(*.csv)</source>
+        <translation>PCOIN_tx_csv_export(*.csv)</translation>
     </message>
     <message>
-        <source>PIVX_addresses_csv_export(*.csv)</source>
-        <translation>PIVX_addresses_csv_export(*.csv)</translation>
+        <source>PCOIN_addresses_csv_export(*.csv)</source>
+        <translation>PCOIN_addresses_csv_export(*.csv)</translation>
     </message>
     <message>
         <source>Please select a folder to export the csv file first.</source>
@@ -3792,12 +3792,12 @@ Er was een fout opgetreden tijdens het opslaan van deze adreslijst naar %1. Prob
         <translation>Formulier</translation>
     </message>
     <message>
-        <source>1) What is PIVX?</source>
-        <translation>1) Wat is PIVX?</translation>
+        <source>1) What is PCOIN?</source>
+        <translation>1) Wat is PCOIN?</translation>
     </message>
     <message>
-        <source>2) Why are my PIV unspendable?</source>
-        <translation>2) Waarom is mijn PIV niet besteedbaar?</translation>
+        <source>2) Why are my PCOIN unspendable?</source>
+        <translation>2) Waarom is mijn PCOIN niet besteedbaar?</translation>
     </message>
     <message>
         <source>https://pcoin.dev/</source>
@@ -3808,33 +3808,33 @@ Er was een fout opgetreden tijdens het opslaan van deze adreslijst naar %1. Prob
         <translation>1</translation>
     </message>
     <message>
-        <source>What is PIVX?</source>
-        <translation>Wat is PIVX?</translation>
+        <source>What is PCOIN?</source>
+        <translation>Wat is PCOIN?</translation>
     </message>
     <message>
         <source>2</source>
         <translation>2</translation>
     </message>
     <message>
-        <source>Why are my PIV unspendable?</source>
-        <translation>Waarom is mijn PIV niet besteedbaar?</translation>
+        <source>Why are my PCOIN unspendable?</source>
+        <translation>Waarom is mijn PCOIN niet besteedbaar?</translation>
     </message>
     <message>
         <source>
                            &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
-                           Newly received PIVX requires 6 confirmations on the network
+                           Newly received PCOIN requires 6 confirmations on the network
                            to become eligible for spending which can take ~6 minutes.
                            &lt;/p&gt;&lt;p align="justify"&gt;
-                           Your PIVX wallet also needs to be completely synchronized
+                           Your PCOIN wallet also needs to be completely synchronized
                            to see and spend balances on the network.
                            &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
                          </source>
         <translation>
                            &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
-                           Nieuw ontvangen PIVX vereist 6 bevestigingen op het netwerk
+                           Nieuw ontvangen PCOIN vereist 6 bevestigingen op het netwerk
                            om in aanmerking te komen voor uitgaven die ongeveer 6 minuten in beslag kunnen nemen.
                            &lt;/p&gt;&lt;p align="justify"&gt;
-                           Uw PIVX portemonnee moet ook volledig gesynchroniseerd zijn
+                           Uw PCOIN portemonnee moet ook volledig gesynchroniseerd zijn
                            om de balans te zien en uit te geven op het netwerk.
                            &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
                          </translation>
@@ -3844,12 +3844,12 @@ Er was een fout opgetreden tijdens het opslaan van deze adreslijst naar %1. Prob
         <translation>3</translation>
     </message>
     <message>
-        <source>How do I stake PIV?</source>
-        <translation>Hoe stake ik PIV?</translation>
+        <source>How do I stake PCOIN?</source>
+        <translation>Hoe stake ik PCOIN?</translation>
     </message>
     <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;ol style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;"&gt;&lt;li align="justify" style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;Make sure your wallet is completely synchronized and you are using the latest release. &lt;/li&gt;&lt;li align="justify" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;You must have a balance of PIVX with a minimum of 600 confirmations. &lt;/li&gt;&lt;li align="justify" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;Your wallet must stay online and be unlocked for staking purposes. &lt;/li&gt;&lt;li align="justify" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;Once all those steps are followed staking should be enabled. &lt;/li&gt;&lt;li align="justify" style=" margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;You can see the status of staking in the wallet by mousing over the package icon in the row on the top left of the wallet interface. There package will be lit up and will state &amp;quot;Staking Enabled&amp;quot; to indicate it is staking. Using the command line interface (pivx-cli); the command &lt;span style=" font-style:italic;"&gt;getstakingstatus&lt;/span&gt; will confirm that staking is active. &lt;/li&gt;&lt;/ol&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;ol style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;"&gt;&lt;li align="justify" style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;Zorg ervoor dat uw portemonnee volledig gesynchroniseerd is en je op de juiste versie zit. &lt;/li&gt;&lt;li align="justify" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;Je moet een balans van PIVX hebben met een minimum van 600 bevestigingen. &lt;/li&gt;&lt;li align="justify" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;Uw portemonnee moet steeds online en ontgrendeld blijven voor stakingsdoeleinden. &lt;/li&gt;&lt;li align="justify" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;Van zodra al deze stappen gevolgd zijn, zou staking ingeschakeld moeten zijn. &lt;/li&gt;&lt;li align="justify" style=" margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;Je kan de stakingsstatus controleren door over het pakketicoontje te gaan gaan met je muis. Deze staat op de linker van de portemonnee interface. Dit pakketje zal oplichten en zal &amp;quot;Staking Inschakeld&amp;quot; vermelden om aan te geven dat staking actief is. Als je gebruik maakt van de command line interface (pivx-cli); het commando &lt;span style=" font-style:italic;"&gt;getstakingstatus&lt;/span&gt; zal bevestigen dat staking actief is. &lt;/li&gt;&lt;/ol&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;ol style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;"&gt;&lt;li align="justify" style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;Make sure your wallet is completely synchronized and you are using the latest release. &lt;/li&gt;&lt;li align="justify" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;You must have a balance of PCOIN with a minimum of 600 confirmations. &lt;/li&gt;&lt;li align="justify" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;Your wallet must stay online and be unlocked for staking purposes. &lt;/li&gt;&lt;li align="justify" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;Once all those steps are followed staking should be enabled. &lt;/li&gt;&lt;li align="justify" style=" margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;You can see the status of staking in the wallet by mousing over the package icon in the row on the top left of the wallet interface. There package will be lit up and will state &amp;quot;Staking Enabled&amp;quot; to indicate it is staking. Using the command line interface (pcoin-cli); the command &lt;span style=" font-style:italic;"&gt;getstakingstatus&lt;/span&gt; will confirm that staking is active. &lt;/li&gt;&lt;/ol&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;ol style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;"&gt;&lt;li align="justify" style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;Zorg ervoor dat uw portemonnee volledig gesynchroniseerd is en je op de juiste versie zit. &lt;/li&gt;&lt;li align="justify" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;Je moet een balans van PCOIN hebben met een minimum van 600 bevestigingen. &lt;/li&gt;&lt;li align="justify" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;Uw portemonnee moet steeds online en ontgrendeld blijven voor stakingsdoeleinden. &lt;/li&gt;&lt;li align="justify" style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;Van zodra al deze stappen gevolgd zijn, zou staking ingeschakeld moeten zijn. &lt;/li&gt;&lt;li align="justify" style=" margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;Je kan de stakingsstatus controleren door over het pakketicoontje te gaan gaan met je muis. Deze staat op de linker van de portemonnee interface. Dit pakketje zal oplichten en zal &amp;quot;Staking Inschakeld&amp;quot; vermelden om aan te geven dat staking actief is. Als je gebruik maakt van de command line interface (pcoin-cli); het commando &lt;span style=" font-style:italic;"&gt;getstakingstatus&lt;/span&gt; zal bevestigen dat staking actief is. &lt;/li&gt;&lt;/ol&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <source>4</source>
@@ -3876,14 +3876,14 @@ Er was een fout opgetreden tijdens het opslaan van deze adreslijst naar %1. Prob
         <translation>Wat is een Masternode Controller</translation>
     </message>
     <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;A Masternode Controller wallet is where the 10,000 PIV collateral can reside during a Controller-Remote masternode setup. It is a wallet that can activate the remote masternode wallet(s) and allows you to keep your collateral coins offline while the remote masternode remains online. &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;Een Masternode Controller portemonnee is waar de 10.000 PIV onderpand zich kan bevinden tijdens een Controller-Remote masternode setup. Het is een portemonnee die de remote masternode portemonnee(s) kan activeren en waarmee u uw ondergepande munten offline kunt houden terwijl de remote masternode online blijft. &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;A Masternode Controller wallet is where the 10,000 PCOIN collateral can reside during a Controller-Remote masternode setup. It is a wallet that can activate the remote masternode wallet(s) and allows you to keep your collateral coins offline while the remote masternode remains online. &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;Een Masternode Controller portemonnee is waar de 10.000 PCOIN onderpand zich kan bevinden tijdens een Controller-Remote masternode setup. Het is een portemonnee die de remote masternode portemonnee(s) kan activeren en waarmee u uw ondergepande munten offline kunt houden terwijl de remote masternode online blijft. &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <source>
                            &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
-                           A masternode is a computer running a full node PIVX core wallet with a
-                           requirement of 10,000 PIV secured collateral to provide extra services
+                           A masternode is a computer running a full node PCOIN core wallet with a
+                           requirement of 10,000 PCOIN secured collateral to provide extra services
                            to the network and in return, receive a portion of the block reward
                            regularly.  These services include:
                            &lt;/p&gt;&lt;p align="justify"&gt;
@@ -3905,17 +3905,17 @@ Er was een fout opgetreden tijdens het opslaan van deze adreslijst naar %1. Prob
                            Masternode Perks:
                            &lt;/p&gt;&lt;p align="justify"&gt;
                            &lt;ul&gt;
-                           &lt;li&gt;Participate in PIVX Governance&lt;/li&gt;
+                           &lt;li&gt;Participate in PCOIN Governance&lt;/li&gt;
                            &lt;li&gt;Earn Masternode Rewards&lt;/li&gt;
                            &lt;li&gt;Commodity option for future sale&lt;/li&gt;
-                           &lt;li&gt;Help secure the PIVX network&lt;/li&gt;
+                           &lt;li&gt;Help secure the PCOIN network&lt;/li&gt;
                            &lt;/ul&gt;
                            &lt;/p&gt;&lt;p align="justify"&gt;
 
                            Requirements:
                            &lt;/p&gt;&lt;p align="justify"&gt;
                            &lt;ul&gt;
-                           &lt;li&gt;10,000 PIV per single Masternode instance&lt;/li&gt;
+                           &lt;li&gt;10,000 PCOIN per single Masternode instance&lt;/li&gt;
                            &lt;li&gt;Must be stored in a core wallet&lt;/li&gt;
                            &lt;li&gt;Need dedicated IP address&lt;/li&gt;
                            &lt;li&gt;Masternode wallet to remain online&lt;/li&gt;
@@ -3924,8 +3924,8 @@ Er was een fout opgetreden tijdens het opslaan van deze adreslijst naar %1. Prob
                          </source>
         <translation>
                            &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
-                           Een masternode is een computer met een volledige node PIVX core portemonnee met een
-                           vereiste van 10.000 PIV onderpand om extra diensten te kunnen verlenen
+                           Een masternode is een computer met een volledige node PCOIN core portemonnee met een
+                           vereiste van 10.000 PCOIN onderpand om extra diensten te kunnen verlenen
                            aan het netwerk en in ruil daarvoor ontvangt u regelmatig een deel van de blokbeloning.
                            Deze diensten omvatten::
                            &lt;/p&gt;&lt;p align="justify"&gt;
@@ -3947,17 +3947,17 @@ Er was een fout opgetreden tijdens het opslaan van deze adreslijst naar %1. Prob
                            Masternode Voordelen:
                            &lt;/p&gt;&lt;p align="justify"&gt;
                            &lt;ul&gt;
-                           &lt;li&gt;Deelnemen in het PIVX Bestuur&lt;/li&gt;
+                           &lt;li&gt;Deelnemen in het PCOIN Bestuur&lt;/li&gt;
                            &lt;li&gt;Verdien Masternode Beloningen&lt;/li&gt;
                            &lt;li&gt;Commodity-optie voor toekomstige verkoop&lt;/li&gt;
-                           &lt;li&gt;Helpt bij het beveiligen van het PIVX netwerk&lt;/li&gt;
+                           &lt;li&gt;Helpt bij het beveiligen van het PCOIN netwerk&lt;/li&gt;
                            &lt;/ul&gt;
                            &lt;/p&gt;&lt;p align="justify"&gt;
 
                            Vereisten:
                            &lt;/p&gt;&lt;p align="justify"&gt;
                            &lt;ul&gt;
-                           &lt;li&gt;10,000 PIV per Masternode instance&lt;/li&gt;
+                           &lt;li&gt;10,000 PCOIN per Masternode instance&lt;/li&gt;
                            &lt;li&gt;Moet in een kernportemonnee worden opgeborgen&lt;/li&gt;
                            &lt;li&gt;Vereist een vast IP-adres
                            &lt;li&gt;Masternode portemonnee moet online blijven&lt;/li&gt;
@@ -3970,8 +3970,8 @@ Er was een fout opgetreden tijdens het opslaan van deze adreslijst naar %1. Prob
         <translation>Frequently Asked Questions</translation>
     </message>
     <message>
-        <source>3) How do I stake PIV?</source>
-        <translation>3) Hoe stake ik PIV?</translation>
+        <source>3) How do I stake PCOIN?</source>
+        <translation>3) Hoe stake ik PCOIN?</translation>
     </message>
     <message>
         <source>4) Where I should go if I need support?</source>
@@ -4089,8 +4089,8 @@ Er was een fout opgetreden tijdens het opslaan van deze adreslijst naar %1. Prob
         <translation>Kan de back-upmap niet openen</translation>
     </message>
     <message>
-        <source>Unable to open pivx.conf with default application</source>
-        <translation>Kan pivx.conf niet openen met de standaard applicatie</translation>
+        <source>Unable to open pcoin.conf with default application</source>
+        <translation>Kan pcoin.conf niet openen met de standaard applicatie</translation>
     </message>
     <message>
         <source>In:</source>
@@ -4144,8 +4144,8 @@ Er was een fout opgetreden tijdens het opslaan van deze adreslijst naar %1. Prob
         <translation>Aantal van script verificatiethreads</translation>
     </message>
     <message>
-        <source>Start PIVX on system login</source>
-        <translation>Start PIVX bij systeemlogin</translation>
+        <source>Start PCOIN on system login</source>
+        <translation>Start PCOIN bij systeemlogin</translation>
     </message>
     <message>
         <source>Minimize to the tray instead of the taskbar</source>
@@ -4232,8 +4232,8 @@ Weet u het zeker?
         <translation>Selectievakje</translation>
     </message>
     <message>
-        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other PIVX addresses after it matures.</source>
-        <translation>Met MultiSend kunt u automatisch tot 100% van uw inzet of masternode beloning naar een lijst met andere PIVX-adressen sturen nadat deze volwaardig zijn geworden.</translation>
+        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other PCOIN addresses after it matures.</source>
+        <translation>Met MultiSend kunt u automatisch tot 100% van uw inzet of masternode beloning naar een lijst met andere PCOIN-adressen sturen nadat deze volwaardig zijn geworden.</translation>
     </message>
     <message>
         <source>Active</source>
@@ -4359,8 +4359,8 @@ Vink één of beide selectievakjes aan om beloningen op de inzet en/of masternod
         <translation>Bericht</translation>
     </message>
     <message>
-        <source>PIVX address or contact label</source>
-        <translation>PIVX adres of contactlabel</translation>
+        <source>PCOIN address or contact label</source>
+        <translation>PCOIN adres of contactlabel</translation>
     </message>
     <message>
         <source>Enter address</source>
@@ -4680,8 +4680,8 @@ Vink één of beide selectievakjes aan om beloningen op de inzet en/of masternod
         <translation>Veelgestelde vragen</translation>
     </message>
     <message>
-        <source>About PIVX</source>
-        <translation>Over PIVX</translation>
+        <source>About PCOIN</source>
+        <translation>Over PCOIN</translation>
     </message>
     <message>
         <source>Settings</source>
@@ -4751,8 +4751,8 @@ Weet je zeker dat?
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>PIVX Core is shutting down...</source>
-        <translation>PIVX Core is aan het afsluiten...</translation>
+        <source>PCOIN Core is shutting down...</source>
+        <translation>PCOIN Core is aan het afsluiten...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -4781,8 +4781,8 @@ Weet je zeker dat?
         <translation>Laden...</translation>
     </message>
     <message>
-        <source>PIVX Core</source>
-        <translation>PIVX Core</translation>
+        <source>PCOIN Core</source>
+        <translation>PCOIN Core</translation>
     </message>
 </context>
 <context>
@@ -5262,8 +5262,8 @@ nieuwe back-up aangemaakt worden.
         <translation>Formulier</translation>
     </message>
     <message>
-        <source>+0.000585 PIV</source>
-        <translation>+0.000585 PIV</translation>
+        <source>+0.000585 PCOIN</source>
+        <translation>+0.000585 PCOIN</translation>
     </message>
     </context>
 <context>
@@ -5325,25 +5325,25 @@ Selecteer minder invoeren met muntcontrole.</translation>
     </message>
     <message>
         <source>Welcome to
-PIVX Core Wallet</source>
+PCOIN Core Wallet</source>
         <translation>Welkom bij
-PIVX Core Portemonnee</translation>
+PCOIN Core Portemonnee</translation>
     </message>
     <message>
-        <source>PIVX is the world’s most innovative Proof of Stake blockchain based technology. Developed by a team of highly experienced developers and cryptographers.</source>
-        <translation>PIVX is 's werelds meest innovatieve Proof of Stake blockchain gebaseerde technologie. Ontwikkeld door een team van zeer ervaren ontwikkelaars en cryptografen.</translation>
+        <source>PCOIN is the world’s most innovative Proof of Stake blockchain based technology. Developed by a team of highly experienced developers and cryptographers.</source>
+        <translation>PCOIN is 's werelds meest innovatieve Proof of Stake blockchain gebaseerde technologie. Ontwikkeld door een team van zeer ervaren ontwikkelaars en cryptografen.</translation>
     </message>
     <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;As our manifesto says: Privacy is a non-negotiable basic human right; it grants users the freedom to share their data whenever and with whomever they want - PIVX believes in self sovereignty.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Zoals ons manifest zegt: Privacy is een niet-onderhandelbaar fundamenteel mensenrecht; het geeft gebruikers de vrijheid om hun gegevens te delen wanneer en met wie ze maar willen - PIVX gelooft in soevereiniteit.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;As our manifesto says: Privacy is a non-negotiable basic human right; it grants users the freedom to share their data whenever and with whomever they want - PCOIN believes in self sovereignty.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Zoals ons manifest zegt: Privacy is een niet-onderhandelbaar fundamenteel mensenrecht; het geeft gebruikers de vrijheid om hun gegevens te delen wanneer en met wie ze maar willen - PCOIN gelooft in soevereiniteit.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <source>The masternode network is PIVX's second layer network on top of the blockchain that enables our DAO to provide decentralized governance and a treasury.</source>
-        <translation>Het masternode netwerk is PIVX's tweedelaagse netwerk bovenop de blockchain die onze DAO in staat stelt om gedecentraliseerd bestuur, treasury te leveren</translation>
+        <source>The masternode network is PCOIN's second layer network on top of the blockchain that enables our DAO to provide decentralized governance and a treasury.</source>
+        <translation>Het masternode netwerk is PCOIN's tweedelaagse netwerk bovenop de blockchain die onze DAO in staat stelt om gedecentraliseerd bestuur, treasury te leveren</translation>
     </message>
     <message>
-        <source>How PIVX respects your privacy?</source>
-        <translation>Hoe respecteert PIVX uw privacy?</translation>
+        <source>How PCOIN respects your privacy?</source>
+        <translation>Hoe respecteert PCOIN uw privacy?</translation>
     </message>
     <message>
         <source>What is a Masternode?</source>
@@ -5355,7 +5355,7 @@ PIVX Core Portemonnee</translation>
     </message>
 </context>
 <context>
-    <name>pivx-core</name>
+    <name>pcoin-core</name>
     <message>
         <source>Allow JSON-RPC connections from specified source. Valid for &lt;ip&gt; are a single IP (e.g. 1.2.3.4), a network/netmask (e.g. 1.2.3.4/255.255.255.0) or a network/CIDR (e.g. 1.2.3.4/24). This option can be specified multiple times</source>
         <translation>Sta JSON-RPC connecties toe van de opgegeven bron. Geldig voor&lt;ip&gt;zijn een enkel IP (bijvoorbeeld 1.2.3.4), een netwerk/netmask (bijvoorbeeld 1.2.3.4/255.255.255.0) of een netwerk/CIDR (bijvoorbeeld 1.2.3.4/24). Deze optie kan meerdere keren worden opgegeven</translation>
@@ -5373,8 +5373,8 @@ PIVX Core Portemonnee</translation>
         <translation>Bind naar het opgegeven adres om te luisteren naar JSON-RPC verbindingen. Gebruik [host]:poort notatie voor IPv6. Deze optie kan meerdere keren worden opgegeven (standaard: bind aan alle interfaces)</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. PIVX Core is probably already running.</source>
-        <translation>Kan geen vergrendeling op data directory %s verkrijgen. PIVX Core loopt waarschijnlijk al.</translation>
+        <source>Cannot obtain a lock on data directory %s. PCOIN Core is probably already running.</source>
+        <translation>Kan geen vergrendeling op data directory %s verkrijgen. PCOIN Core loopt waarschijnlijk al.</translation>
     </message>
     <message>
         <source>Change automatic finalized budget voting behavior. mode=auto: Vote for only exact finalized budget match to my generated budget. (string, default: auto)</source>
@@ -5521,8 +5521,8 @@ PIVX Core Portemonnee</translation>
         <translation>De totale lengte van de netwerkversie (%i) overschrijdt de maximale lengte (%i). Verminder het aantal of de grootte van uacommentaren.</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. PIVX Core is probably already running.</source>
-        <translation>Niet mogelijk te binden aan %s op deze computer. PIVX Core loopt waarschijnlijk al.</translation>
+        <source>Unable to bind to %s on this computer. PCOIN Core is probably already running.</source>
+        <translation>Niet mogelijk te binden aan %s op deze computer. PCOIN Core loopt waarschijnlijk al.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
@@ -5537,8 +5537,8 @@ PIVX Core Portemonnee</translation>
         <translation>Waarschuwing: -paytxfee is zeer hoog ingesteld! Dit zijn de transactie kosten die je betaalt als je een transactie verstuurt.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong PIVX Core will not work properly.</source>
-        <translation>Waarschuwing: Controleer of de datum en tijd van je computer juist zijn! Als je klok verkeerd staat, werkt PIVX Core niet goed.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong PCOIN Core will not work properly.</source>
+        <translation>Waarschuwing: Controleer of de datum en tijd van je computer juist zijn! Als je klok verkeerd staat, werkt PCOIN Core niet goed.</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -5609,8 +5609,8 @@ PIVX Core Portemonnee</translation>
         <translation>Copyright (C) 2014-%i The Dash Kernontwikkelaars</translation>
     </message>
     <message>
-        <source>Copyright (C) 2015-%i The PIVX Core Developers</source>
-        <translation>Copyright (C) 2015-%i The PIVX Kernontwikkelaars</translation>
+        <source>Copyright (C) 2015-%i The PCOIN Core Developers</source>
+        <translation>Copyright (C) 2015-%i The PCOIN Kernontwikkelaars</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>
@@ -5729,8 +5729,8 @@ PIVX Core Portemonnee</translation>
         <translation>Informatie</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. PIVX Core is shutting down.</source>
-        <translation>Initialisatie saniteitscontrole mislukt. PIVX Core wordt afgesloten.</translation>
+        <source>Initialization sanity check failed. PCOIN Core is shutting down.</source>
+        <translation>Initialisatie saniteitscontrole mislukt. PCOIN Core wordt afgesloten.</translation>
     </message>
     <message>
         <source>Insufficient funds.</source>
@@ -5837,8 +5837,8 @@ Voer alstublieft 'sapling-fetch-params' of './util/fetch-params.sh' uit en herst
         <translation>Error bij het laden van %s: Portemonnee beschadigd</translation>
     </message>
     <message>
-        <source>Error loading %s: Wallet requires newer version of PIVX Core</source>
-        <translation>Error bij het laden van %s: Portemonnee vereist een nieuwere versie van PIVX Core</translation>
+        <source>Error loading %s: Wallet requires newer version of PCOIN Core</source>
+        <translation>Error bij het laden van %s: Portemonnee vereist een nieuwere versie van PCOIN Core</translation>
     </message>
     <message>
         <source>Error loading %s
@@ -6031,12 +6031,12 @@ Voer alstublieft 'sapling-fetch-params' of './util/fetch-params.sh' uit en herst
         <translation>Kosten (in %s/Kb) kleiner dan dit worden beschouwd als zero fee voor transactie verrichting (standaard: %s)</translation>
     </message>
     <message>
-        <source>Minimum positive amount (in PIV) allowed by GUI and RPC for the stake split threshold (default: %s)</source>
-        <translation>Minimum geldige waarde (in PIV) toegestaan bij GUI en RPC voor de staking splitsdrempel (standaard: %s)</translation>
+        <source>Minimum positive amount (in PCOIN) allowed by GUI and RPC for the stake split threshold (default: %s)</source>
+        <translation>Minimum geldige waarde (in PCOIN) toegestaan bij GUI en RPC voor de staking splitsdrempel (standaard: %s)</translation>
     </message>
     <message>
-        <source>Please check that your computer's date and time are correct! If your clock is wrong PIVX Core will not work properly.</source>
-        <translation>Controleer of de datum en tijd van je computer juist zijn! Als je klok verkeerd ingesteld staat, werkt PIVX Core niet goed.</translation>
+        <source>Please check that your computer's date and time are correct! If your clock is wrong PCOIN Core will not work properly.</source>
+        <translation>Controleer of de datum en tijd van je computer juist zijn! Als je klok verkeerd ingesteld staat, werkt PCOIN Core niet goed.</translation>
     </message>
     <message>
         <source>Query for peer addresses via DNS lookup, if low on addresses (default: 1 unless -connect/-noconnect)</source>
@@ -6401,8 +6401,8 @@ Voer alstublieft 'sapling-fetch-params' of './util/fetch-params.sh' uit en herst
         <translation>Portemonnee verifiëren...</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart PIVX Core to complete</source>
-        <translation>Wallet moest worden herschreven: start PIVX Core opnieuw om te voltooien</translation>
+        <source>Wallet needed to be rewritten: restart PCOIN Core to complete</source>
+        <translation>Wallet moest worden herschreven: start PCOIN Core opnieuw om te voltooien</translation>
     </message>
     <message>
         <source>Wallet options:</source>
@@ -6456,8 +6456,8 @@ Voer alstublieft 'sapling-fetch-params' of './util/fetch-params.sh' uit en herst
         <translation>Zenden</translation>
     </message>
     <message>
-        <source>PIVX address or contact label</source>
-        <translation>PIVX adres of contactlabel</translation>
+        <source>PCOIN address or contact label</source>
+        <translation>PCOIN adres of contactlabel</translation>
     </message>
     <message>
         <source>Amount</source>

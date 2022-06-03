@@ -1,17 +1,17 @@
-// Copyright (c) 2019-2020 The PIVX developers
+// Copyright (c) 2019-2020 The PCOIN developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or https://www.opensource.org/licenses/mit-license.php.
 
-#include "qt/pivx/topbar.h"
-#include "qt/pivx/forms/ui_topbar.h"
-#include "qt/pivx/lockunlock.h"
-#include "qt/pivx/qtutils.h"
-#include "qt/pivx/receivedialog.h"
-#include "qt/pivx/loadingdialog.h"
+#include "qt/pcoin/topbar.h"
+#include "qt/pcoin/forms/ui_topbar.h"
+#include "qt/pcoin/lockunlock.h"
+#include "qt/pcoin/qtutils.h"
+#include "qt/pcoin/receivedialog.h"
+#include "qt/pcoin/loadingdialog.h"
 #include "askpassphrasedialog.h"
 
 #include "bitcoinunits.h"
-#include "qt/pivx/balancebubble.h"
+#include "qt/pcoin/balancebubble.h"
 #include "clientmodel.h"
 #include "qt/guiutil.h"
 #include "optionsmodel.h"
@@ -48,7 +48,7 @@ public:
     }
 };
 
-TopBar::TopBar(PIVXGUI* _mainWindow, QWidget *parent) :
+TopBar::TopBar(PCOINGUI* _mainWindow, QWidget *parent) :
     PWidget(_mainWindow, parent),
     ui(new Ui::TopBar)
 {
@@ -73,9 +73,9 @@ TopBar::TopBar(PIVXGUI* _mainWindow, QWidget *parent) :
 
     // Amount information top
     ui->widgetTopAmount->setVisible(false);
-    setCssProperty({ui->labelAmountTopPiv, ui->labelAmountTopShieldedPiv}, "amount-small-topbar");
-    setCssProperty({ui->labelAmountPiv}, "amount-topbar");
-    setCssProperty({ui->labelPendingPiv, ui->labelImmaturePiv}, "amount-small-topbar");
+    setCssProperty({ui->labelAmountTopPcoin, ui->labelAmountTopShieldedPcoin}, "amount-small-topbar");
+    setCssProperty({ui->labelAmountPcoin}, "amount-topbar");
+    setCssProperty({ui->labelPendingPcoin, ui->labelImmaturePcoin}, "amount-small-topbar");
 
     // Progress Sync
     progressBar = new QProgressBar(ui->layoutSync);
@@ -594,7 +594,7 @@ void TopBar::loadWalletModel()
     connect(walletModel, &WalletModel::encryptionStatusChanged, this, &TopBar::refreshStatus);
     // Ask for passphrase if needed
     connect(walletModel, &WalletModel::requireUnlock, this, &TopBar::unlockWallet);
-    // update the display unit, to not use the default ("PIVX")
+    // update the display unit, to not use the default ("PCOIN")
     updateDisplayUnit();
 
     refreshStatus();
@@ -681,19 +681,19 @@ void TopBar::updateBalances(const interfaces::WalletBalances& newBalance)
     }
     ui->labelTitle1->setText(nLockedBalance > 0 ? tr("Available (Locked included)") : tr("Available"));
 
-    // PIV Total
-    QString totalPiv = GUIUtil::formatBalance(newBalance.balance, nDisplayUnit);
+    // PCOIN Total
+    QString totalPcoin = GUIUtil::formatBalance(newBalance.balance, nDisplayUnit);
     QString totalTransparent = GUIUtil::formatBalance(newBalance.balance - newBalance.shielded_balance);
     QString totalShielded = GUIUtil::formatBalance(newBalance.shielded_balance);
 
-    // PIV
+    // PCOIN
     // Top
-    ui->labelAmountTopPiv->setText(totalTransparent);
-    ui->labelAmountTopShieldedPiv->setText(totalShielded);
+    ui->labelAmountTopPcoin->setText(totalTransparent);
+    ui->labelAmountTopShieldedPcoin->setText(totalShielded);
     // Expanded
-    ui->labelAmountPiv->setText(totalPiv);
-    ui->labelPendingPiv->setText(GUIUtil::formatBalance(newBalance.unconfirmed_balance + newBalance.unconfirmed_shielded_balance, nDisplayUnit));
-    ui->labelImmaturePiv->setText(GUIUtil::formatBalance(newBalance.immature_balance, nDisplayUnit));
+    ui->labelAmountPcoin->setText(totalPcoin);
+    ui->labelPendingPcoin->setText(GUIUtil::formatBalance(newBalance.unconfirmed_balance + newBalance.unconfirmed_shielded_balance, nDisplayUnit));
+    ui->labelImmaturePcoin->setText(GUIUtil::formatBalance(newBalance.immature_balance, nDisplayUnit));
 }
 
 void TopBar::resizeEvent(QResizeEvent *event)

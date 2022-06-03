@@ -1,17 +1,17 @@
-// Copyright (c) 2019-2020 The PIVX developers
+// Copyright (c) 2019-2020 The PCOIN developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "qt/pivx/settings/settingsexportcsv.h"
-#include "qt/pivx/settings/forms/ui_settingsexportcsv.h"
+#include "qt/pcoin/settings/settingsexportcsv.h"
+#include "qt/pcoin/settings/forms/ui_settingsexportcsv.h"
 #include <QFile>
 #include "csvmodelwriter.h"
 #include "guiutil.h"
 #include "optionsmodel.h"
-#include "qt/pivx/qtutils.h"
+#include "qt/pcoin/qtutils.h"
 #include "guiinterface.h"
 
-SettingsExportCSV::SettingsExportCSV(PIVXGUI* _window, QWidget *parent) :
+SettingsExportCSV::SettingsExportCSV(PCOINGUI* _window, QWidget *parent) :
     PWidget(_window, parent),
     ui(new Ui::SettingsExportCSV)
 {

@@ -1,15 +1,15 @@
-// Copyright (c) 2021 The PIVX developers
+// Copyright (c) 2021 The PCOIN developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or https://www.opensource.org/licenses/mit-license.php.
 
-#include "qt/pivx/createproposaldialog.h"
-#include "qt/pivx/forms/ui_createproposaldialog.h"
+#include "qt/pcoin/createproposaldialog.h"
+#include "qt/pcoin/forms/ui_createproposaldialog.h"
 
-#include "qt/pivx/contactsdropdown.h"
-#include "qt/pivx/governancemodel.h"
-#include "qt/pivx/pwidget.h"
-#include "qt/pivx/qtutils.h"
-#include "qt/pivx/snackbar.h"
+#include "qt/pcoin/contactsdropdown.h"
+#include "qt/pcoin/governancemodel.h"
+#include "qt/pcoin/pwidget.h"
+#include "qt/pcoin/qtutils.h"
+#include "qt/pcoin/snackbar.h"
 
 void initPageIndexBtn(QPushButton* btn)
 {
@@ -23,7 +23,7 @@ void initPageIndexBtn(QPushButton* btn)
     btn->setVisible(false);
 }
 
-CreateProposalDialog::CreateProposalDialog(PIVXGUI* parent, GovernanceModel* _govModel, WalletModel* _walletModel) :
+CreateProposalDialog::CreateProposalDialog(PCOINGUI* parent, GovernanceModel* _govModel, WalletModel* _walletModel) :
     QDialog(parent),
     ui(new Ui::CreateProposalDialog),
     govModel(_govModel),
@@ -82,7 +82,7 @@ void CreateProposalDialog::setupPageOne()
     setCssProperty(ui->labelTitle1, "text-title-dialog");
     setCssProperty(ui->labelMessage1b, "dialog-proposal-message");
     setEditBoxStyle(ui->labelName, ui->lineEditPropName, "e.g Best proposal ever!");
-    setEditBoxStyle(ui->labelURL, ui->lineEditURL, "e.g https://forum.pivx/proposals/best_proposal_ever");
+    setEditBoxStyle(ui->labelURL, ui->lineEditURL, "e.g https://forum.pcoin/proposals/best_proposal_ever");
 
     connect(ui->lineEditPropName, &QLineEdit::textChanged, this, &CreateProposalDialog::propNameChanged);
     connect(ui->lineEditURL, &QLineEdit::textChanged, this, &CreateProposalDialog::propUrlChanged);
@@ -92,7 +92,7 @@ void CreateProposalDialog::setupPageTwo()
 {
     setCssProperty(ui->labelTitleDest, "text-title-dialog");
     setCssProperty(ui->labelMessageDest, "dialog-proposal-message");
-    setEditBoxStyle(ui->labelAmount, ui->lineEditAmount, "e.g 500 PIV");
+    setEditBoxStyle(ui->labelAmount, ui->lineEditAmount, "e.g 500 PCOIN");
     setCssProperty(ui->labelMonths, "text-title");
     setEditBoxStyle(ui->labelAddress, ui->lineEditAddress, "e.g D...something..");
     setCssProperty(ui->lineEditAddress, "edit-primary-multi-book");
@@ -342,7 +342,7 @@ void CreateProposalDialog::onAddrListClicked()
         menuContacts = new ContactsDropdown(
                 width,
                 height,
-                dynamic_cast<PIVXGUI*>(parent()),
+                dynamic_cast<PCOINGUI*>(parent()),
                 this
         );
         menuContacts->setWalletModel(walletModel, {AddressTableModel::Send, AddressTableModel::Receive});

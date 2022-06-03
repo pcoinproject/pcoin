@@ -1,12 +1,12 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
-// Copyright (c) 2015-2019 The PIVX developers
+// Copyright (c) 2015-2019 The PCOIN developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or https://www.opensource.org/licenses/mit-license.php.
 
 #if defined(HAVE_CONFIG_H)
-#include "config/pivx-config.h"
+#include "config/pcoin-config.h"
 #endif
 
 #include "chainparams.h"
@@ -26,8 +26,8 @@
  *
  * \section intro_sec Introduction
  *
- * This is the developer documentation of the reference client for an experimental new digital currency called PIVX (http://www.pivx.org),
- * which enables instant payments to anyone, anywhere in the world. PIVX uses peer-to-peer technology to operate
+ * This is the developer documentation of the reference client for an experimental new digital currency called PCOIN (http://www.pcoin.org),
+ * which enables instant payments to anyone, anywhere in the world. PCOIN uses peer-to-peer technology to operate
  * with no central authority: managing transactions and issuing money are carried out collectively by the network.
  *
  * The software is a community-driven open source project, released under the MIT license.
@@ -55,7 +55,7 @@ bool AppInit(int argc, char* argv[])
     //
     // Parameters
     //
-    // If Qt is used, parameters/pivx.conf are parsed in qt/pivx.cpp's main()
+    // If Qt is used, parameters/pcoin.conf are parsed in qt/pcoin.cpp's main()
     gArgs.ParseParameters(argc, argv);
 
     // Process help and version before taking care about datadir
@@ -65,7 +65,7 @@ bool AppInit(int argc, char* argv[])
         if (gArgs.IsArgSet("-version")) {
             strUsage += LicenseInfo();
         } else {
-            strUsage += "\nUsage:  pivxd [options]                     Start " PACKAGE_NAME " Daemon\n";
+            strUsage += "\nUsage:  pcoind [options]                     Start " PACKAGE_NAME " Daemon\n";
             strUsage += "\n" + HelpMessage(HMM_BITCOIND);
         }
 
@@ -79,7 +79,7 @@ bool AppInit(int argc, char* argv[])
             return false;
         }
         try {
-            gArgs.ReadConfigFile(gArgs.GetArg("-conf", PIVX_CONF_FILENAME));
+            gArgs.ReadConfigFile(gArgs.GetArg("-conf", PCOIN_CONF_FILENAME));
         } catch (const std::exception& e) {
             fprintf(stderr, "Error reading configuration file: %s\n", e.what());
             return false;
@@ -95,12 +95,12 @@ bool AppInit(int argc, char* argv[])
         // Error out when loose non-argument tokens are encountered on command line
         for (int i = 1; i < argc; i++) {
             if (!IsSwitchChar(argv[i][0])) {
-                fprintf(stderr, "Error: Command line contains unexpected token '%s', see pivxd -h for a list of options.\n", argv[i]);
+                fprintf(stderr, "Error: Command line contains unexpected token '%s', see pcoind -h for a list of options.\n", argv[i]);
                 return false;
             }
         }
 
-        // -server defaults to true for pivxd but not for the GUI so do this here
+        // -server defaults to true for pcoind but not for the GUI so do this here
         gArgs.SoftSetBoolArg("-server", true);
         // Set this early so that parameter interactions go to console
         InitLogging();
@@ -120,7 +120,7 @@ bool AppInit(int argc, char* argv[])
 
 #ifndef WIN32
         if (gArgs.GetBoolArg("-daemon", false)) {
-            fprintf(stdout, "PIVX server starting\n");
+            fprintf(stdout, "PCOIN server starting\n");
 
             // Daemonize
             pid_t pid = fork();
@@ -166,7 +166,7 @@ int main(int argc, char* argv[])
 #endif
     SetupEnvironment();
 
-    // Connect pivxd signal handlers
+    // Connect pcoind signal handlers
     noui_connect();
 
     return (AppInit(argc, argv) ? 0 : 1);

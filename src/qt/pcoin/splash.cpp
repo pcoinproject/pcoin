@@ -1,13 +1,13 @@
-// Copyright (c) 2019 The PIVX developers
+// Copyright (c) 2019 The PCOIN developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #if defined(HAVE_CONFIG_H)
-#include "config/pivx-config.h"
+#include "config/pcoin-config.h"
 #endif
 
-#include "qt/pivx/splash.h"
-#include "qt/pivx/forms/ui_splash.h"
+#include "qt/pcoin/splash.h"
+#include "qt/pcoin/forms/ui_splash.h"
 #include "QFile"
 
 #include "interfaces/handler.h"

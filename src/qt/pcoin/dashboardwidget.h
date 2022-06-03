@@ -1,15 +1,15 @@
-// Copyright (c) 2019-2020 The PIVX developers
+// Copyright (c) 2019-2020 The PCOIN developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #ifndef DASHBOARDWIDGET_H
 #define DASHBOARDWIDGET_H
 
-#include "qt/pivx/pwidget.h"
-#include "qt/pivx/furabstractlistitemdelegate.h"
-#include "qt/pivx/furlistrow.h"
+#include "qt/pcoin/pwidget.h"
+#include "qt/pcoin/furabstractlistitemdelegate.h"
+#include "qt/pcoin/furlistrow.h"
 #include "transactiontablemodel.h"
-#include "qt/pivx/txviewholder.h"
+#include "qt/pcoin/txviewholder.h"
 #include "transactionfilterproxy.h"
 
 #include <atomic>
@@ -19,7 +19,7 @@
 #include <QMap>
 
 #if defined(HAVE_CONFIG_H)
-#include "config/pivx-config.h" /* for USE_QTCHARTS */
+#include "config/pcoin-config.h" /* for USE_QTCHARTS */
 #endif
 
 #ifdef USE_QTCHARTS
@@ -37,7 +37,7 @@ using namespace QtCharts;
 
 #endif
 
-class PIVXGUI;
+class PCOINGUI;
 class WalletModel;
 
 namespace Ui {
@@ -80,9 +80,9 @@ public:
 
     QMap<int, std::pair<qint64, qint64>> amountsByCache;
     qreal maxValue = 0;
-    qint64 totalPiv = 0;
+    qint64 totalPcoin = 0;
     qint64 totalMN = 0;
-    QList<qreal> valuesPiv;
+    QList<qreal> valuesPcoin;
     QList<qreal> valuesMN;
     QStringList xLabels;
 };
@@ -96,7 +96,7 @@ class DashboardWidget : public PWidget
     Q_OBJECT
 
 public:
-    explicit DashboardWidget(PIVXGUI* _window);
+    explicit DashboardWidget(PCOINGUI* _window);
     ~DashboardWidget();
 
     void loadWalletModel() override;

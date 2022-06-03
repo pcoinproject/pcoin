@@ -1,14 +1,14 @@
-// Copyright (c) 2019-2020 The PIVX developers
+// Copyright (c) 2019-2020 The PCOIN developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "qt/pivx/receivewidget.h"
-#include "qt/pivx/forms/ui_receivewidget.h"
-#include "qt/pivx/requestdialog.h"
-#include "qt/pivx/addnewcontactdialog.h"
-#include "qt/pivx/qtutils.h"
-#include "qt/pivx/myaddressrow.h"
-#include "qt/pivx/addressholder.h"
+#include "qt/pcoin/receivewidget.h"
+#include "qt/pcoin/forms/ui_receivewidget.h"
+#include "qt/pcoin/requestdialog.h"
+#include "qt/pcoin/addnewcontactdialog.h"
+#include "qt/pcoin/qtutils.h"
+#include "qt/pcoin/myaddressrow.h"
+#include "qt/pcoin/addressholder.h"
 #include "walletmodel.h"
 #include "guiutil.h"
 
@@ -19,7 +19,7 @@
 #define DECORATION_SIZE 70
 #define NUM_ITEMS 3
 
-ReceiveWidget::ReceiveWidget(PIVXGUI* parent) :
+ReceiveWidget::ReceiveWidget(PCOINGUI* parent) :
     PWidget(parent),
     ui(new Ui::ReceiveWidget)
 {

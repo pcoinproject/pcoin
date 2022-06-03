@@ -1,20 +1,20 @@
-// Copyright (c) 2019 The PIVX developers
+// Copyright (c) 2019 The PCOIN developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "qt/pivx/settings/settingsmainoptionswidget.h"
-#include "qt/pivx/settings/forms/ui_settingsmainoptionswidget.h"
+#include "qt/pcoin/settings/settingsmainoptionswidget.h"
+#include "qt/pcoin/settings/forms/ui_settingsmainoptionswidget.h"
 #include "QListView"
 
 #if defined(HAVE_CONFIG_H)
-#include "config/pivx-config.h"
+#include "config/pcoin-config.h"
 #endif
 
 #include "bitcoinunits.h"
 #include "guiutil.h"
 #include "optionsmodel.h"
 #include "clientmodel.h"
-#include "qt/pivx/qtutils.h"
+#include "qt/pcoin/qtutils.h"
 
 #include "netbase.h"
 #include "txdb.h" // for -dbcache defaults
@@ -29,7 +29,7 @@
 #include <QTimer>
 
 
-SettingsMainOptionsWidget::SettingsMainOptionsWidget(PIVXGUI* _window, QWidget *parent) :
+SettingsMainOptionsWidget::SettingsMainOptionsWidget(PCOINGUI* _window, QWidget *parent) :
     PWidget(_window, parent),
     ui(new Ui::SettingsMainOptionsWidget)
 {

@@ -1,20 +1,20 @@
-// Copyright (c) 2019-2020 The PIVX developers
+// Copyright (c) 2019-2020 The PCOIN developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #ifndef RECEIVEWIDGET_H
 #define RECEIVEWIDGET_H
 
-#include "qt/pivx/pwidget.h"
+#include "qt/pcoin/pwidget.h"
 #include "addresstablemodel.h"
-#include "qt/pivx/furabstractlistitemdelegate.h"
-#include "qt/pivx/addressfilterproxymodel.h"
+#include "qt/pcoin/furabstractlistitemdelegate.h"
+#include "qt/pcoin/addressfilterproxymodel.h"
 
 #include <QSpacerItem>
 #include <QWidget>
 #include <QPixmap>
 
-class PIVXGUI;
+class PCOINGUI;
 class SendCoinsRecipient;
 
 namespace Ui {
@@ -30,7 +30,7 @@ class ReceiveWidget : public PWidget
     Q_OBJECT
 
 public:
-    explicit ReceiveWidget(PIVXGUI* parent);
+    explicit ReceiveWidget(PCOINGUI* parent);
     ~ReceiveWidget();
 
     void loadWalletModel() override;

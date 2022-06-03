@@ -1,4 +1,4 @@
-// Copyright (c) 2019-2020 The PIVX developers
+// Copyright (c) 2019-2020 The PCOIN developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -6,19 +6,19 @@
 #define SETTINGSWIDGET_H
 
 #include <QWidget>
-#include "qt/pivx/pwidget.h"
-#include "qt/pivx/settings/settingsbackupwallet.h"
-#include "qt/pivx/settings/settingsexportcsv.h"
-#include "qt/pivx/settings/settingsbittoolwidget.h"
-#include "qt/pivx/settings/settingssignmessagewidgets.h"
-#include "qt/pivx/settings/settingswalletrepairwidget.h"
-#include "qt/pivx/settings/settingswalletoptionswidget.h"
-#include "qt/pivx/settings/settingsmainoptionswidget.h"
-#include "qt/pivx/settings/settingsdisplayoptionswidget.h"
-#include "qt/pivx/settings/settingsinformationwidget.h"
-#include "qt/pivx/settings/settingsconsolewidget.h"
+#include "qt/pcoin/pwidget.h"
+#include "qt/pcoin/settings/settingsbackupwallet.h"
+#include "qt/pcoin/settings/settingsexportcsv.h"
+#include "qt/pcoin/settings/settingsbittoolwidget.h"
+#include "qt/pcoin/settings/settingssignmessagewidgets.h"
+#include "qt/pcoin/settings/settingswalletrepairwidget.h"
+#include "qt/pcoin/settings/settingswalletoptionswidget.h"
+#include "qt/pcoin/settings/settingsmainoptionswidget.h"
+#include "qt/pcoin/settings/settingsdisplayoptionswidget.h"
+#include "qt/pcoin/settings/settingsinformationwidget.h"
+#include "qt/pcoin/settings/settingsconsolewidget.h"
 
-class PIVXGUI;
+class PCOINGUI;
 
 QT_BEGIN_NAMESPACE
 class QDataWidgetMapper;
@@ -33,7 +33,7 @@ class SettingsWidget : public PWidget
     Q_OBJECT
 
 public:
-    explicit SettingsWidget(PIVXGUI* parent);
+    explicit SettingsWidget(PCOINGUI* parent);
     ~SettingsWidget();
 
     void loadClientModel() override;

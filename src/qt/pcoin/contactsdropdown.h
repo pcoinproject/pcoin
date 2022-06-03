@@ -1,4 +1,4 @@
-// Copyright (c) 2019 The PIVX developers
+// Copyright (c) 2019 The PCOIN developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -6,10 +6,10 @@
 #define CONTACTSDROPDOWN_H
 
 #include "addresstablemodel.h"
-#include "qt/pivx/pwidget.h"
-#include "qt/pivx/contactdropdownrow.h"
-#include "qt/pivx/furabstractlistitemdelegate.h"
-#include "qt/pivx/addressfilterproxymodel.h"
+#include "qt/pcoin/pwidget.h"
+#include "qt/pcoin/contactdropdownrow.h"
+#include "qt/pcoin/furabstractlistitemdelegate.h"
+#include "qt/pcoin/addressfilterproxymodel.h"
 #include <QListView>
 #include <QObject>
 #include <QWidget>
@@ -29,7 +29,7 @@ class ContactsDropdown : public PWidget
     Q_OBJECT
 public:
     explicit ContactsDropdown(int minWidth, int minHeight, PWidget* parent = nullptr);
-    ContactsDropdown(int minWidth, int minHeight, PIVXGUI* _window = nullptr,
+    ContactsDropdown(int minWidth, int minHeight, PCOINGUI* _window = nullptr,
                      QWidget* parent = nullptr);
 
     void resizeList(int minWidth, int mintHeight);

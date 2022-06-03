@@ -1,15 +1,15 @@
-// Copyright (c) 2019-2020 The PIVX developers
+// Copyright (c) 2019-2020 The PCOIN developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "qt/pivx/settings/settingssignmessagewidgets.h"
+#include "qt/pcoin/settings/settingssignmessagewidgets.h"
 
 #include "key_io.h"
 #include "messagesigner.h"
 #include "qt/askpassphrasedialog.h"
 #include "qt/addressbookpage.h"
-#include "qt/pivx/settings/forms/ui_settingssignmessagewidgets.h"
-#include "qt/pivx/qtutils.h"
+#include "qt/pcoin/settings/forms/ui_settingssignmessagewidgets.h"
+#include "qt/pcoin/qtutils.h"
 #include "qt/walletmodel.h"
 #include "util/validation.h"
 
@@ -18,7 +18,7 @@
 
 #include <QClipboard>
 
-SettingsSignMessageWidgets::SettingsSignMessageWidgets(PIVXGUI* _window, QWidget *parent) :
+SettingsSignMessageWidgets::SettingsSignMessageWidgets(PCOINGUI* _window, QWidget *parent) :
     PWidget(_window, parent),
     ui(new Ui::SettingsSignMessageWidgets)
 {

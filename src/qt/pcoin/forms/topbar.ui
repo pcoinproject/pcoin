@@ -108,7 +108,7 @@
              <number>0</number>
             </property>
             <item alignment="Qt::AlignTop">
-             <widget class="QLabel" name="labelAmountTopPiv">
+             <widget class="QLabel" name="labelAmountTopPcoin">
               <property name="minimumSize">
                <size>
                 <width>0</width>
@@ -119,7 +119,7 @@
                <string notr="true">padding:0px;margin:0px;</string>
               </property>
               <property name="text">
-               <string notr="true">480.0685 PIV</string>
+               <string notr="true">480.0685 PCOIN</string>
               </property>
              </widget>
             </item>
@@ -187,7 +187,7 @@ border:none;</string>
              </spacer>
             </item>
             <item alignment="Qt::AlignTop">
-             <widget class="QLabel" name="labelAmountTopShieldedPiv">
+             <widget class="QLabel" name="labelAmountTopShieldedPcoin">
               <property name="minimumSize">
                <size>
                 <width>0</width>
@@ -195,7 +195,7 @@ border:none;</string>
                </size>
               </property>
               <property name="text">
-               <string notr="true">1.000 PIV</string>
+               <string notr="true">1.000 PCOIN</string>
               </property>
              </widget>
             </item>
@@ -472,9 +472,9 @@ border:none;</string>
               </layout>
              </item>
              <item>
-              <widget class="QLabel" name="labelAmountPiv">
+              <widget class="QLabel" name="labelAmountPcoin">
                <property name="text">
-                <string notr="true">480.0685 PIV</string>
+                <string notr="true">480.0685 PCOIN</string>
                </property>
               </widget>
              </item>
@@ -527,9 +527,9 @@ border:none;</string>
                   </widget>
                  </item>
                  <item>
-                  <widget class="QLabel" name="labelPendingPiv">
+                  <widget class="QLabel" name="labelPendingPcoin">
                    <property name="text">
-                    <string notr="true">6.943 PIV</string>
+                    <string notr="true">6.943 PCOIN</string>
                    </property>
                   </widget>
                  </item>
@@ -581,9 +581,9 @@ border:none;</string>
                   </widget>
                  </item>
                  <item>
-                  <widget class="QLabel" name="labelImmaturePiv">
+                  <widget class="QLabel" name="labelImmaturePcoin">
                    <property name="text">
-                    <string notr="true">10 PIV</string>
+                    <string notr="true">10 PCOIN</string>
                    </property>
                   </widget>
                  </item>
@@ -738,13 +738,13 @@ border:none;</string>
   <customwidget>
    <class>ExpandableButton</class>
    <extends>QWidget</extends>
-   <header>qt/pivx/expandablebutton.h</header>
+   <header>qt/pcoin/expandablebutton.h</header>
    <container>1</container>
   </customwidget>
   <customwidget>
    <class>PFBorderImage</class>
    <extends>QFrame</extends>
-   <header>qt/pivx/pfborderimage.h</header>
+   <header>qt/pcoin/pfborderimage.h</header>
    <container>1</container>
   </customwidget>
  </customwidgets>

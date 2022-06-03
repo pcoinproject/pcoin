@@ -1,16 +1,16 @@
-// Copyright (c) 2019-2020 The PIVX developers
+// Copyright (c) 2019-2020 The PCOIN developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "qt/pivx/addresseswidget.h"
-#include "qt/pivx/forms/ui_addresseswidget.h"
-#include "qt/pivx/addressfilterproxymodel.h"
-#include "qt/pivx/addresslabelrow.h"
-#include "qt/pivx/tooltipmenu.h"
+#include "qt/pcoin/addresseswidget.h"
+#include "qt/pcoin/forms/ui_addresseswidget.h"
+#include "qt/pcoin/addressfilterproxymodel.h"
+#include "qt/pcoin/addresslabelrow.h"
+#include "qt/pcoin/tooltipmenu.h"
 
-#include "qt/pivx/addnewcontactdialog.h"
+#include "qt/pcoin/addnewcontactdialog.h"
 #include "guiutil.h"
-#include "qt/pivx/qtutils.h"
+#include "qt/pcoin/qtutils.h"
 #include "walletmodel.h"
 
 #include <QModelIndex>
@@ -59,7 +59,7 @@ public:
 };
 
 
-AddressesWidget::AddressesWidget(PIVXGUI* parent) :
+AddressesWidget::AddressesWidget(PCOINGUI* parent) :
     PWidget(parent),
     ui(new Ui::AddressesWidget)
 {
@@ -185,15 +185,15 @@ void AddressesWidget::onStoreContactClicked()
         QString address = ui->lineEditAddress->text();
 
         bool isStakingAddress = false;
-        auto pivAdd = Standard::DecodeDestination(address.toUtf8().constData(), isStakingAddress);
+        auto pcoinAdd = Standard::DecodeDestination(address.toUtf8().constData(), isStakingAddress);
 
-        if (!Standard::IsValidDestination(pivAdd)) {
+        if (!Standard::IsValidDestination(pcoinAdd)) {
             setCssEditLine(ui->lineEditAddress, false, true);
             inform(tr("Invalid Contact Address"));
             return;
         }
 
-        if (walletModel->isMine(pivAdd)) {
+        if (walletModel->isMine(pcoinAdd)) {
             setCssEditLine(ui->lineEditAddress, false, true);
             inform(tr("Cannot store your own address as contact"));
             return;
@@ -206,8 +206,8 @@ void AddressesWidget::onStoreContactClicked()
             return;
         }
 
-        bool isShielded = walletModel->IsShieldedDestination(pivAdd);
-        if (walletModel->updateAddressBookLabels(pivAdd, label.toUtf8().constData(),
+        bool isShielded = walletModel->IsShieldedDestination(pcoinAdd);
+        if (walletModel->updateAddressBookLabels(pcoinAdd, label.toUtf8().constData(),
                          isShielded ? AddressBook::AddressBookPurpose::SHIELDED_SEND :
                          isStakingAddress ? AddressBook::AddressBookPurpose::COLD_STAKING_SEND : AddressBook::AddressBookPurpose::SEND)
                 ) {

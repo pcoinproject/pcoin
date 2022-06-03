@@ -1,12 +1,12 @@
-// Copyright (c) 2019-2020 The PIVX developers
+// Copyright (c) 2019-2020 The PCOIN developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "qt/pivx/dashboardwidget.h"
-#include "qt/pivx/forms/ui_dashboardwidget.h"
-#include "qt/pivx/sendconfirmdialog.h"
-#include "qt/pivx/txrow.h"
-#include "qt/pivx/qtutils.h"
+#include "qt/pcoin/dashboardwidget.h"
+#include "qt/pcoin/forms/ui_dashboardwidget.h"
+#include "qt/pcoin/sendconfirmdialog.h"
+#include "qt/pcoin/txrow.h"
+#include "qt/pcoin/qtutils.h"
 #include "guiutil.h"
 #include "clientmodel.h"
 #include "optionsmodel.h"
@@ -22,7 +22,7 @@
 #define REQUEST_LOAD_TASK 1
 #define CHART_LOAD_MIN_TIME_INTERVAL 15
 
-DashboardWidget::DashboardWidget(PIVXGUI* parent) :
+DashboardWidget::DashboardWidget(PCOINGUI* parent) :
     PWidget(parent),
     ui(new Ui::DashboardWidget)
 {
@@ -51,9 +51,9 @@ DashboardWidget::DashboardWidget(PIVXGUI* parent) :
 
     // Staking Information
     setCssSubtitleScreen(ui->labelMessage);
-    setCssProperty(ui->labelSquarePiv, "square-chart-piv");
+    setCssProperty(ui->labelSquarePcoin, "square-chart-pcoin");
     setCssProperty(ui->labelSquareMN, "square-chart-mn");
-    setCssProperty(ui->labelPiv, "text-chart-piv");
+    setCssProperty(ui->labelPcoin, "text-chart-pcoin");
     setCssProperty(ui->labelMN, "text-chart-mn");
 
     // Staking Amount
@@ -61,7 +61,7 @@ DashboardWidget::DashboardWidget(PIVXGUI* parent) :
     fontBold.setWeight(QFont::Bold);
 
     setCssProperty(ui->labelChart, "legend-chart");
-    setCssProperty(ui->labelAmountPiv, "text-stake-piv-disable");
+    setCssProperty(ui->labelAmountPcoin, "text-stake-pcoin-disable");
     setCssProperty(ui->labelAmountMN, "text-stake-mn-disable");
 
     setCssProperty({ui->pushButtonAll,  ui->pushButtonMonth, ui->pushButtonYear}, "btn-check-time");
@@ -143,7 +143,7 @@ bool hasCharts = false;
     connect(ui->pushButtonMonth, &QPushButton::clicked, [this](){setChartShow(MONTH);});
     connect(ui->pushButtonAll, &QPushButton::clicked, [this](){setChartShow(ALL);});
     if (window)
-        connect(window, &PIVXGUI::windowResizeEvent, this, &DashboardWidget::windowResizeEvent);
+        connect(window, &PCOINGUI::windowResizeEvent, this, &DashboardWidget::windowResizeEvent);
 #endif
 
     if (hasCharts) {
@@ -215,7 +215,7 @@ void DashboardWidget::loadWalletModel()
                 &DashboardWidget::onHideChartsChanged);
 #endif
     }
-    // update the display unit, to not use the default ("PIV")
+    // update the display unit, to not use the default ("PCOIN")
     updateDisplayUnit();
 }
 
@@ -518,7 +518,7 @@ void DashboardWidget::updateStakeFilter()
     }
 }
 
-// pair PIV, MN Reward
+// pair PCOIN, MN Reward
 QMap<int, std::pair<qint64, qint64>> DashboardWidget::getAmountBy()
 {
     if (filterUpdateNeeded) {
@@ -532,7 +532,7 @@ QMap<int, std::pair<qint64, qint64>> DashboardWidget::getAmountBy()
         QModelIndex modelIndex = stakesFilter->index(i, TransactionTableModel::ToAddress);
         qint64 amount = llabs(modelIndex.data(TransactionTableModel::AmountRole).toLongLong());
         QDate date = modelIndex.data(TransactionTableModel::DateRole).toDateTime().date();
-        bool isPiv = modelIndex.data(TransactionTableModel::TypeRole).toInt() != TransactionRecord::MNReward;
+        bool isPcoin = modelIndex.data(TransactionTableModel::TypeRole).toInt() != TransactionRecord::MNReward;
 
         int time = 0;
         switch (chartShow) {
@@ -553,12 +553,12 @@ QMap<int, std::pair<qint64, qint64>> DashboardWidget::getAmountBy()
                 return amountBy;
         }
         if (amountBy.contains(time)) {
-            if (isPiv) {
+            if (isPcoin) {
                 amountBy[time].first += amount;
             } else
                 amountBy[time].second += amount;
         } else {
-            if (isPiv) {
+            if (isPcoin) {
                 amountBy[time] = std::make_pair(amount, 0);
             } else {
                 amountBy[time] = std::make_pair(0, amount);
@@ -577,7 +577,7 @@ bool DashboardWidget::loadChartData(bool withMonthNames)
     }
 
     chartData = new ChartData();
-    chartData->amountsByCache = getAmountBy(); // pair PIV, MN Reward
+    chartData->amountsByCache = getAmountBy(); // pair PCOIN, MN Reward
 
     std::pair<int,int> range = getChartRange(chartData->amountsByCache);
     if (range.first == 0 && range.second == 0) {
@@ -590,22 +590,22 @@ bool DashboardWidget::loadChartData(bool withMonthNames)
 
     for (int j = range.first; j < range.second; j++) {
         int num = (isOrderedByMonth && j > daysInMonth) ? (j % daysInMonth) : j;
-        qreal piv = 0;
+        qreal pcoin = 0;
         qreal mn = 0;
         if (chartData->amountsByCache.contains(num)) {
             std::pair <qint64, qint64> pair = chartData->amountsByCache[num];
-            piv = (pair.first != 0) ? pair.first / 100000000 : 0;
+            pcoin = (pair.first != 0) ? pair.first / 100000000 : 0;
             mn = (pair.second != 0) ? pair.second / 100000000 : 0;
-            chartData->totalPiv += pair.first;
+            chartData->totalPcoin += pair.first;
             chartData->totalMN += pair.second;
         }
 
         chartData->xLabels << ((withMonthNames) ? monthsNames[num - 1] : QString::number(num));
 
-        chartData->valuesPiv.append(piv);
+        chartData->valuesPcoin.append(pcoin);
         chartData->valuesMN.append(mn);
 
-        int max = std::max(piv, mn);
+        int max = std::max(pcoin, mn);
         if (max > chartData->maxValue) {
             chartData->maxValue = max;
         }
@@ -676,20 +676,20 @@ void DashboardWidget::onChartRefreshed()
     series->attachAxis(axisX);
     series->attachAxis(axisY);
 
-    set0->append(chartData->valuesPiv);
+    set0->append(chartData->valuesPcoin);
     set1->append(chartData->valuesMN);
 
     // Total
     nDisplayUnit = walletModel->getOptionsModel()->getDisplayUnit();
-    if (chartData->totalPiv > 0 || chartData->totalMN > 0) {
-        setCssProperty(ui->labelAmountPiv, "text-stake-piv");
+    if (chartData->totalPcoin > 0 || chartData->totalMN > 0) {
+        setCssProperty(ui->labelAmountPcoin, "text-stake-pcoin");
         setCssProperty(ui->labelAmountMN, "text-stake-mn");
     } else {
-        setCssProperty(ui->labelAmountPiv, "text-stake-piv-disable");
+        setCssProperty(ui->labelAmountPcoin, "text-stake-pcoin-disable");
         setCssProperty(ui->labelAmountMN, "text-stake-mn-disable");
     }
-    forceUpdateStyle({ui->labelAmountPiv, ui->labelAmountMN});
-    ui->labelAmountPiv->setText(GUIUtil::formatBalance(chartData->totalPiv, nDisplayUnit));
+    forceUpdateStyle({ui->labelAmountPcoin, ui->labelAmountMN});
+    ui->labelAmountPcoin->setText(GUIUtil::formatBalance(chartData->totalPcoin, nDisplayUnit));
     ui->labelAmountMN->setText(GUIUtil::formatBalance(chartData->totalMN, nDisplayUnit));
 
     series->append(set0);
@@ -885,7 +885,7 @@ void DashboardWidget::onHideChartsChanged(bool fHide)
             stakesFilter->setFilterCaseSensitivity(Qt::CaseInsensitive);
             stakesFilter->setTypeFilter(TransactionFilterProxy::TYPE(TransactionRecord::StakeMint) |
                                         TransactionFilterProxy::TYPE(TransactionRecord::Generated) |
-                                        TransactionFilterProxy::TYPE(TransactionRecord::StakeZPIV) |
+                                        TransactionFilterProxy::TYPE(TransactionRecord::StakeZPCOIN) |
                                         TransactionFilterProxy::TYPE(TransactionRecord::StakeDelegated) |
                                         TransactionFilterProxy::TYPE(TransactionRecord::MNReward));
         }

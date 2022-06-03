@@ -1,12 +1,12 @@
-// Copyright (c) 2021 The PIVX developers
+// Copyright (c) 2021 The PCOIN developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or https://www.opensource.org/licenses/mit-license.php.
 
 #ifndef GOVERNANCEWIDGET_H
 #define GOVERNANCEWIDGET_H
 
-#include "qt/pivx/pwidget.h"
-#include "qt/pivx/proposalcard.h"
+#include "qt/pcoin/pwidget.h"
+#include "qt/pcoin/proposalcard.h"
 
 #include <QGridLayout>
 #include <QStandardItemModel>
@@ -23,7 +23,7 @@ class QTimer;
 QT_END_NAMESPACE
 
 class MNModel;
-class PIVXGUI;
+class PCOINGUI;
 class GovernanceModel;
 class TooltipMenu;
 
@@ -57,7 +57,7 @@ class GovernanceWidget : public PWidget
     Q_OBJECT
 
 public:
-    explicit GovernanceWidget(PIVXGUI* parent);
+    explicit GovernanceWidget(PCOINGUI* parent);
     ~GovernanceWidget() override;
 
     void showEvent(QShowEvent *event) override;

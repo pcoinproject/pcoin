@@ -1,12 +1,12 @@
-#include "qt/pivx/governancewidget.h"
-#include "qt/pivx/forms/ui_governancewidget.h"
+#include "qt/pcoin/governancewidget.h"
+#include "qt/pcoin/forms/ui_governancewidget.h"
 
-#include "qt/pivx/createproposaldialog.h"
-#include "qt/pivx/governancemodel.h"
-#include "qt/pivx/mnmodel.h"
-#include "qt/pivx/proposalinfodialog.h"
-#include "qt/pivx/qtutils.h"
-#include "qt/pivx/votedialog.h"
+#include "qt/pcoin/createproposaldialog.h"
+#include "qt/pcoin/governancemodel.h"
+#include "qt/pcoin/mnmodel.h"
+#include "qt/pcoin/proposalinfodialog.h"
+#include "qt/pcoin/qtutils.h"
+#include "qt/pcoin/votedialog.h"
 
 #include <QDesktopServices>
 #include <QGraphicsDropShadowEffect>
@@ -28,7 +28,7 @@ void initComboView(PWidget* parent, QComboBox* comboBox, const QString& filterHi
     comboBox->setCurrentIndex(0);
 }
 
-GovernanceWidget::GovernanceWidget(PIVXGUI* parent) :
+GovernanceWidget::GovernanceWidget(PCOINGUI* parent) :
         PWidget(parent),
         ui(new Ui::governancewidget)
 {

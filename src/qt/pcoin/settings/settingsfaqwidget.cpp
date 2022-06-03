@@ -1,20 +1,20 @@
-// Copyright (c) 2019 The PIVX developers
+// Copyright (c) 2019 The PCOIN developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #if defined(HAVE_CONFIG_H)
-#include "config/pivx-config.h"
+#include "config/pcoin-config.h"
 #endif
 
-#include "qt/pivx/settings/settingsfaqwidget.h"
-#include "qt/pivx/settings/forms/ui_settingsfaqwidget.h"
-#include "qt/pivx/mnmodel.h"
-#include "qt/pivx/qtutils.h"
+#include "qt/pcoin/settings/settingsfaqwidget.h"
+#include "qt/pcoin/settings/forms/ui_settingsfaqwidget.h"
+#include "qt/pcoin/mnmodel.h"
+#include "qt/pcoin/qtutils.h"
 
 #include <QScrollBar>
 #include <QMetaObject>
 
-SettingsFaqWidget::SettingsFaqWidget(PIVXGUI* parent, MNModel* mnModel) :
+SettingsFaqWidget::SettingsFaqWidget(PCOINGUI* parent, MNModel* mnModel) :
     QDialog(parent),
     ui(new Ui::SettingsFaqWidget)
 {
@@ -33,7 +33,7 @@ SettingsFaqWidget::SettingsFaqWidget(PIVXGUI* parent, MNModel* mnModel) :
     // Content
     setCssProperty({
            ui->labelNumber_Intro,
-           ui->labelNumber_UnspendablePIV,
+           ui->labelNumber_UnspendablePCOIN,
            ui->labelNumber_Stake,
            ui->labelNumber_Support,
            ui->labelNumber_Masternode,
@@ -42,7 +42,7 @@ SettingsFaqWidget::SettingsFaqWidget(PIVXGUI* parent, MNModel* mnModel) :
 
     setCssProperty({
               ui->labelSubtitle_Intro,
-              ui->labelSubtitle_UnspendablePIV,
+              ui->labelSubtitle_UnspendablePCOIN,
               ui->labelSubtitle_Stake,
               ui->labelSubtitle_Support,
               ui->labelSubtitle_Masternode,
@@ -52,7 +52,7 @@ SettingsFaqWidget::SettingsFaqWidget(PIVXGUI* parent, MNModel* mnModel) :
 
     setCssProperty({
               ui->labelContent_Intro,
-              ui->labelContent_UnspendablePIV,
+              ui->labelContent_UnspendablePCOIN,
               ui->labelContent_Stake,
               ui->labelContent_Support,
               ui->labelContent_Masternode,
@@ -62,7 +62,7 @@ SettingsFaqWidget::SettingsFaqWidget(PIVXGUI* parent, MNModel* mnModel) :
 
     setCssProperty({
               ui->pushButton_Intro,
-              ui->pushButton_UnspendablePIV,
+              ui->pushButton_UnspendablePCOIN,
               ui->pushButton_Stake,
               ui->pushButton_Support,
               ui->pushButton_Masternode,
@@ -74,31 +74,31 @@ SettingsFaqWidget::SettingsFaqWidget(PIVXGUI* parent, MNModel* mnModel) :
     // Set FAQ content strings
     QString introContent = formatFAQContent(
         formatFAQParagraph(
-            tr("PIVX is a form of digital online money using blockchain technology "
+            tr("PCOIN is a form of digital online money using blockchain technology "
                "that can be easily transferred globally, instantly, and with near "
-               "zero fees. PIVX incorporates market leading security & "
+               "zero fees. PCOIN incorporates market leading security & "
                "privacy and is also the first PoS (Proof of Stake) Cryptocurrency "
                "to implement Sapling(SHIELD), a zk-SNARKs based privacy protocol.")) +
         formatFAQParagraph(
-            tr("PIVX utilizes a Proof of Stake (PoS) consensus system algorithm, "
-               "allowing all owners of PIVX to participate in earning block rewards "
+            tr("PCOIN utilizes a Proof of Stake (PoS) consensus system algorithm, "
+               "allowing all owners of PCOIN to participate in earning block rewards "
                "while securing the network with full node wallets, as well as to "
                "run Masternodes to create and vote on proposals.")));
     ui->labelContent_Intro->setText(introContent);
 
-    QString unspendablePIVContent = formatFAQContent(
+    QString unspendablePCOINContent = formatFAQContent(
         formatFAQParagraph(
-            tr("Newly received PIVX requires 6 confirmations on the network "
+            tr("Newly received PCOIN requires 6 confirmations on the network "
                "to become eligible for spending which can take ~6 minutes.")) +
         formatFAQParagraph(
-            tr("Your PIVX wallet also needs to be completely synchronized "
+            tr("Your PCOIN wallet also needs to be completely synchronized "
                "to see and spend balances on the network.")));
-    ui->labelContent_UnspendablePIV->setText(unspendablePIVContent);
+    ui->labelContent_UnspendablePCOIN->setText(unspendablePCOINContent);
 
     QString stakeContent = formatFAQContent(
         formatFAQOrderedList(
             formatFAQListItem(tr("Make sure your wallet is completely synchronized and you are using the latest release.")) +
-            formatFAQListItem(tr("You must have a balance of PIVX with a minimum of 600 confirmations.")) +
+            formatFAQListItem(tr("You must have a balance of PCOIN with a minimum of 600 confirmations.")) +
             formatFAQListItem(tr("Your wallet must stay online and be unlocked for staking purposes.")) +
             formatFAQListItem(tr("Once all those steps are followed staking should be enabled."))) +
         formatFAQParagraph(
@@ -107,7 +107,7 @@ SettingsFaqWidget::SettingsFaqWidget(PIVXGUI* parent, MNModel* mnModel) :
                "package will be lit up and will state \"Staking Enabled\" to indicate "
                "it is staking. Using the command line interface (%1); the command %2 "
                "will confirm that staking is active.")
-                .arg("pivx-cli", "<span style=\"font-style:italic\">getstakingstatus</span>")));
+                .arg("pcoin-cli", "<span style=\"font-style:italic\">getstakingstatus</span>")));
     ui->labelContent_Stake->setText(stakeContent);
 
     QString masternodeContent = formatFAQContent(
@@ -117,7 +117,7 @@ SettingsFaqWidget::SettingsFaqWidget(PIVXGUI* parent, MNModel* mnModel) :
                "to the network and in return, receive a portion of the block reward "
                "regularly. These services include:")
                 .arg(PACKAGE_NAME)
-                .arg(GUIUtil::formatBalance(mnModel->getMNCollateralRequiredAmount(), BitcoinUnits::PIV)) +
+                .arg(GUIUtil::formatBalance(mnModel->getMNCollateralRequiredAmount(), BitcoinUnits::PCOIN)) +
             formatFAQUnorderedList(
                 formatFAQListItem(tr("A decentralized governance (Proposal Voting)")) +
                 formatFAQListItem(tr("A decentralized budgeting system (Treasury)")) +
@@ -130,15 +130,15 @@ SettingsFaqWidget::SettingsFaqWidget(PIVXGUI* parent, MNModel* mnModel) :
         formatFAQParagraph(
             tr("Masternode Perks:") +
             formatFAQUnorderedList(
-                formatFAQListItem(tr("Participate in PIVX Governance")) +
+                formatFAQListItem(tr("Participate in PCOIN Governance")) +
                 formatFAQListItem(tr("Earn Masternode Rewards")) +
                 formatFAQListItem(tr("Commodity option for future sale")) +
-                formatFAQListItem(tr("Help secure the PIVX network")))) +
+                formatFAQListItem(tr("Help secure the PCOIN network")))) +
         formatFAQParagraph(
             tr("Requirements:") +
             formatFAQUnorderedList(
                 formatFAQListItem(tr("%1 per single Masternode instance")
-                        .arg(GUIUtil::formatBalance(mnModel->getMNCollateralRequiredAmount(), BitcoinUnits::PIV))) +
+                        .arg(GUIUtil::formatBalance(mnModel->getMNCollateralRequiredAmount(), BitcoinUnits::PCOIN))) +
                 formatFAQListItem(tr("Must be stored in a core wallet")) +
                 formatFAQListItem(tr("Need dedicated IP address")) +
                 formatFAQListItem(tr("Masternode wallet to remain online")))));
@@ -150,7 +150,7 @@ SettingsFaqWidget::SettingsFaqWidget(PIVXGUI* parent, MNModel* mnModel) :
                "can reside during a Controller-Remote masternode setup. It is a wallet "
                "that can activate the remote masternode wallet(s) and allows you to keep "
                "your collateral coins offline while the remote masternode remains online.")
-                    .arg(GUIUtil::formatBalance(mnModel->getMNCollateralRequiredAmount(), BitcoinUnits::PIV))));
+                    .arg(GUIUtil::formatBalance(mnModel->getMNCollateralRequiredAmount(), BitcoinUnits::PCOIN))));
     ui->labelContent_MNController->setText(mNControllerContent);
 
 
@@ -164,14 +164,14 @@ SettingsFaqWidget::SettingsFaqWidget(PIVXGUI* parent, MNModel* mnModel) :
     // Buttons
     connect(ui->pushButtonExit, &QPushButton::clicked, this, &SettingsFaqWidget::close);
     connect(ui->pushButton_Intro, &QPushButton::clicked, [this](){onFaqClicked(ui->widget_Intro);});
-    connect(ui->pushButton_UnspendablePIV, &QPushButton::clicked, [this](){onFaqClicked(ui->widget_UnspendablePIV);});
+    connect(ui->pushButton_UnspendablePCOIN, &QPushButton::clicked, [this](){onFaqClicked(ui->widget_UnspendablePCOIN);});
     connect(ui->pushButton_Stake, &QPushButton::clicked, [this](){onFaqClicked(ui->widget_Stake);});
     connect(ui->pushButton_Support, &QPushButton::clicked, [this](){onFaqClicked(ui->widget_Support);});
     connect(ui->pushButton_Masternode, &QPushButton::clicked, [this](){onFaqClicked(ui->widget_Masternode);});
     connect(ui->pushButton_MNController, &QPushButton::clicked, [this](){onFaqClicked(ui->widget_MNController);});
 
     if (parent)
-        connect(parent, &PIVXGUI::windowResizeEvent, this, &SettingsFaqWidget::windowResizeEvent);
+        connect(parent, &PCOINGUI::windowResizeEvent, this, &SettingsFaqWidget::windowResizeEvent);
 }
 
 void SettingsFaqWidget::showEvent(QShowEvent *event)
@@ -202,7 +202,7 @@ std::vector<QPushButton*> SettingsFaqWidget::getButtons()
 {
     return {
             ui->pushButton_Intro,
-            ui->pushButton_UnspendablePIV,
+            ui->pushButton_UnspendablePCOIN,
             ui->pushButton_Stake,
             ui->pushButton_Support,
             ui->pushButton_Masternode,

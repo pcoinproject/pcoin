@@ -1,11 +1,11 @@
-// Copyright (c) 2019-2020 The PIVX developers
+// Copyright (c) 2019-2020 The PCOIN developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #ifndef ADDRESSESWIDGET_H
 #define ADDRESSESWIDGET_H
 
-#include "qt/pivx/pwidget.h"
+#include "qt/pcoin/pwidget.h"
 #include "addresstablemodel.h"
 #include "furabstractlistitemdelegate.h"
 
@@ -13,7 +13,7 @@
 
 class AddressFilterProxyModel;
 class TooltipMenu;
-class PIVXGUI;
+class PCOINGUI;
 class WalletModel;
 
 namespace Ui {
@@ -29,7 +29,7 @@ class AddressesWidget : public PWidget
     Q_OBJECT
 
 public:
-    explicit AddressesWidget(PIVXGUI* parent);
+    explicit AddressesWidget(PCOINGUI* parent);
     ~AddressesWidget();
 
     void loadWalletModel() override;

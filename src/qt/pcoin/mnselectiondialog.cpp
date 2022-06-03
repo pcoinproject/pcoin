@@ -1,11 +1,11 @@
-// Copyright (c) 2021 The PIVX developers
+// Copyright (c) 2021 The PCOIN developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or https://www.opensource.org/licenses/mit-license.php.
 
-#include "qt/pivx/mnselectiondialog.h"
-#include "qt/pivx/forms/ui_mnselectiondialog.h"
-#include "qt/pivx/mnmodel.h"
-#include "qt/pivx/qtutils.h"
+#include "qt/pcoin/mnselectiondialog.h"
+#include "qt/pcoin/forms/ui_mnselectiondialog.h"
+#include "qt/pcoin/mnmodel.h"
+#include "qt/pcoin/qtutils.h"
 
 MnSelectionDialog::MnSelectionDialog(QWidget *parent) :
         QDialog(parent),

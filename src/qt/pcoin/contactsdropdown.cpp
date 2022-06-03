@@ -1,15 +1,15 @@
-// Copyright (c) 2019-2020 The PIVX developers
+// Copyright (c) 2019-2020 The PCOIN developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "qt/pivx/contactsdropdown.h"
+#include "qt/pcoin/contactsdropdown.h"
 
 #include <QPainter>
 #include <QSizePolicy>
-#include "qt/pivx/addresslabelrow.h"
-#include "qt/pivx/contactdropdownrow.h"
-#include "qt/pivx/qtutils.h"
-#include "qt/pivx/furlistrow.h"
+#include "qt/pcoin/addresslabelrow.h"
+#include "qt/pcoin/contactdropdownrow.h"
+#include "qt/pcoin/qtutils.h"
+#include "qt/pcoin/furlistrow.h"
 #include "walletmodel.h"
 #include "addresstablemodel.h"
 
@@ -48,7 +48,7 @@ public:
     ContactDropdownRow* row = nullptr;
 };
 
-ContactsDropdown::ContactsDropdown(int minWidth, int minHeight, PIVXGUI* _window, QWidget* _parent) : PWidget(_window, _parent)
+ContactsDropdown::ContactsDropdown(int minWidth, int minHeight, PCOINGUI* _window, QWidget* _parent) : PWidget(_window, _parent)
 {
     this->setStyleSheet(_window->styleSheet());
     init(minWidth, minHeight);

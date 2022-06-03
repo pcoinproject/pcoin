@@ -1,11 +1,11 @@
-// Copyright (c) 2019-2020 The PIVX developers
+// Copyright (c) 2019-2020 The PCOIN developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or https://www.opensource.org/licenses/mit-license.php.
 
 #ifndef SENDMEMODIALOG_H
 #define SENDMEMODIALOG_H
 
-#include "qt/pivx/focuseddialog.h"
+#include "qt/pcoin/focuseddialog.h"
 
 class WalletModel;
 class SnackBar;

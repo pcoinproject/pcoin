@@ -1,20 +1,20 @@
-// Copyright (c) 2019-2020 The PIVX developers
+// Copyright (c) 2019-2020 The PCOIN developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #ifndef MASTERNODESWIDGET_H
 #define MASTERNODESWIDGET_H
 
-#include "qt/pivx/pwidget.h"
-#include "qt/pivx/furabstractlistitemdelegate.h"
-#include "qt/pivx/tooltipmenu.h"
+#include "qt/pcoin/pwidget.h"
+#include "qt/pcoin/furabstractlistitemdelegate.h"
+#include "qt/pcoin/tooltipmenu.h"
 
 #include <atomic>
 
 #include <QTimer>
 #include <QWidget>
 
-class PIVXGUI;
+class PCOINGUI;
 class MNModel;
 
 namespace Ui {
@@ -31,7 +31,7 @@ class MasterNodesWidget : public PWidget
 
 public:
 
-    explicit MasterNodesWidget(PIVXGUI *parent = nullptr);
+    explicit MasterNodesWidget(PCOINGUI *parent = nullptr);
     ~MasterNodesWidget();
     void setMNModel(MNModel* _mnModel);
 

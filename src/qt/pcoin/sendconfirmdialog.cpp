@@ -1,16 +1,16 @@
-// Copyright (c) 2019-2020 The PIVX developers
+// Copyright (c) 2019-2020 The PCOIN developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "qt/pivx/sendconfirmdialog.h"
-#include "qt/pivx/forms/ui_sendconfirmdialog.h"
+#include "qt/pcoin/sendconfirmdialog.h"
+#include "qt/pcoin/forms/ui_sendconfirmdialog.h"
 #include "bitcoinunits.h"
 #include "walletmodel.h"
 #include "transactiontablemodel.h"
 #include "transactionrecord.h"
 #include "wallet/wallet.h"
 #include "guiutil.h"
-#include "qt/pivx/qtutils.h"
+#include "qt/pcoin/qtutils.h"
 #include <QList>
 #include <QDateTime>
 

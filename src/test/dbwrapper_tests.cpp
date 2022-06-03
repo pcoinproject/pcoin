@@ -5,7 +5,7 @@
 #include "dbwrapper.h"
 #include "uint256.h"
 #include "random.h"
-#include "test/test_pivx.h"
+#include "test/test_pcoin.h"
 
 #include <boost/test/unit_test.hpp>
 

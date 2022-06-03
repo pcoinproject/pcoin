@@ -122,12 +122,12 @@
         <translation>Адреса получения</translation>
     </message>
     <message>
-        <source>These are your PIVX addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Это ваши PIVX-адреса для отправки платежей. Перед отправкой монет всегда проверяйте сумму и адрес получателя.</translation>
+        <source>These are your PCOIN addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Это ваши PCOIN-адреса для отправки платежей. Перед отправкой монет всегда проверяйте сумму и адрес получателя.</translation>
     </message>
     <message>
-        <source>These are your PIVX addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Это ваши PIVX-адреса для получения платежей. Для каждой транзакции рекомендуется использовать новый адрес получения.</translation>
+        <source>These are your PCOIN addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Это ваши PCOIN-адреса для получения платежей. Для каждой транзакции рекомендуется использовать новый адрес получения.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -363,8 +363,8 @@ for staking</source>
         <translation>ОТМЕНА</translation>
     </message>
     <message>
-        <source>PIVX will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PIVs from being stolen by malware infecting your computer.</source>
-        <translation>PIVX сейчас закроется, чтобы завершить процесс шифрования. Помните, что шифрование вашего кошелька не может полностью защитить ваши PIVX от кражи с использованием вредоносного ПО.</translation>
+        <source>PCOIN will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PCOINs from being stolen by malware infecting your computer.</source>
+        <translation>PCOIN сейчас закроется, чтобы завершить процесс шифрования. Помните, что шифрование вашего кошелька не может полностью защитить ваши PCOIN от кражи с использованием вредоносного ПО.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -456,8 +456,8 @@ for staking</source>
         <translation>Сбережения</translation>
     </message>
     <message>
-        <source>0,00 PIV</source>
-        <translation>0.00 PIV</translation>
+        <source>0,00 PCOIN</source>
+        <translation>0.00 PCOIN</translation>
     </message>
     <message>
         <source>address</source>
@@ -498,8 +498,8 @@ for staking</source>
         <translation>Выбор монеты</translation>
     </message>
     <message>
-        <source>Select PIV Outputs to Spend</source>
-        <translation>Выберите PIV выходы для расходов</translation>
+        <source>Select PCOIN Outputs to Spend</source>
+        <translation>Выберите PCOIN выходы для расходов</translation>
     </message>
     <message>
         <source>Dust:</source>
@@ -526,8 +526,8 @@ for staking</source>
         <translation>Сумма</translation>
     </message>
     <message>
-        <source>0.00 PIV</source>
-        <translation>0.00 PIV </translation>
+        <source>0.00 PCOIN</source>
+        <translation>0.00 PCOIN </translation>
     </message>
     <message>
         <source>0</source>
@@ -725,17 +725,17 @@ for staking</source>
         <translation>Ошибка при загрузке делегаций: %1</translation>
     </message>
     <message>
-        <source>You can delegate your PIVs, letting a hot node (24/7 online node)
+        <source>You can delegate your PCOINs, letting a hot node (24/7 online node)
 stake on your behalf, while you keep the keys securely offline.</source>
-        <translation>Вы можете делегировать свои PIV, позволяя горячему узлу (онлайн-узлу, работаещему 24/7) делать стекинг от вашего имени, в то время как ключи надежно хранятся в автономном режиме.</translation>
+        <translation>Вы можете делегировать свои PCOIN, позволяя горячему узлу (онлайн-узлу, работаещему 24/7) делать стекинг от вашего имени, в то время как ключи надежно хранятся в автономном режиме.</translation>
     </message>
     <message>
         <source>Enter owner address</source>
         <translation>Введите адрес владельца</translation>
     </message>
     <message>
-        <source>Accept PIV delegation / Delegate PIV</source>
-        <translation>Принять делегацию PIV / Делегировать PIV</translation>
+        <source>Accept PCOIN delegation / Delegate PCOIN</source>
+        <translation>Принять делегацию PCOIN / Делегировать PCOIN</translation>
     </message>
     <message>
         <source>Cold Staking address</source>
@@ -939,8 +939,8 @@ address</source>
         <translation>Обзор истории вашего аккаунта</translation>
     </message>
     <message>
-        <source>How to get PIV</source>
-        <translation>Как получить PIV</translation>
+        <source>How to get PCOIN</source>
+        <translation>Как получить PCOIN</translation>
     </message>
     <message>
         <source>Sort by</source>
@@ -963,8 +963,8 @@ address</source>
         <translation>Сортировать по</translation>
     </message>
     <message>
-        <source>Amount of PIV and zPIV staked.</source>
-        <translation>Сумма добытых PIV и zPIV</translation>
+        <source>Amount of PCOIN and zPCOIN staked.</source>
+        <translation>Сумма добытых PCOIN и zPCOIN</translation>
     </message>
     <message>
         <source>Please wait until the wallet is fully synced to see your correct balance</source>
@@ -1059,8 +1059,8 @@ It will start automatically as soon as the wallet has enough confirmations on an
         <translation>Изменить адрес отправки</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid PIVX address.</source>
-        <translation>Введенный адрес "%1" не является PIVX адресом.</translation>
+        <source>The entered address "%1" is not a valid PCOIN address.</source>
+        <translation>Введенный адрес "%1" не является PCOIN адресом.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1112,16 +1112,16 @@ It will start automatically as soon as the wallet has enough confirmations on an
         <translation>версия</translation>
     </message>
     <message>
-        <source>PIVX Core</source>
-        <translation>PIVX Core</translation>
+        <source>PCOIN Core</source>
+        <translation>PCOIN Core</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-бит)</translation>
     </message>
     <message>
-        <source>About PIVX Core</source>
-        <translation>О PIVX Core</translation>
+        <source>About PCOIN Core</source>
+        <translation>О PCOIN Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1175,16 +1175,16 @@ It will start automatically as soon as the wallet has enough confirmations on an
         <translation>Добро пожаловать</translation>
     </message>
     <message>
-        <source>Welcome to PIVX Core.</source>
-        <translation>Добро пожаловать в PIVX Core.</translation>
+        <source>Welcome to PCOIN Core.</source>
+        <translation>Добро пожаловать в PCOIN Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where PIVX Core will store its data.</source>
-        <translation>Поскольку это первый запуск программы, вы можете выбрать, где будут храниться данные PIVX Core.</translation>
+        <source>As this is the first time the program is launched, you can choose where PCOIN Core will store its data.</source>
+        <translation>Поскольку это первый запуск программы, вы можете выбрать, где будут храниться данные PCOIN Core.</translation>
     </message>
     <message>
-        <source>PIVX Core will download and store a copy of the PIVX block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>PIVX Core загрузит и сохранит копию цепочки блоков PIVX. Каталог будет занимать около %1GB и со временем размер будет увеличиваться. Кроме того, в этом каталоге будет храниться кошелек.</translation>
+        <source>PCOIN Core will download and store a copy of the PCOIN block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>PCOIN Core загрузит и сохранит копию цепочки блоков PCOIN. Каталог будет занимать около %1GB и со временем размер будет увеличиваться. Кроме того, в этом каталоге будет храниться кошелек.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1203,8 +1203,8 @@ It will start automatically as soon as the wallet has enough confirmations on an
         <translation>ХОРОШО</translation>
     </message>
     <message>
-        <source>PIVX Core</source>
-        <translation>PIVX Core</translation>
+        <source>PCOIN Core</source>
+        <translation>PCOIN Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1327,8 +1327,8 @@ It will start automatically as soon as the wallet has enough confirmations on an
         <translation>Убедитесь, что у вас есть такое количество монет.</translation>
     </message>
     <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;A transaction of 10,000 PIV will be made&lt;/p&gt;&lt;p&gt;to a new empty address in your wallet.&lt;/p&gt;&lt;p&gt;The Address is labeled under the master node's name.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;На новый пустой адрес в вашем кошельке&lt;/p&gt;&lt;p&gt; будет сделана транзакция в 10 000 PIV. &lt;/p&gt;&lt;p&gt;Адрес отмечен под именем мастерноды.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;A transaction of 10,000 PCOIN will be made&lt;/p&gt;&lt;p&gt;to a new empty address in your wallet.&lt;/p&gt;&lt;p&gt;The Address is labeled under the master node's name.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;На новый пустой адрес в вашем кошельке&lt;/p&gt;&lt;p&gt; будет сделана транзакция в 10 000 PCOIN. &lt;/p&gt;&lt;p&gt;Адрес отмечен под именем мастерноды.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <source>Address of the node that must always be online running the actual master node.</source>
@@ -1533,7 +1533,7 @@ Please wait few more minutes (masternode collaterals require %1 confirmations).<
 on a remote server to your clipboard.
 
 
-You will only have to paste the data in the pivx.conf file
+You will only have to paste the data in the pcoin.conf file
 of your remote server and start it, then start the Masternode using
 this controller wallet (select the Masternode in the list and press "start").
 </source>
@@ -1541,7 +1541,7 @@ this controller wallet (select the Masternode in the list and press "start").
 на удаленном сервере в буфер обмена.
 
 
-Вам необходимо только вставить данные в файл pivx.conf
+Вам необходимо только вставить данные в файл pcoin.conf
 вашего удаленного сервера и запустить его, а затем запустить мастерноду,
 используя этот кошелек контроллера (выберите мастерноду из списка и нажмите «Старт»).
 </translation>
@@ -1731,8 +1731,8 @@ STAKING</source>
         <translation>Проанализированные данные слишком большие</translation>
     </message>
     <message>
-        <source>Invalid URI, not starting with "pivx" prefix</source>
-        <translation>Неверный URI, не начинается с префикса "pivx"</translation>
+        <source>Invalid URI, not starting with "pcoin" prefix</source>
+        <translation>Неверный URI, не начинается с префикса "pcoin"</translation>
     </message>
 </context>
 <context>
@@ -1777,8 +1777,8 @@ STAKING</source>
         <translation>Отключив проведение неподтвержденных изменений все изменения о транзакции &lt;br/&gt;не будут использованы пока транзакция не получит хотя бы одно подтверждение.&lt;br/&gt;Также это влияет на расчет вашего баланса.</translation>
     </message>
     <message>
-        <source>Automatically open the PIVX client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Автоматически открыть клиентский порт PIVX через роутер. Ваш роутер должен поддерживать UPnP, а сам сервис должен быть включен.</translation>
+        <source>Automatically open the PCOIN client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Автоматически открыть клиентский порт PCOIN через роутер. Ваш роутер должен поддерживать UPnP, а сам сервис должен быть включен.</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
@@ -1797,12 +1797,12 @@ STAKING</source>
         <translation>Эксперт</translation>
     </message>
     <message>
-        <source>Automatically start PIVX after logging in to the system.</source>
-        <translation>Автоматически запускать PIVX после входа в систему.</translation>
+        <source>Automatically start PCOIN after logging in to the system.</source>
+        <translation>Автоматически запускать PCOIN после входа в систему.</translation>
     </message>
     <message>
-        <source>&amp;Start PIVX on system login</source>
-        <translation>&amp;Запускать PIVX при входе в систему</translation>
+        <source>&amp;Start PCOIN on system login</source>
+        <translation>&amp;Запускать PCOIN при входе в систему</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1829,52 +1829,52 @@ STAKING</source>
         <translation>&amp;Сеть</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting PIVX.</source>
-        <translation>Здесь можно выставить язык интерфейса. Изменения вступят в силу после перезапуска PIVX.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting PCOIN.</source>
+        <translation>Здесь можно выставить язык интерфейса. Изменения вступят в силу после перезапуска PCOIN.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
         <translation>Карта порта, использующего &amp;UPnP</translation>
     </message>
     <message>
-        <source>Enable automatic minting of PIV units to zPIV</source>
-        <translation>Невозможно автоматически отчеканить единицы PIV для zPIV</translation>
+        <source>Enable automatic minting of PCOIN units to zPCOIN</source>
+        <translation>Невозможно автоматически отчеканить единицы PCOIN для zPCOIN</translation>
     </message>
     <message>
-        <source>Enable zPIV Automint</source>
-        <translation>Невозможно авточеканка  zPIV</translation>
+        <source>Enable zPCOIN Automint</source>
+        <translation>Невозможно авточеканка  zPCOIN</translation>
     </message>
     <message>
-        <source>Enable automatic zPIV minting from specific addresses</source>
-        <translation>Включить автоматическое чеканку zPIV с определенных адресов</translation>
+        <source>Enable automatic zPCOIN minting from specific addresses</source>
+        <translation>Включить автоматическое чеканку zPCOIN с определенных адресов</translation>
     </message>
     <message>
         <source>Enable Automint Addresses</source>
         <translation>Включить адреса с автоматической чеканкой</translation>
     </message>
     <message>
-        <source>Percentage of incoming PIV which get automatically converted to zPIV via Zerocoin Protocol (min: 10%)</source>
-        <translation>Процент приходящих PIV, которые автоматически конвертируются в zPIV благодаря Zerocoin протоколу (min: 10%)</translation>
+        <source>Percentage of incoming PCOIN which get automatically converted to zPCOIN via Zerocoin Protocol (min: 10%)</source>
+        <translation>Процент приходящих PCOIN, которые автоматически конвертируются в zPCOIN благодаря Zerocoin протоколу (min: 10%)</translation>
     </message>
     <message>
-        <source>Percentage of autominted zPIV</source>
-        <translation>Процент  авточеканненых zPIV</translation>
+        <source>Percentage of autominted zPCOIN</source>
+        <translation>Процент  авточеканненых zPCOIN</translation>
     </message>
     <message>
-        <source>Wait with automatic conversion to Zerocoin until enough PIV for this denomination is available</source>
-        <translation>Подождите с автоматическим преобразованием в Zerocoin, пока не будет достаточно PIV для этой номинации.</translation>
+        <source>Wait with automatic conversion to Zerocoin until enough PCOIN for this denomination is available</source>
+        <translation>Подождите с автоматическим преобразованием в Zerocoin, пока не будет достаточно PCOIN для этой номинации.</translation>
     </message>
     <message>
-        <source>Preferred Automint zPIV Denomination</source>
-        <translation>Предпочитаемый номинал авточеканной  монеты  zPIV</translation>
+        <source>Preferred Automint zPCOIN Denomination</source>
+        <translation>Предпочитаемый номинал авточеканной  монеты  zPCOIN</translation>
     </message>
     <message>
         <source>Stake split threshold:</source>
         <translation>Порог разделения доли:</translation>
     </message>
     <message>
-        <source>Connect to the PIVX network through a SOCKS5 proxy.</source>
-        <translation>Подключиться к сети PIVX через SOCKS5 прокси.</translation>
+        <source>Connect to the PCOIN network through a SOCKS5 proxy.</source>
+        <translation>Подключиться к сети PCOIN через SOCKS5 прокси.</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -2018,10 +2018,10 @@ STAKING</source>
     </message>
 </context>
 <context>
-    <name>PIVXGUI</name>
+    <name>PCOINGUI</name>
     <message>
-        <source>PIVX Core</source>
-        <translation>PIVX Core</translation>
+        <source>PCOIN Core</source>
+        <translation>PCOIN Core</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -2048,8 +2048,8 @@ STAKING</source>
         <translation>Завершить работу</translation>
     </message>
     <message>
-        <source>PIVX Core client</source>
-        <translation>Клиент PIVX Core</translation>
+        <source>PCOIN Core client</source>
+        <translation>Клиент PCOIN Core</translation>
     </message>
     <message>
         <source>Error</source>
@@ -2115,12 +2115,12 @@ Address: %4
         <translation>Неверный адрес оплаты %1</translation>
     </message>
     <message>
-        <source>Cannot start pivx: click-to-pay handler</source>
-        <translation>Не удалось запустить pivx: обработчик click-to-pay </translation>
+        <source>Cannot start pcoin: click-to-pay handler</source>
+        <translation>Не удалось запустить pcoin: обработчик click-to-pay </translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid PIVX address or malformed URI parameters.</source>
-        <translation>URI не интерпретируется! Причиной этому может быть неверный PIVX адрес или неверные параметеры URI.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid PCOIN address or malformed URI parameters.</source>
+        <translation>URI не интерпретируется! Причиной этому может быть неверный PCOIN адрес или неверные параметеры URI.</translation>
     </message>
     <message>
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
@@ -2205,8 +2205,8 @@ Address: %4
         <translation>Сумма</translation>
     </message>
     <message>
-        <source>Enter PIVX address (e.g. %1)</source>
-        <translation>Введите адрес PIVX (например, %1)</translation>
+        <source>Enter PCOIN address (e.g. %1)</source>
+        <translation>Введите адрес PCOIN (например, %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -2249,12 +2249,12 @@ Address: %4
         <translation>%1 мс</translation>
     </message>
     <message>
-        <source>A fatal error occurred. PIVX can no longer continue safely and will quit.</source>
-        <translation>Произошла фатальная ошибка. PIVX больше не может безопасно продолжать работу и завершит работу.</translation>
+        <source>A fatal error occurred. PCOIN can no longer continue safely and will quit.</source>
+        <translation>Произошла фатальная ошибка. PCOIN больше не может безопасно продолжать работу и завершит работу.</translation>
     </message>
     <message>
-        <source>PIVX Core</source>
-        <translation>PIVX Core</translation>
+        <source>PCOIN Core</source>
+        <translation>PCOIN Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" does not exist.</source>
@@ -2273,8 +2273,8 @@ Address: %4
         <translation>Ошибка чтения файла конфигурации мастерноды: %1</translation>
     </message>
     <message>
-        <source>PIVX Core didn't yet exit safely...</source>
-        <translation>PIVX Core еще не вышел безопасно...</translation>
+        <source>PCOIN Core didn't yet exit safely...</source>
+        <translation>PCOIN Core еще не вышел безопасно...</translation>
     </message>
     <message>
         <source>Contact</source>
@@ -2512,8 +2512,8 @@ Address: %4
         <translation>Блокчейн</translation>
     </message>
     <message>
-        <source>Open the PIVX debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Открыть протокол отладки PIVX. Это может занять некоторе время, если файл протокола очень большой.</translation>
+        <source>Open the PCOIN debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Открыть протокол отладки PCOIN. Это может занять некоторе время, если файл протокола очень большой.</translation>
     </message>
     <message>
         <source>Number of Masternodes</source>
@@ -2656,8 +2656,8 @@ Address: %4
         <translation>Пользовательский путь резервного копирования:</translation>
     </message>
     <message>
-        <source>Custom zPIV Backup Path:</source>
-        <translation>Пользовательский путь резервного копирования zPIV:</translation>
+        <source>Custom zPCOIN Backup Path:</source>
+        <translation>Пользовательский путь резервного копирования zPCOIN:</translation>
     </message>
     <message>
         <source>Custom Backups Threshold:</source>
@@ -2737,8 +2737,8 @@ Address: %4
         <translation>Вывод:</translation>
     </message>
     <message>
-        <source>Welcome to the PIVX RPC console.</source>
-        <translation>Добро пожаловать в окружение PIVX RPC.</translation>
+        <source>Welcome to the PCOIN RPC console.</source>
+        <translation>Добро пожаловать в окружение PCOIN RPC.</translation>
     </message>
     <message>
         <source>&amp;Disconnect Node</source>
@@ -2875,8 +2875,8 @@ Address: %4
         <translation>Вид</translation>
     </message>
     <message>
-        <source>Scan the QR code or copy the address to receive PIV</source>
-        <translation>Сканируйте QR-код или скопируйте адрес для получения PIV</translation>
+        <source>Scan the QR code or copy the address to receive PCOIN</source>
+        <translation>Сканируйте QR-код или скопируйте адрес для получения PCOIN</translation>
     </message>
     <message>
         <source>Add Label</source>
@@ -3001,12 +3001,12 @@ Address: %4
         <translation>Сумма</translation>
     </message>
     <message>
-        <source>PIV</source>
-        <translation>PIV</translation>
+        <source>PCOIN</source>
+        <translation>PCOIN</translation>
     </message>
     <message>
-        <source>Instead of sharing only a PIVX address, you can create a payment request, bundling up more information</source>
-        <translation>Вместо того, чтобы делиться только адресом PIVX, вы можете создать запрос на оплату, связывая больше информации</translation>
+        <source>Instead of sharing only a PCOIN address, you can create a payment request, bundling up more information</source>
+        <translation>Вместо того, чтобы делиться только адресом PCOIN, вы можете создать запрос на оплату, связывая больше информации</translation>
     </message>
     <message>
         <source>D7VFR83SQbiezrW72hjcWJtcfip5krte2Z </source>
@@ -3096,8 +3096,8 @@ Address: %4
         <translation>Смена адреса</translation>
     </message>
     <message>
-        <source>The remainder of the value resultant from the inputs minus the outputs value goes to the "change" PIVX address</source>
-        <translation>Остаточная часть значения, полученного от значения входов минус выходов, идет на «изменение» адреса PIVX</translation>
+        <source>The remainder of the value resultant from the inputs minus the outputs value goes to the "change" PCOIN address</source>
+        <translation>Остаточная часть значения, полученного от значения входов минус выходов, идет на «изменение» адреса PCOIN</translation>
     </message>
     <message>
         <source>SAVE</source>
@@ -3127,8 +3127,8 @@ Address: %4
         <translation>рекомендуемые</translation>
     </message>
     <message>
-        <source>PIV/kilobyte</source>
-        <translation>PIV/килобайт</translation>
+        <source>PCOIN/kilobyte</source>
+        <translation>PCOIN/килобайт</translation>
     </message>
     <message>
         <source>0.00 KB</source>
@@ -3426,9 +3426,9 @@ Remember to write it down and store it safely, otherwise you might lose access t
         <translation>Инструмент BIP38</translation>
     </message>
     <message>
-        <source>Encrypt your PIVX addresses (key pair actually) using BIP38 encryption.
+        <source>Encrypt your PCOIN addresses (key pair actually) using BIP38 encryption.
 Using this mechanism you can share your keys without middle-man risk, only need to store your passphrase safely</source>
-        <translation>Зашифруйте свои адреса PIVX (фактически, пару ключей), используя шифрование BIP38.
+        <translation>Зашифруйте свои адреса PCOIN (фактически, пару ключей), используя шифрование BIP38.
 С помощью этого механизма вы можете делиться своими ключами без риска посредника, вам нужно только безопасно хранить вашу парольную фразу</translation>
     </message>
     <message>
@@ -3464,8 +3464,8 @@ Using this mechanism you can share your keys without middle-man risk, only need 
         <translation>Расшифровать ключ</translation>
     </message>
     <message>
-        <source>PIVX address</source>
-        <translation>Адрес PIVX</translation>
+        <source>PCOIN address</source>
+        <translation>Адрес PCOIN</translation>
     </message>
     <message>
         <source>Enter address</source>
@@ -3597,8 +3597,8 @@ Verify that you have installed a predetermined text editor.</source>
 Убедитесь, что вы установили заранее установленный текстовый редактор.</translation>
     </message>
     <message>
-        <source>Welcome to the PIVX RPC console.</source>
-        <translation>Добро пожаловать в окружение PIVX RPC.</translation>
+        <source>Welcome to the PCOIN RPC console.</source>
+        <translation>Добро пожаловать в окружение PCOIN RPC.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and %1 to clear screen.</source>
@@ -3707,12 +3707,12 @@ Verify that you have installed a predetermined text editor.</source>
         <translation>Экспорт списка адресов</translation>
     </message>
     <message>
-        <source>PIVX_tx_csv_export(*.csv)</source>
-        <translation>PIVX_tx_csv_export(*.csv)</translation>
+        <source>PCOIN_tx_csv_export(*.csv)</source>
+        <translation>PCOIN_tx_csv_export(*.csv)</translation>
     </message>
     <message>
-        <source>PIVX_addresses_csv_export(*.csv)</source>
-        <translation>PIVX_addresses_csv_export(*.csv)</translation>
+        <source>PCOIN_addresses_csv_export(*.csv)</source>
+        <translation>PCOIN_addresses_csv_export(*.csv)</translation>
     </message>
     <message>
         <source>Please select a folder to export the csv file first.</source>
@@ -3781,12 +3781,12 @@ There was an error trying to save the address list to %1. Please try again.</sou
         <translation>Вид</translation>
     </message>
     <message>
-        <source>1) What is PIVX?</source>
-        <translation>1) Что такое PIVX?</translation>
+        <source>1) What is PCOIN?</source>
+        <translation>1) Что такое PCOIN?</translation>
     </message>
     <message>
-        <source>2) Why are my PIV unspendable?</source>
-        <translation>2) Почему мои PIV невозможно потратить?</translation>
+        <source>2) Why are my PCOIN unspendable?</source>
+        <translation>2) Почему мои PCOIN невозможно потратить?</translation>
     </message>
     <message>
         <source>https://pcoin.dev/</source>
@@ -3797,33 +3797,33 @@ There was an error trying to save the address list to %1. Please try again.</sou
         <translation>1</translation>
     </message>
     <message>
-        <source>What is PIVX?</source>
-        <translation>Что такое PIVX?</translation>
+        <source>What is PCOIN?</source>
+        <translation>Что такое PCOIN?</translation>
     </message>
     <message>
         <source>2</source>
         <translation>2</translation>
     </message>
     <message>
-        <source>Why are my PIV unspendable?</source>
-        <translation>Почему мои PIV невозможно потратить?</translation>
+        <source>Why are my PCOIN unspendable?</source>
+        <translation>Почему мои PCOIN невозможно потратить?</translation>
     </message>
     <message>
         <source>
                            &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
-                           Newly received PIVX requires 6 confirmations on the network
+                           Newly received PCOIN requires 6 confirmations on the network
                            to become eligible for spending which can take ~6 minutes.
                            &lt;/p&gt;&lt;p align="justify"&gt;
-                           Your PIVX wallet also needs to be completely synchronized
+                           Your PCOIN wallet also needs to be completely synchronized
                            to see and spend balances on the network.
                            &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
                          </source>
         <translation>
 &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
-Недавно полученным PIVX требуется 6 подтверждений в сети,
+Недавно полученным PCOIN требуется 6 подтверждений в сети,
 чтобы получить право быть расходуемыми. Это может занять примерно 6 минут.
 &lt;/p&gt;&lt;p align="justify"&gt;
-Ваш кошелек PIVX также должен быть полностью синхронизирован,
+Ваш кошелек PCOIN также должен быть полностью синхронизирован,
 чтобы видеть баланс и расходовать его в сети.
  &lt;/p&gt;&lt;/body&gt;&lt;/html&gt; </translation>
     </message>
@@ -3832,8 +3832,8 @@ There was an error trying to save the address list to %1. Please try again.</sou
         <translation>3</translation>
     </message>
     <message>
-        <source>How do I stake PIV?</source>
-        <translation>Как мне запустить стекинг PIV?</translation>
+        <source>How do I stake PCOIN?</source>
+        <translation>Как мне запустить стекинг PCOIN?</translation>
     </message>
     <message>
         <source>4</source>
@@ -3864,8 +3864,8 @@ There was an error trying to save the address list to %1. Please try again.</sou
     <message>
         <source>
                            &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
-                           A masternode is a computer running a full node PIVX core wallet with a
-                           requirement of 10,000 PIV secured collateral to provide extra services
+                           A masternode is a computer running a full node PCOIN core wallet with a
+                           requirement of 10,000 PCOIN secured collateral to provide extra services
                            to the network and in return, receive a portion of the block reward
                            regularly.  These services include:
                            &lt;/p&gt;&lt;p align="justify"&gt;
@@ -3887,17 +3887,17 @@ There was an error trying to save the address list to %1. Please try again.</sou
                            Masternode Perks:
                            &lt;/p&gt;&lt;p align="justify"&gt;
                            &lt;ul&gt;
-                           &lt;li&gt;Participate in PIVX Governance&lt;/li&gt;
+                           &lt;li&gt;Participate in PCOIN Governance&lt;/li&gt;
                            &lt;li&gt;Earn Masternode Rewards&lt;/li&gt;
                            &lt;li&gt;Commodity option for future sale&lt;/li&gt;
-                           &lt;li&gt;Help secure the PIVX network&lt;/li&gt;
+                           &lt;li&gt;Help secure the PCOIN network&lt;/li&gt;
                            &lt;/ul&gt;
                            &lt;/p&gt;&lt;p align="justify"&gt;
 
                            Requirements:
                            &lt;/p&gt;&lt;p align="justify"&gt;
                            &lt;ul&gt;
-                           &lt;li&gt;10,000 PIV per single Masternode instance&lt;/li&gt;
+                           &lt;li&gt;10,000 PCOIN per single Masternode instance&lt;/li&gt;
                            &lt;li&gt;Must be stored in a core wallet&lt;/li&gt;
                            &lt;li&gt;Need dedicated IP address&lt;/li&gt;
                            &lt;li&gt;Masternode wallet to remain online&lt;/li&gt;
@@ -3905,7 +3905,7 @@ There was an error trying to save the address list to %1. Please try again.</sou
                            &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
                          </source>
         <translation>
-Мастернода - это компьютер, на котором запущен базовый кошелек PIVX с полным узлом и для которого требуется обеспечение в 10000 PIV для обеспечения дополнительных услуг сети и, в свою очередь, регулярного получения части вознаграждения за блок. Эти услуги в себя включают:
+Мастернода - это компьютер, на котором запущен базовый кошелек PCOIN с полным узлом и для которого требуется обеспечение в 10000 PCOIN для обеспечения дополнительных услуг сети и, в свою очередь, регулярного получения части вознаграждения за блок. Эти услуги в себя включают:
 
 Мгновенные транзакции (SwiftX)
 Децентрализованное управление (Голосование по предложениям)
@@ -3917,14 +3917,14 @@ There was an error trying to save the address list to %1. Please try again.</sou
 
 Привилегии мастерноды:
 
-Участие в управлении PIVX
+Участие в управлении PCOIN
 Получение вознаграждений за мастерноду
 Товарные опционы для будущей продажи
-Помощь в защите сети PIVX
+Помощь в защите сети PCOIN
 
 Требования:
 
-10 000 PIV для каждой мастерноды
+10 000 PCOIN для каждой мастерноды
 Должен храниться в основном кошельке
 Требуется выделенный IP-адрес
 Кошелек мастерноды должен оставаться в сети</translation>
@@ -3934,8 +3934,8 @@ There was an error trying to save the address list to %1. Please try again.</sou
         <translation>Часто задаваемые вопросы</translation>
     </message>
     <message>
-        <source>3) How do I stake PIV?</source>
-        <translation>3) Как мне запустить стекинг PIV?</translation>
+        <source>3) How do I stake PCOIN?</source>
+        <translation>3) Как мне запустить стекинг PCOIN?</translation>
     </message>
     <message>
         <source>4) Where I should go if I need support?</source>
@@ -4053,8 +4053,8 @@ There was an error trying to save the address list to %1. Please try again.</sou
         <translation>Невозможно открыть папку резервных копий</translation>
     </message>
     <message>
-        <source>Unable to open pivx.conf with default application</source>
-        <translation>Невозможно открыть pivx.conf с приложением по умолчанию</translation>
+        <source>Unable to open pcoin.conf with default application</source>
+        <translation>Невозможно открыть pcoin.conf с приложением по умолчанию</translation>
     </message>
     <message>
         <source>In:</source>
@@ -4108,8 +4108,8 @@ There was an error trying to save the address list to %1. Please try again.</sou
         <translation>Количество потоков проверки скрипта</translation>
     </message>
     <message>
-        <source>Start PIVX on system login</source>
-        <translation>Запускать PIVX при входе в систему</translation>
+        <source>Start PCOIN on system login</source>
+        <translation>Запускать PCOIN при входе в систему</translation>
     </message>
     <message>
         <source>Minimize to the tray instead of the taskbar</source>
@@ -4196,8 +4196,8 @@ Are you sure?
         <translation>Флажок</translation>
     </message>
     <message>
-        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other PIVX addresses after it matures.</source>
-        <translation>MultiSend позволяет автоматически отправлять до 100% ваших вознаграждений от стекинга или мастернод в список других адресов PIVX после его созревания.</translation>
+        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other PCOIN addresses after it matures.</source>
+        <translation>MultiSend позволяет автоматически отправлять до 100% ваших вознаграждений от стекинга или мастернод в список других адресов PCOIN после его созревания.</translation>
     </message>
     <message>
         <source>Active</source>
@@ -4323,8 +4323,8 @@ Check one or both of the check boxes to send on stake and/or masternode rewards<
         <translation>Сообщение</translation>
     </message>
     <message>
-        <source>PIVX address or contact label</source>
-        <translation>PIVX адрес или лейбл контакта</translation>
+        <source>PCOIN address or contact label</source>
+        <translation>PCOIN адрес или лейбл контакта</translation>
     </message>
     <message>
         <source>Enter address</source>
@@ -4644,8 +4644,8 @@ Check one or both of the check boxes to send on stake and/or masternode rewards<
         <translation>ЧаВо</translation>
     </message>
     <message>
-        <source>About PIVX</source>
-        <translation>О PIVX</translation>
+        <source>About PCOIN</source>
+        <translation>О PCOIN</translation>
     </message>
     <message>
         <source>Settings</source>
@@ -4715,8 +4715,8 @@ Are you sure?
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>PIVX Core is shutting down...</source>
-        <translation>PIVX Core выключается...</translation>
+        <source>PCOIN Core is shutting down...</source>
+        <translation>PCOIN Core выключается...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -4745,8 +4745,8 @@ Are you sure?
         <translation>Загрузка...</translation>
     </message>
     <message>
-        <source>PIVX Core</source>
-        <translation>PIVX Core</translation>
+        <source>PCOIN Core</source>
+        <translation>PCOIN Core</translation>
     </message>
 </context>
 <context>
@@ -5222,8 +5222,8 @@ backup will be created.
         <translation>Вид</translation>
     </message>
     <message>
-        <source>+0.000585 PIV</source>
-        <translation>+0.000585 PIV</translation>
+        <source>+0.000585 PCOIN</source>
+        <translation>+0.000585 PCOIN</translation>
     </message>
     </context>
 <context>
@@ -5284,25 +5284,25 @@ Select fewer inputs with coin control.</source>
     </message>
     <message>
         <source>Welcome to
-PIVX Core Wallet</source>
+PCOIN Core Wallet</source>
         <translation>Добро пожаловать
-в основной кошелек PIVX</translation>
+в основной кошелек PCOIN</translation>
     </message>
     <message>
-        <source>PIVX is the world’s most innovative Proof of Stake blockchain based technology. Developed by a team of highly experienced developers and cryptographers.</source>
-        <translation>PIVX - самая инновационная в мире технология на основе блокчейна Proof of Stake. Разработана командой опытных разработчиков и криптографов.</translation>
+        <source>PCOIN is the world’s most innovative Proof of Stake blockchain based technology. Developed by a team of highly experienced developers and cryptographers.</source>
+        <translation>PCOIN - самая инновационная в мире технология на основе блокчейна Proof of Stake. Разработана командой опытных разработчиков и криптографов.</translation>
     </message>
     <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;As our manifesto says: Privacy is a non-negotiable basic human right; it grants users the freedom to share their data whenever and with whomever they want - PIVX believes in self sovereignty.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Как говорится в нашем манифесте: конфиденциальность является не подлежащим обсуждению основным правом человека; это дает пользователям свободу делиться своими данными в любое время и с кем угодно, ведь PIVX верит в собственный суверенитет.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;As our manifesto says: Privacy is a non-negotiable basic human right; it grants users the freedom to share their data whenever and with whomever they want - PCOIN believes in self sovereignty.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Как говорится в нашем манифесте: конфиденциальность является не подлежащим обсуждению основным правом человека; это дает пользователям свободу делиться своими данными в любое время и с кем угодно, ведь PCOIN верит в собственный суверенитет.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <source>The masternode network is PIVX's second layer network on top of the blockchain that enables our DAO to provide decentralized governance and a treasury.</source>
-        <translation>Сеть мастернод - это сеть второго уровня PIVX поверх блокчейна, которая позволяет нашему ДАО обеспечивать децентрализованное управление и казначейство.</translation>
+        <source>The masternode network is PCOIN's second layer network on top of the blockchain that enables our DAO to provide decentralized governance and a treasury.</source>
+        <translation>Сеть мастернод - это сеть второго уровня PCOIN поверх блокчейна, которая позволяет нашему ДАО обеспечивать децентрализованное управление и казначейство.</translation>
     </message>
     <message>
-        <source>How PIVX respects your privacy?</source>
-        <translation>Как PIVX уважает вашу конфиденциальность?</translation>
+        <source>How PCOIN respects your privacy?</source>
+        <translation>Как PCOIN уважает вашу конфиденциальность?</translation>
     </message>
     <message>
         <source>What is a Masternode?</source>
@@ -5314,7 +5314,7 @@ PIVX Core Wallet</source>
     </message>
 </context>
 <context>
-    <name>pivx-core</name>
+    <name>pcoin-core</name>
     <message>
         <source>Allow JSON-RPC connections from specified source. Valid for &lt;ip&gt; are a single IP (e.g. 1.2.3.4), a network/netmask (e.g. 1.2.3.4/255.255.255.0) or a network/CIDR (e.g. 1.2.3.4/24). This option can be specified multiple times</source>
         <translation>Разрешить соединения JSON-RPC из указанного источника. Действительно для  &lt;ip&gt; одного IP (например, 1.2.3.4), сетевой / сетевой маски (например, 1.2.3.4/255.255.255.0) или сети / CIDR (например, 1.2.3.4/24). Эта опция может быть указана несколько раз</translation>
@@ -5332,8 +5332,8 @@ PIVX Core Wallet</source>
         <translation>Привяжите к указанному адресу для прослушивания соединений JSON-RPC. Используйте [host]: обозначение порта для IPv6. Эта опция может быть указана несколько раз (по умолчанию: привязка ко всем интерфейсам)</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. PIVX Core is probably already running.</source>
-        <translation>Не удается получить блокировку в каталоге данных %s. PIVX Core, вероятно, уже запущен.</translation>
+        <source>Cannot obtain a lock on data directory %s. PCOIN Core is probably already running.</source>
+        <translation>Не удается получить блокировку в каталоге данных %s. PCOIN Core, вероятно, уже запущен.</translation>
     </message>
     <message>
         <source>Change automatic finalized budget voting behavior. mode=auto: Vote for only exact finalized budget match to my generated budget. (string, default: auto)</source>
@@ -5480,8 +5480,8 @@ PIVX Core Wallet</source>
         <translation>Общая длина строки версии сети (%i) превышает максимальную длину (%i). Уменьшите количество или размер uacomments.</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. PIVX Core is probably already running.</source>
-        <translation>Не удалось привязать к %s на этом компьютере. PIVX Core, вероятно, уже запущен.</translation>
+        <source>Unable to bind to %s on this computer. PCOIN Core is probably already running.</source>
+        <translation>Не удалось привязать к %s на этом компьютере. PCOIN Core, вероятно, уже запущен.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
@@ -5496,8 +5496,8 @@ PIVX Core Wallet</source>
         <translation>Предупреждение: -paytxfee установлен очень высоко! Это комиссия за транзакцию, которую вы заплатите, если вы отправляете транзакцию.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong PIVX Core will not work properly.</source>
-        <translation>Внимание: проверьте правильность даты и времени вашего компьютера! Если ваши часы ошибочны, PIVX Core не будет работать должным образом.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong PCOIN Core will not work properly.</source>
+        <translation>Внимание: проверьте правильность даты и времени вашего компьютера! Если ваши часы ошибочны, PCOIN Core не будет работать должным образом.</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -5568,8 +5568,8 @@ PIVX Core Wallet</source>
         <translation>Copyright (C) 2014-%i Разработчики Dash Core</translation>
     </message>
     <message>
-        <source>Copyright (C) 2015-%i The PIVX Core Developers</source>
-        <translation>Copyright (C) 2015-%i Разработчики PIVX Core</translation>
+        <source>Copyright (C) 2015-%i The PCOIN Core Developers</source>
+        <translation>Copyright (C) 2015-%i Разработчики PCOIN Core</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>
@@ -5688,8 +5688,8 @@ PIVX Core Wallet</source>
         <translation>Информация</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. PIVX Core is shutting down.</source>
-        <translation>Инициализация проверки работоспособности не удалась. PIVX Core отключается.</translation>
+        <source>Initialization sanity check failed. PCOIN Core is shutting down.</source>
+        <translation>Инициализация проверки работоспособности не удалась. PCOIN Core отключается.</translation>
     </message>
     <message>
         <source>Insufficient funds.</source>
@@ -5932,12 +5932,12 @@ PIVX Core Wallet</source>
         <translation>Комиссия (в %s/Кбайт) меньше этого значения считается с нулевой комиссией за создание транзакции (по умолчанию: %s)</translation>
     </message>
     <message>
-        <source>Minimum positive amount (in PIV) allowed by GUI and RPC for the stake split threshold (default: %s)</source>
-        <translation>Минимальная положительная сумма (в PIV), разрешенная GUI и RPC для порога разделения стекинга (по умолчанию: %s)</translation>
+        <source>Minimum positive amount (in PCOIN) allowed by GUI and RPC for the stake split threshold (default: %s)</source>
+        <translation>Минимальная положительная сумма (в PCOIN), разрешенная GUI и RPC для порога разделения стекинга (по умолчанию: %s)</translation>
     </message>
     <message>
-        <source>Please check that your computer's date and time are correct! If your clock is wrong PIVX Core will not work properly.</source>
-        <translation>Пожалуйста, проверьте правильность даты и времени на вашем компьютере! Если ваши часы не точны, PIVX Core не будет работать должным образом.</translation>
+        <source>Please check that your computer's date and time are correct! If your clock is wrong PCOIN Core will not work properly.</source>
+        <translation>Пожалуйста, проверьте правильность даты и времени на вашем компьютере! Если ваши часы не точны, PCOIN Core не будет работать должным образом.</translation>
     </message>
     <message>
         <source>Query for peer addresses via DNS lookup, if low on addresses (default: 1 unless -connect/-noconnect)</source>
@@ -6286,8 +6286,8 @@ PIVX Core Wallet</source>
         <translation>Проверка кошелька ...</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart PIVX Core to complete</source>
-        <translation>Кошелек необходимо переписать: перезапустите PIVX Core, чтобы завершить</translation>
+        <source>Wallet needed to be rewritten: restart PCOIN Core to complete</source>
+        <translation>Кошелек необходимо переписать: перезапустите PCOIN Core, чтобы завершить</translation>
     </message>
     <message>
         <source>Wallet options:</source>
@@ -6341,8 +6341,8 @@ PIVX Core Wallet</source>
         <translation>Отправить</translation>
     </message>
     <message>
-        <source>PIVX address or contact label</source>
-        <translation>PIVX адрес или лейбл контакта</translation>
+        <source>PCOIN address or contact label</source>
+        <translation>PCOIN адрес или лейбл контакта</translation>
     </message>
     <message>
         <source>Amount</source>

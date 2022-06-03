@@ -1,9 +1,9 @@
-// Copyright (c) 2019 The PIVX developers
+// Copyright (c) 2019 The PCOIN developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "qt/pivx/txviewholder.h"
-#include "qt/pivx/qtutils.h"
+#include "qt/pcoin/txviewholder.h"
+#include "qt/pcoin/qtutils.h"
 #include "transactiontablemodel.h"
 #include <QModelIndex>
 
@@ -32,8 +32,8 @@ void TxViewHolder::init(QWidget* holder, const QModelIndex &index, bool isHovere
     txRow->showHideSecondAmount(hasDoubleAmount);
 
     if (type != TransactionRecord::ZerocoinMint &&
-            type !=  TransactionRecord::ZerocoinSpend_Change_zPiv &&
-            type !=  TransactionRecord::StakeZPIV &&
+            type !=  TransactionRecord::ZerocoinSpend_Change_zPcoin &&
+            type !=  TransactionRecord::StakeZPCOIN &&
             type != TransactionRecord::Other) {
 
         QString address = rIndex.data(Qt::DisplayRole).toString();

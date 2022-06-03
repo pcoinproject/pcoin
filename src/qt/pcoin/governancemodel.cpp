@@ -1,8 +1,8 @@
-// Copyright (c) 2021 The PIVX developers
+// Copyright (c) 2021 The PCOIN developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or https://www.opensource.org/licenses/mit-license.php.
 
-#include "qt/pivx/governancemodel.h"
+#include "qt/pcoin/governancemodel.h"
 
 #include "budget/budgetmanager.h"
 #include "budget/budgetutil.h"
@@ -10,7 +10,7 @@
 #include "guiconstants.h"
 #include "qt/transactiontablemodel.h"
 #include "qt/transactionrecord.h"
-#include "qt/pivx/mnmodel.h"
+#include "qt/pcoin/mnmodel.h"
 #include "tiertwo/tiertwo_sync_state.h"
 #include "utilmoneystr.h"
 #include "utilstrencodings.h"
@@ -197,11 +197,11 @@ OperationResult GovernanceModel::validatePropURL(const QString& url) const
 OperationResult GovernanceModel::validatePropAmount(CAmount amount) const
 {
     if (amount < PROPOSAL_MIN_AMOUNT) { // Future: move constant to a budget interface.
-        return {false, strprintf(_("Amount below the minimum of %s PIV"), FormatMoney(PROPOSAL_MIN_AMOUNT))};
+        return {false, strprintf(_("Amount below the minimum of %s PCOIN"), FormatMoney(PROPOSAL_MIN_AMOUNT))};
     }
 
     if (amount > getMaxAvailableBudgetAmount()) {
-        return {false, strprintf(_("Amount exceeding the maximum available of %s PIV"), FormatMoney(getMaxAvailableBudgetAmount()))};
+        return {false, strprintf(_("Amount exceeding the maximum available of %s PCOIN"), FormatMoney(getMaxAvailableBudgetAmount()))};
     }
     return {true};
 }
