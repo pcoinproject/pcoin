@@ -183,3 +183,5 @@ src/univalue/configure~
 conftest
 configure~
 src/qt/libbitcoinqt.a.OEbSTH
+contrib/seeds/nodes_main.txt
+contrib/seeds/nodes_test.txt
