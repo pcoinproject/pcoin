@@ -123,6 +123,7 @@ target/
 # Unit-tests
 Makefile.test
 pcoin-qt_test
+src/test/buildenv.py
 
 # Resources cpp
 qrc_*.cpp
@@ -161,11 +162,14 @@ cache/*
 /nbproject/
 libbitcoinconsensus.pc
 .idea
+CMakeLists.txt
 cmake-build-debug
 
 moc_*
 *.tmp
 ui_*
+build*
+pcoind.*
 pcoind-new-gui.*
 /cov-int/
 
