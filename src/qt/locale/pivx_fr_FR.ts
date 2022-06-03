@@ -3861,28 +3861,6 @@ pour voir votre solde de monnaie dépensable sur le réseau.
         <translation>Où dois-je aller pour obtenir de l'aide?</translation>
     </message>
     <message>
-        <source>
-                           &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
-                           We have support channels in most of our official chat groups, for example
-                           &lt;a style='color: #13b9f6' href='https://discord.pcoin.dev'&gt;
-                           #support in our Discord&lt;/a&gt;.
-                           If you prefer to submit a ticket, You can do so at
-                           &lt;a style='color: #13b9f6' href='https://PIVX.freshdesk.com'&gt;
-                           our Freshdesk support site&lt;/a&gt;.
-                           &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
-                         </source>
-        <translation>
-                           &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
-                           We have support channels in most of our official chat groups, for example
-                           &lt;a style='color: #13b9f6' href='https://discord.pcoin.dev'&gt;
-                           #support in our Discord&lt;/a&gt;.
-                           If you prefer to submit a ticket, You can do so at
-                           &lt;a style='color: #13b9f6' href='https://PIVX.freshdesk.com'&gt;
-                           our Freshdesk support site&lt;/a&gt;.
-                           &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
-                         </translation>
-    </message>
-    <message>
         <source>What is a Masternode?</source>
         <translation>Qu'est-ce qu'un masternode?</translation>
     </message>

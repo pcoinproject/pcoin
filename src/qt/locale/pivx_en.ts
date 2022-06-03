@@ -4702,11 +4702,6 @@ There was an error trying to save the address list to %1. Please try again.</sou
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>#support in our Discord</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location line="+30"/>
         <source>%1 per single Masternode instance</source>
         <translation type="unfinished"></translation>

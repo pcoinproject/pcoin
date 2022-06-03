@@ -110,12 +110,6 @@ SettingsFaqWidget::SettingsFaqWidget(PIVXGUI* parent, MNModel* mnModel) :
                 .arg("pivx-cli", "<span style=\"font-style:italic\">getstakingstatus</span>")));
     ui->labelContent_Stake->setText(stakeContent);
 
-    QString supportContent = formatFAQContent(
-        formatFAQParagraph(
-            tr("We have support channels in most of our official chat groups, for example %1")
-                .arg("<a style='color: #13b9f6' href='https://discord.pcoin.dev'>" + tr("#support in our Discord") + "</a>.")));
-    ui->labelContent_Support->setText(supportContent);
-
     QString masternodeContent = formatFAQContent(
         formatFAQParagraph(
             tr("A masternode is a computer running a full node %1 wallet with a "
