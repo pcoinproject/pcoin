@@ -4698,7 +4698,7 @@ There was an error trying to save the address list to %1. Please try again.</sou
     </message>
     <message>
         <location line="+10"/>
-        <source>We have support channels in most of our official chat groups, for example %1</source>
+        <source>We have support channels in most of our official chat groups.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
