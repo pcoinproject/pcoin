@@ -113,7 +113,7 @@ SettingsFaqWidget::SettingsFaqWidget(PCOINGUI* parent, MNModel* mnModel) :
 
     QString supportContent = formatFAQContent(
         formatFAQParagraph(
-            tr("We have support channels in most of our official chat groups.") // TODO Add link
+            tr("We have support channels in most of our official chat groups."))); // TODO Add link
     ui->labelContent_Support->setText(supportContent);
 
     QString masternodeContent = formatFAQContent(
