@@ -356,7 +356,7 @@ void SettingsConsoleWidget::changeTheme(bool isLightTheme, QString &theme)
                 "td.cmd-request { color: #006060; } "
                 "td.cmd-error { color: red; } "
                 ".secwarning { color: red; }"
-                "b { color: #FFFFFF; } ");
+                "b { color: black; } ");
     }
     updateStyle(ui->messagesWidget);
 }
