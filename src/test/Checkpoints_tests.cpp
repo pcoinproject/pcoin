@@ -22,8 +22,8 @@ BOOST_AUTO_TEST_CASE(sanity)
 {
     uint256 p259201 = uint256S("0x001");
     uint256 p623933 = uint256S("0x001");
-    BOOST_CHECK(Checkpoints::CheckBlock(259201, p259201));
-    BOOST_CHECK(Checkpoints::CheckBlock(623933, p623933));
+    BOOST_CHECK(Checkpoints::CheckBlock(1, p259201));
+    BOOST_CHECK(Checkpoints::CheckBlock(2, p623933));
 
 
     // Wrong hashes at checkpoints should fail:
@@ -31,8 +31,8 @@ BOOST_AUTO_TEST_CASE(sanity)
     BOOST_CHECK(!Checkpoints::CheckBlock(2, p259201));
 
     // ... but any hash not at a checkpoint should succeed:
-    BOOST_CHECK(Checkpoints::CheckBlock(2+1, p623933));
-    BOOST_CHECK(Checkpoints::CheckBlock(3+1, p259201));
+    BOOST_CHECK(Checkpoints::CheckBlock(1+1, p623933));
+    BOOST_CHECK(Checkpoints::CheckBlock(2+1, p259201));
 
     BOOST_CHECK(Checkpoints::GetTotalBlocksEstimate() >= 100);
 }
