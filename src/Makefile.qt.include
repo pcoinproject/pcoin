@@ -476,7 +476,6 @@ RES_ICONS = \
   qt/pcoin/res/img/ic-information.svg \
   qt/pcoin/res/img/ic-information-hover.svg \
   qt/pcoin/res/img/ani-loading-dark.gif \
-  qt/pcoin/res/img/ani-loading.gif \
   qt/pcoin/res/img/ic-check-vote.svg \
   qt/pcoin/res/img/ic-check-vote-active.svg \
   qt/pcoin/res/img/ic-check-vote-dark.svg \

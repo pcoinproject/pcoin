@@ -62,7 +62,7 @@ HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*/
 
 QPushButton[cssClass="img-nav-logo"] {
     qproperty-icon: url("://img-nav-logo");
-    qproperty-iconSize: 49px 60px;
+    qproperty-iconSize: 50px 50px;
 }
 
 *[cssClass="btn-nav-receive"] {
@@ -1806,7 +1806,7 @@ HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*/
 
 *[cssClass="img-splash-logo"] {
     qproperty-icon: url("://img-logo-pcoin");
-    qproperty-iconSize: 300px 100px;
+    qproperty-iconSize: 300px 300px;
     border:0;
     background-color:transparent;
 }
