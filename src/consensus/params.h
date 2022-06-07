@@ -202,9 +202,6 @@ struct Params {
     int height_last_ZC_AccumCheckpoint;
     int height_last_ZC_WrappedSerials;
 
-    // validation by-pass
-    int64_t nPcoinBadBlockTime;
-    unsigned int nPcoinBadBlockBits;
 
     // Map with network updates
     NetworkUpgrade vUpgrades[MAX_NETWORK_UPGRADES];
