@@ -515,11 +515,11 @@ public:
         consensus.nMaxProposalPayments = 20;
 
         /* Spork Key for RegTest:
-        WIF private key: 
-        private key hex: 4459852777a0c30014a152ebf3e749682fc5b6a4d70986719828a78953317a76
-        Address: 
+        WIF private key: 932HEevBSujW2ud7RfB1YF91AFygbBRQj3de3LyaCRqNzKKgWXi
+        private key hex: bd4960dcbd9e7f2223f24e7164ecb6f1fe96fc3a416f5d3a830ba5720c84b8ca
+        Address: yCvUVd72w7xpimf981m114FSFbmAmne7j9
         */
-        consensus.strSporkPubKey = "043fc7d2dfa721a69be608581e060e45cb6a4b3a8fb9242644dc55e3e3847a67e02748644c1572b9a9e7a05f158023aef14734f8620206c025aac615487cda5b78";
+        consensus.strSporkPubKey = "043969b1b0e6f327de37f297a015d37e2235eaaeeb3933deecd8162c075cee0207b13537618bde640879606001a8136091c62ec272dd0133424a178704e6e75bb7";
         consensus.strSporkPubKeyOld = "";
         consensus.nTime_EnforceNewSporkKey = 0;
         consensus.nTime_RejectOldSporkKey = 0;
