@@ -3028,7 +3028,7 @@ static bool CheckInBlockDoubleSpends(const CBlock& block, int nHeight, CValidati
     const Consensus::Params& consensus = Params().GetConsensus();
     libzerocoin::ZerocoinParams* params = consensus.Zerocoin_Params(false);
     const bool zpcoinActive = consensus.NetworkUpgradeActive(nHeight, Consensus::UPGRADE_ZC);
-    const bool publicZpcoinActive = consensus.NetworkUpgradeActive(nHeight, Consensus::UPGRADE_ZC_PUBLIC);
+    const bool publicZpcoinActive = false;
     const bool v5Active = consensus.NetworkUpgradeActive(nHeight, Consensus::UPGRADE_V5_0);
 
     // First collect the tx inputs, and check double spends

@@ -30,7 +30,6 @@ enum UpgradeIndex : uint32_t {
     UPGRADE_ZC,
     UPGRADE_ZC_V2,
     UPGRADE_BIP65,
-    UPGRADE_ZC_PUBLIC,
     UPGRADE_V3_4,
     UPGRADE_V4_0,
     UPGRADE_V5_0,

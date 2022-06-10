@@ -111,25 +111,14 @@ bool isBlockBetweenFakeSerialAttackRange(int nHeight)
 
 bool CheckPublicCoinSpendEnforced(int blockHeight, bool isPublicSpend)
 {
-    if (Params().GetConsensus().NetworkUpgradeActive(blockHeight, Consensus::UPGRADE_ZC_PUBLIC)) {
-        // reject old coin spend
-        if (!isPublicSpend) {
-            return error("%s: failed to add block with older zc spend version", __func__);
-        }
-
-    } else {
-        if (isPublicSpend) {
-            return error("%s: failed to add block, public spend enforcement not activated", __func__);
-        }
-    }
-    return true;
+    return error("%s: failed to add block, public spend enforcement not activated", __func__);
 }
 
 bool ContextualCheckZerocoinTx(const CTransactionRef& tx, CValidationState& state, const Consensus::Params& consensus, int nHeight, bool isMined)
 {
     // zerocoin enforced via block time. First block with a zc mint is 863735
     const bool fZerocoinEnforced = (nHeight >= consensus.ZC_HeightStart);
-    const bool fPublicSpendEnforced = consensus.NetworkUpgradeActive(nHeight, Consensus::UPGRADE_ZC_PUBLIC);
+    const bool fPublicSpendEnforced = false;
     const bool fRejectMintsAndPrivateSpends = !isMined || !fZerocoinEnforced || fPublicSpendEnforced;
     const bool fRejectPublicSpends = !isMined || !fPublicSpendEnforced || consensus.NetworkUpgradeActive(nHeight, Consensus::UPGRADE_V5_0);
 
