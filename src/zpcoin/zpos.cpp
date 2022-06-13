@@ -64,10 +64,9 @@ CLegacyZPcoinStake* CLegacyZPcoinStake::NewZPcoinStake(const CTxIn& txin, int nH
         return nullptr;
     }
 
-    // Return immediately if zPOS not enforced
+    // Disable zPOS
     const Consensus::Params& consensus = Params().GetConsensus();
-    if (!consensus.NetworkUpgradeActive(nHeight, Consensus::UPGRADE_ZC_V2) ||
-            nHeight >= consensus.height_last_ZC_AccumCheckpoint) {
+    if (!consensus.NetworkUpgradeActive(nHeight, Consensus::BASE_NETWORK)) {
         LogPrint(BCLog::LEGACYZC, "%s : zPCOIN stake block: height %d outside range", __func__, nHeight);
         return nullptr;
     }
