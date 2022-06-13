@@ -1351,12 +1351,6 @@ DisconnectResult DisconnectBlock(CBlock& block, const CBlockIndex* pindex, CCoin
     view.SetBestBlock(pindex->pprev->GetBlockHash());
     evoDb->WriteBestBlock(pindex->pprev->GetBlockHash());
 
-    if (consensus.NetworkUpgradeActive(pindex->nHeight, Consensus::UPGRADE_ZC_V2) &&
-            pindex->nHeight <= consensus.height_last_ZC_AccumCheckpoint) {
-        // Legacy Zerocoin DB: If Accumulators Checkpoint is changed, remove changed checksums
-        CacheAccChecksum(pindex, false);
-    }
-
     return fClean ? DISCONNECT_OK : DISCONNECT_UNCLEAN;
 }
 
@@ -1674,21 +1668,6 @@ static bool ConnectBlock(const CBlock& block, CValidationState& state, CBlockInd
     int64_t nTime4 = GetTimeMicros();
     nTimeIndex += nTime4 - nTime3;
     LogPrint(BCLog::BENCHMARK, "    - Index writing: %.2fms [%.2fs]\n", 0.001 * (nTime4 - nTime3), nTimeIndex * 0.000001);
-
-    if (consensus.NetworkUpgradeActive(pindex->nHeight, Consensus::UPGRADE_ZC_V2) &&
-            pindex->nHeight < consensus.height_last_ZC_AccumCheckpoint) {
-        // Legacy Zerocoin DB: If Accumulators Checkpoint is changed, cache the checksums
-        CacheAccChecksum(pindex, true);
-        // Clean coinspends cache every 50k blocks, so it does not grow unnecessarily
-        if (pindex->nHeight % 50000 == 0) {
-            ZPCOINModule::CleanCoinSpendsCache();
-        }
-    } else if (accumulatorCache && pindex->nHeight > consensus.height_last_ZC_AccumCheckpoint + 100) {
-        // 100 blocks After last Checkpoint block, wipe the checksum database and cache
-        accumulatorCache->Wipe();
-        accumulatorCache.reset();
-        ZPCOINModule::CleanCoinSpendsCache();
-    }
 
     // 100 blocks after the last invalid out, clean the map contents
     if (pindex->nHeight == consensus.height_last_invalid_UTXO + 100) {
