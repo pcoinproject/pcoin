@@ -241,7 +241,6 @@ struct Params {
     std::string ZC_Modulus;  // parsed in Zerocoin_Params (either as hex or dec string)
     int ZC_MaxPublicSpendsPerTx;
     int ZC_MaxSpendsPerTx;
-    int ZC_MinMintConfirmations;
 
 
     libzerocoin::ZerocoinParams* Zerocoin_Params(bool useModulusV1) const

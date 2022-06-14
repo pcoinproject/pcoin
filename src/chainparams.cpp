@@ -237,7 +237,6 @@ public:
                 "31438167899885040445364023527381951378636564391212010397122822120720357";
         consensus.ZC_MaxPublicSpendsPerTx = 637;    // Assume about 220 bytes each input
         consensus.ZC_MaxSpendsPerTx = 7;            // Assume about 20kb each input
-        consensus.ZC_MinMintConfirmations = 20;
 
         // Network upgrades
         consensus.vUpgrades[Consensus::BASE_NETWORK].nActivationHeight =
@@ -377,7 +376,6 @@ public:
                 "31438167899885040445364023527381951378636564391212010397122822120720357";
         consensus.ZC_MaxPublicSpendsPerTx = 637;    // Assume about 220 bytes each input
         consensus.ZC_MaxSpendsPerTx = 7;            // Assume about 20kb each input
-        consensus.ZC_MinMintConfirmations = 20;
 
         // Network upgrades
         consensus.vUpgrades[Consensus::BASE_NETWORK].nActivationHeight =
@@ -511,7 +509,6 @@ public:
                 "31438167899885040445364023527381951378636564391212010397122822120720357";
         consensus.ZC_MaxPublicSpendsPerTx = 637;    // Assume about 220 bytes each input
         consensus.ZC_MaxSpendsPerTx = 7;            // Assume about 20kb each input
-        consensus.ZC_MinMintConfirmations = 10;
 
         // Network upgrades
         consensus.vUpgrades[Consensus::BASE_NETWORK].nActivationHeight =
