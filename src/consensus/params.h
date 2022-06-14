@@ -243,7 +243,6 @@ struct Params {
     int ZC_MaxSpendsPerTx;
     int ZC_MinMintConfirmations;
     CAmount ZC_MinMintFee;
-    int ZC_MinStakeDepth;
 
 
     libzerocoin::ZerocoinParams* Zerocoin_Params(bool useModulusV1) const

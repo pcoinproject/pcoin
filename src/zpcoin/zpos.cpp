@@ -29,46 +29,7 @@ static const CBlockIndex* FindIndexFrom(uint32_t nChecksum, libzerocoin::CoinDen
 
 CLegacyZPcoinStake* CLegacyZPcoinStake::NewZPcoinStake(const CTxIn& txin, int nHeight)
 {
-    // Construct the stakeinput object
-    if (!txin.IsZerocoinSpend()) {
-        LogPrintf("%s: unable to initialize CLegacyZPcoinStake from non zc-spend", __func__);
-        return nullptr;
-    }
-
-    // Disable zPOS
-    const Consensus::Params& consensus = Params().GetConsensus();
-    if (!consensus.NetworkUpgradeActive(nHeight, Consensus::BASE_NETWORK)) {
-        LogPrint(BCLog::LEGACYZC, "%s : zPCOIN stake block: height %d outside range", __func__, nHeight);
-        return nullptr;
-    }
-
-    // Check spend type
-    libzerocoin::CoinSpend spend = ZPCOINModule::TxInToZerocoinSpend(txin);
-    if (spend.getSpendType() != libzerocoin::SpendType::STAKE) {
-        LogPrintf("%s : spend is using the wrong SpendType (%d)", __func__, (int)spend.getSpendType());
-        return nullptr;
-    }
-
-    uint32_t _nChecksum = spend.getAccumulatorChecksum();
-    libzerocoin::CoinDenomination _denom = spend.getDenomination();
-    const arith_uint256& nSerial = spend.getCoinSerialNumber().getuint256();
-    const uint256& _hashSerial = Hash(nSerial.begin(), nSerial.end());
-
-    // The checkpoint needs to be from 200 blocks ago
-    const int cpHeight = nHeight - 1 - consensus.ZC_MinStakeDepth;
-    if (ParseAccChecksum(chainActive[cpHeight]->nAccumulatorCheckpoint, _denom) != _nChecksum) {
-        LogPrint(BCLog::LEGACYZC, "%s : accum. checksum at height %d is wrong.", __func__, nHeight);
-    }
-
-    // Find the pindex of the first block with the accumulator checksum
-    const CBlockIndex* _pindexFrom = FindIndexFrom(_nChecksum, _denom, cpHeight);
-    if (_pindexFrom == nullptr) {
-        LogPrintf("%s : Failed to find the block index for zpcoin stake origin", __func__);
-        return nullptr;
-    }
-
-    // All good
-    return new CLegacyZPcoinStake(_pindexFrom, _nChecksum, _denom, _hashSerial);
+    return nullptr;
 }
 
 const CBlockIndex* CLegacyZPcoinStake::GetIndexFrom() const
