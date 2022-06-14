@@ -1667,11 +1667,6 @@ static bool ConnectBlock(const CBlock& block, CValidationState& state, CBlockInd
     nTimeIndex += nTime4 - nTime3;
     LogPrint(BCLog::BENCHMARK, "    - Index writing: %.2fms [%.2fs]\n", 0.001 * (nTime4 - nTime3), nTimeIndex * 0.000001);
 
-    // 100 blocks after the last invalid out, clean the map contents
-    if (pindex->nHeight == consensus.height_last_invalid_UTXO + 100) {
-        invalid_out::setInvalidOutPoints.clear();
-    }
-
     return true;
 }
 

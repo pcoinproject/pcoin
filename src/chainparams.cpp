@@ -228,7 +228,6 @@ public:
         consensus.nTime_RejectOldSporkKey = 0;
 
         // height-based activations
-        consensus.height_last_invalid_UTXO = -1; // TODO cleanup
         consensus.height_last_ZC_AccumCheckpoint = -1; // TODO cleanup
         consensus.height_last_ZC_WrappedSerials = -1; // TODO cleanup
 
@@ -375,7 +374,6 @@ public:
         consensus.nTime_RejectOldSporkKey = 0;
 
         // height based activations
-        consensus.height_last_invalid_UTXO = -1;
         consensus.height_last_ZC_AccumCheckpoint = -1;
         consensus.height_last_ZC_WrappedSerials = -1;
         consensus.ZC_HeightStart = 0;
@@ -516,7 +514,6 @@ public:
         consensus.nTime_RejectOldSporkKey = 0;
 
         // height based activations
-        consensus.height_last_invalid_UTXO = -1;
         consensus.height_last_ZC_AccumCheckpoint = -1;
         consensus.height_last_ZC_WrappedSerials = -1;
 
