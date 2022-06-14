@@ -244,7 +244,6 @@ struct Params {
     CAmount ZC_MinMintFee;
     int ZC_MinStakeDepth;
     int ZC_TimeStart;
-    int ZC_HeightStart;
 
     libzerocoin::ZerocoinParams* Zerocoin_Params(bool useModulusV1) const
     {
