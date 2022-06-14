@@ -975,9 +975,7 @@ void static InvalidBlockFound(CBlockIndex* pindex, const CValidationState& state
 static bool SkipInvalidUTXOS(int nHeight)
 {
     const Consensus::Params& consensus = Params().GetConsensus();
-    return Params().NetworkIDString() == CBaseChainParams::MAIN &&
-           consensus.NetworkUpgradeActive(nHeight, Consensus::UPGRADE_ZC) &&
-           nHeight <= consensus.height_last_invalid_UTXO;
+    return false;
 }
 
 void UpdateCoins(const CTransaction& tx, CCoinsViewCache& inputs, CTxUndo& txundo, int nHeight, bool fSkipInvalid)
@@ -2870,7 +2868,6 @@ bool ContextualCheckBlockHeader(const CBlockHeader& block, CValidationState& sta
 
     // Reject outdated version blocks
     if ((block.nVersion < 3 && nHeight >= 1) ||
-        (block.nVersion < 4 && consensus.NetworkUpgradeActive(nHeight, Consensus::UPGRADE_ZC)) ||
         (block.nVersion < 5 && consensus.NetworkUpgradeActive(nHeight, Consensus::UPGRADE_BIP65)) ||
         (block.nVersion < 6 && consensus.NetworkUpgradeActive(nHeight, Consensus::UPGRADE_V3_4)) ||
         (block.nVersion < 7 && consensus.NetworkUpgradeActive(nHeight, Consensus::UPGRADE_V4_0)) ||
@@ -3006,7 +3003,7 @@ static bool CheckInBlockDoubleSpends(const CBlock& block, int nHeight, CValidati
 {
     const Consensus::Params& consensus = Params().GetConsensus();
     libzerocoin::ZerocoinParams* params = consensus.Zerocoin_Params(false);
-    const bool zpcoinActive = consensus.NetworkUpgradeActive(nHeight, Consensus::UPGRADE_ZC);
+    const bool zpcoinActive = false;
     const bool publicZpcoinActive = false;
     const bool v5Active = consensus.NetworkUpgradeActive(nHeight, Consensus::UPGRADE_V5_0);
 

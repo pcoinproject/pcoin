@@ -27,7 +27,6 @@ enum UpgradeIndex : uint32_t {
     BASE_NETWORK,
     UPGRADE_POS,
     UPGRADE_POS_V2,
-    UPGRADE_ZC,
     UPGRADE_BIP65,
     UPGRADE_V3_4,
     UPGRADE_V4_0,

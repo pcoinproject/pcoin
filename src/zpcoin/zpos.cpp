@@ -24,35 +24,6 @@ uint32_t ParseAccChecksum(uint256 nCheckpoint, const libzerocoin::CoinDenominati
 
 static const CBlockIndex* FindIndexFrom(uint32_t nChecksum, libzerocoin::CoinDenomination denom, int cpHeight)
 {
-    // First look in the legacy database
-    Optional<int> nHeightChecksum = accumulatorCache ? accumulatorCache->Get(nChecksum, denom) : nullopt;
-    if (nHeightChecksum != nullopt) {
-        return mapBlockIndex.at(chainActive[*nHeightChecksum]->GetBlockHash());
-    }
-
-    // Not found. This should never happen (during IBD we save the accumulator checksums
-    // in the cache as they are updated, and persist the cache to DB) but better to have a fallback.
-    LogPrintf("WARNING: accumulatorCache corrupt - missing (%d-%d), height=%d",
-              nChecksum, libzerocoin::ZerocoinDenominationToInt(denom), cpHeight);
-
-    // Start at the current checkpoint and go backwards
-    const Consensus::Params& consensus = Params().GetConsensus();
-    int zc_activation = consensus.vUpgrades[Consensus::UPGRADE_ZC].nActivationHeight;
-    // Height limits are ensured by the contextual checks in NewZPcoinStake
-    assert(cpHeight <= consensus.height_last_ZC_AccumCheckpoint && cpHeight > zc_activation);
-
-    CBlockIndex* pindex = chainActive[(cpHeight/10)*10 - 10];
-    if (!pindex) return nullptr;
-    while (ParseAccChecksum(pindex->nAccumulatorCheckpoint, denom) == nChecksum && pindex->nHeight > zc_activation) {
-        //Skip backwards in groups of 10 blocks since checkpoints only change every 10 blocks
-        pindex = chainActive[pindex->nHeight - 10];
-    }
-    if (pindex->nHeight > zc_activation) {
-        // Found. update cache.
-        CBlockIndex* pindexFrom = mapBlockIndex.at(chainActive[pindex->nHeight + 10]->GetBlockHash());
-        if (accumulatorCache) accumulatorCache->Set(nChecksum, denom, pindexFrom->nHeight);
-        return pindexFrom;
-    }
     return nullptr;
 }
 
