@@ -196,7 +196,6 @@ struct Params {
     int64_t nTime_RejectOldSporkKey;
 
     // height-based activations
-    int height_last_ZC_AccumCheckpoint;
 
 
     // Map with network updates
