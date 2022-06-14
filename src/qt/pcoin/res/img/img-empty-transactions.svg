@@ -22,13 +22,13 @@
      inkscape:deskcolor="#505050"
      showgrid="false"
      inkscape:zoom="2.36"
-     inkscape:cx="32.415254"
-     inkscape:cy="31.991525"
-     inkscape:window-width="1920"
-     inkscape:window-height="1027"
+     inkscape:cx="32.627119"
+     inkscape:cy="31.779661"
+     inkscape:window-width="1309"
+     inkscape:window-height="456"
      inkscape:window-x="38"
      inkscape:window-y="25"
-     inkscape:window-maximized="1"
+     inkscape:window-maximized="0"
      inkscape:current-layer="ic_empty_transactions" />
   <defs
      id="defs4">
@@ -146,7 +146,7 @@
      class="cls-3"
      data-name="Rectangle 4668" />
   <ellipse
-     style="mix-blend-mode:normal;fill:none;fill-opacity:0.7;stroke:#d6d6d6;stroke-width:11.26554845;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:normal;filter:url(#filter13710-3)"
+     style="mix-blend-mode:normal;fill:none;fill-opacity:0.7;stroke:#13b9f6;stroke-width:11.26554845;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:0.79607844;paint-order:normal;filter:url(#filter13710-3)"
      id="path5499-2"
      cx="145.80284"
      cy="162.31612"
@@ -154,7 +154,7 @@
      ry="16.234846"
      transform="matrix(0.32755577,0,0,0.38488417,2.2621634,-17.072801)" />
   <rect
-     style="mix-blend-mode:normal;fill:#d6d6d6;fill-opacity:1;stroke:none;stroke-width:27.4426;stroke-dasharray:none;stroke-opacity:0.796078;paint-order:stroke markers fill;filter:url(#filter13714-9)"
+     style="mix-blend-mode:normal;fill:#13b9f6;fill-opacity:0.79607844;stroke:none;stroke-width:27.4426;stroke-dasharray:none;stroke-opacity:0.796078;paint-order:stroke markers fill;filter:url(#filter13714-9)"
      id="rect13708-3"
      width="10.611835"
      height="63.389759"
