@@ -3563,11 +3563,6 @@ HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*/
     background-color: transparent;
 }
 
-*[cssClass="img-empty-privacy"] {
-    qproperty-icon: url("://img-empty-privacy");
-    qproperty-iconSize: 100px 100px;
-    background-color: transparent;
-}
 
 *[cssClass="img-empty-governance"] {
     qproperty-icon: url("://img-empty-governance");

@@ -1,25 +1,142 @@
-<svg xmlns="http://www.w3.org/2000/svg" id="ic_empty_Dark_transactions" width="100" height="100" viewBox="0 0 100 100">
-    <defs>
-        <style type="text/css">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   id="ic_empty_Dark_transactions"
+   width="100"
+   height="100"
+   viewBox="0 0 100 100"
+   version="1.1"
+   sodipodi:docname="img-empty-dark-transactions.svg"
+   inkscape:version="1.2 (dc2aeda, 2022-05-15)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview3039"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     showgrid="false"
+     inkscape:zoom="2.36"
+     inkscape:cx="116.94915"
+     inkscape:cy="63.135593"
+     inkscape:window-width="1309"
+     inkscape:window-height="456"
+     inkscape:window-x="38"
+     inkscape:window-y="25"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="ic_empty_Dark_transactions" />
+  <defs
+     id="defs3023">
+    <style
+       type="text/css"
+       id="style3021">
             .cls-1{fill:#28334a}.cls-2{fill:#8d96a8}.cls-3{fill:none}
         </style>
-    </defs>
-    <g id="Group_9036" data-name="Group 9036">
-        <path id="Path_18988" d="M50 26a24 24 0 1 0 24 24 24 24 0 0 0-24-24zm0 42a18 18 0 1 1 18-18 18 18 0 0 1-18 18z" class="cls-1" data-name="Path 18988"/>
-        <g id="Group_9035" data-name="Group 9035">
-            <g id="Group_9033" data-name="Group 9033">
-                <g id="Group_9032" data-name="Group 9032">
-                </g>
-            </g>
-            <g id="Group_9034" data-name="Group 9034">
-                <path id="Path_18990" d="M50 31a19 19 0 1 0 19 19 19.021 19.021 0 0 0-19-19zm0 36a17 17 0 1 1 17-17 17.019 17.019 0 0 1-17 17z" class="cls-2" data-name="Path 18990"/>
-                <path id="Rectangle_4693" d="M0 0h2v4H0z" class="cls-2" data-name="Rectangle 4693" transform="translate(83 56)"/>
-                <path id="Rectangle_4694" d="M0 0h2v8H0z" class="cls-2" data-name="Rectangle 4694" transform="translate(83 44)"/>
-                <path id="Rectangle_4695" d="M0 0h2v8H0z" class="cls-2" data-name="Rectangle 4695" transform="translate(15 48)"/>
-                <path id="Rectangle_4696" d="M0 0h2v4H0z" class="cls-2" data-name="Rectangle 4696" transform="translate(15 40)"/>
-                <path id="Path_18991" d="M95.162 71H85v-7h-2v9h7.838L76 90.456 61.162 73H68v-2h-4.461a24.989 24.989 0 0 0-22.4-44.374L24 6.456 4.838 29H15v7h2v-9H9.162L24 9.544 38.838 27H32v2h4.461a24.989 24.989 0 0 0 22.4 44.374L76 93.544zM27 50a23 23 0 1 1 23 23 23.026 23.026 0 0 1-23-23z" class="cls-2" data-name="Path 18991"/>
-            </g>
-        </g>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       id="filter13710-3"
+       x="-0.22033993"
+       y="-0.21158471"
+       width="1.4406799"
+       height="1.4231694">
+      <feGaussianBlur
+         stdDeviation="0.51555851"
+         id="feGaussianBlur13712-7" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       id="filter13714-9"
+       x="-0.17591155"
+       y="-0.029448672"
+       width="1.3518231"
+       height="1.0588973">
+      <feGaussianBlur
+         stdDeviation="0.77781007"
+         id="feGaussianBlur13716-0" />
+    </filter>
+  </defs>
+  <g
+     id="Group_9036"
+     data-name="Group 9036">
+    <path
+       id="Path_18988"
+       d="M50 26a24 24 0 1 0 24 24 24 24 0 0 0-24-24zm0 42a18 18 0 1 1 18-18 18 18 0 0 1-18 18z"
+       class="cls-1"
+       data-name="Path 18988" />
+    <g
+       id="Group_9035"
+       data-name="Group 9035">
+      <g
+         id="Group_9033"
+         data-name="Group 9033">
+        <g
+           id="Group_9032"
+           data-name="Group 9032" />
+      </g>
+      <g
+         id="Group_9034"
+         data-name="Group 9034">
+        <path
+           id="Path_18990"
+           d="M50 31a19 19 0 1 0 19 19 19.021 19.021 0 0 0-19-19zm0 36a17 17 0 1 1 17-17 17.019 17.019 0 0 1-17 17z"
+           class="cls-2"
+           data-name="Path 18990" />
+        <path
+           id="Rectangle_4693"
+           d="M0 0h2v4H0z"
+           class="cls-2"
+           data-name="Rectangle 4693"
+           transform="translate(83 56)" />
+        <path
+           id="Rectangle_4694"
+           d="M0 0h2v8H0z"
+           class="cls-2"
+           data-name="Rectangle 4694"
+           transform="translate(83 44)" />
+        <path
+           id="Rectangle_4695"
+           d="M0 0h2v8H0z"
+           class="cls-2"
+           data-name="Rectangle 4695"
+           transform="translate(15 48)" />
+        <path
+           id="Rectangle_4696"
+           d="M0 0h2v4H0z"
+           class="cls-2"
+           data-name="Rectangle 4696"
+           transform="translate(15 40)" />
+        <path
+           id="Path_18991"
+           d="M95.162 71H85v-7h-2v9h7.838L76 90.456 61.162 73H68v-2h-4.461a24.989 24.989 0 0 0-22.4-44.374L24 6.456 4.838 29H15v7h2v-9H9.162L24 9.544 38.838 27H32v2h4.461a24.989 24.989 0 0 0 22.4 44.374L76 93.544zM27 50a23 23 0 1 1 23 23 23.026 23.026 0 0 1-23-23z"
+           class="cls-2"
+           data-name="Path 18991" />
+      </g>
     </g>
-    <path id="Rectangle_4697" d="M0 0h100v100H0z" class="cls-3" data-name="Rectangle 4697"/>
+  </g>
+  <path
+     id="Rectangle_4697"
+     d="M0 0h100v100H0z"
+     class="cls-3"
+     data-name="Rectangle 4697" />
+  <ellipse
+     style="mix-blend-mode:normal;fill:none;fill-opacity:0.7;stroke:#28334a;stroke-width:11.2655;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:normal;filter:url(#filter13710-3)"
+     id="path5499-2"
+     cx="145.80284"
+     cy="162.31612"
+     rx="15.589753"
+     ry="16.234846"
+     transform="matrix(0.32755577,0,0,0.38488417,3.1096144,-17.496529)" />
+  <rect
+     style="mix-blend-mode:normal;fill:#28334a;fill-opacity:1;stroke:none;stroke-width:27.4426;stroke-dasharray:none;stroke-opacity:0.796078;paint-order:stroke markers fill;filter:url(#filter13714-9)"
+     id="rect13708-3"
+     width="10.611835"
+     height="63.389759"
+     x="177.31448"
+     y="74.75956"
+     transform="matrix(0.32886954,-0.16093291,0.11470944,0.34762781,-25.480246,43.058188)" />
 </svg>

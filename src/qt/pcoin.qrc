@@ -161,12 +161,10 @@
         <file alias="img-empty-dark-staking-on">pcoin/res/img/img-empty-dark-staking-on.svg</file>
         <file alias="img-empty-dark-staking-off">pcoin/res/img/img-empty-dark-staking-off.svg</file>
         <file alias="img-empty-dark-transactions">pcoin/res/img/img-empty-dark-transactions.svg</file>
-        <file alias="img-empty-dark-privacy">pcoin/res/img/img-empty-privacy-dark.svg</file>
         <file alias="img-empty-error">pcoin/res/img/img-empty-error.svg</file>
         <file alias="img-empty-masternode">pcoin/res/img/img-empty-masternode.svg</file>
         <file alias="img-empty-multisend">pcoin/res/img/img-empty-multisend.svg</file>
         <file alias="img-empty-peers">pcoin/res/img/img-empty-peers.svg</file>
-        <file alias="img-empty-privacy">pcoin/res/img/img-empty-privacy.svg</file>
         <file alias="img-empty-staking-off">pcoin/res/img/img-empty-staking-off.svg</file>
         <file alias="img-empty-staking-on">pcoin/res/img/img-empty-staking-on.svg</file>
         <file alias="img-empty-transactions">pcoin/res/img/img-empty-transactions.svg</file>

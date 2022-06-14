@@ -370,8 +370,6 @@ RES_ICONS = \
   qt/pcoin/res/img/ic-close-white.svg \
   qt/pcoin/res/img/ic-nav-settings.svg \
   qt/pcoin/res/img/img-empty-peers.svg \
-  qt/pcoin/res/img/img-empty-privacy.svg \
-  qt/pcoin/res/img/img-empty-privacy-dark.svg \
   qt/pcoin/res/img/ic-arrow-drop-down-white.svg \
   qt/pcoin/res/img/ic-close.svg \
   qt/pcoin/res/img/ic-radio-liliac-on.svg \
