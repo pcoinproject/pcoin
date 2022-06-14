@@ -101,14 +101,6 @@ static bool CheckZerocoinSpend(const CTransactionRef _tx, CValidationState& stat
     return fValidated;
 }
 
-bool isBlockBetweenFakeSerialAttackRange(int nHeight)
-{
-    if (Params().NetworkIDString() != CBaseChainParams::MAIN)
-        return false;
-
-    return nHeight <= Params().GetConsensus().height_last_ZC_WrappedSerials;
-}
-
 bool CheckPublicCoinSpendEnforced(int blockHeight, bool isPublicSpend)
 {
     return error("%s: failed to add block, public spend enforcement not activated", __func__);

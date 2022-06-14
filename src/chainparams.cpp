@@ -229,7 +229,6 @@ public:
 
         // height-based activations
         consensus.height_last_ZC_AccumCheckpoint = -1; // TODO cleanup
-        consensus.height_last_ZC_WrappedSerials = -1; // TODO cleanup
 
         // Zerocoin-related params
         consensus.ZC_Modulus = "25195908475657893494027183240048398571429282126204032027777137836043662020707595556264018525880784"
@@ -375,7 +374,6 @@ public:
 
         // height based activations
         consensus.height_last_ZC_AccumCheckpoint = -1;
-        consensus.height_last_ZC_WrappedSerials = -1;
         consensus.ZC_HeightStart = 0;
 
         // Zerocoin-related params
@@ -515,7 +513,6 @@ public:
 
         // height based activations
         consensus.height_last_ZC_AccumCheckpoint = -1;
-        consensus.height_last_ZC_WrappedSerials = -1;
 
         // Zerocoin-related params
         consensus.ZC_Modulus = "25195908475657893494027183240048398571429282126204032027777137836043662020707595556264018525880784"

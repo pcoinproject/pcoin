@@ -197,7 +197,6 @@ struct Params {
 
     // height-based activations
     int height_last_ZC_AccumCheckpoint;
-    int height_last_ZC_WrappedSerials;
 
 
     // Map with network updates
