@@ -220,6 +220,7 @@ public:
         consensus.nTimeSlotLength = 15;
         consensus.nMaxProposalPayments = 6;
         consensus.nLastBigReward = 1000;
+        consensus.PCOIN_TimeStart = 1653240600;
 
         // spork keys
         consensus.strSporkPubKey = "043f94531fb29eadb0a39cf4a3c1932ac17a424c89ad9607824be3e81aa13787caae7d3d4add8e0bad8218f3a1f35afe7c99b19853cd4b30b8ab2ca5ce114be8ee";
@@ -239,7 +240,6 @@ public:
         consensus.ZC_MinMintConfirmations = 20;
         consensus.ZC_MinMintFee = 1 * CENT;
         consensus.ZC_MinStakeDepth = 200;
-        consensus.ZC_TimeStart = 1508214600;        // October 17, 2017 4:30:00 AM
 
         // Network upgrades
         consensus.vUpgrades[Consensus::BASE_NETWORK].nActivationHeight =
@@ -361,6 +361,7 @@ public:
         consensus.nTargetSpacing = 1 * 60;
         consensus.nTimeSlotLength = 15;
         consensus.nMaxProposalPayments = 20;
+        consensus.PCOIN_TimeStart = 1653240600;
 
         // spork keys
         consensus.strSporkPubKey = "04cb8cd2efba3a1589b47beba2c940bcf33a1e6f271f31eb9fd20f1a7458d2c3d17ae37ae0b52d7e78696140174f0741d83571619c7eb52d071f6bb915797e7c3d";
@@ -381,7 +382,6 @@ public:
         consensus.ZC_MinMintConfirmations = 20;
         consensus.ZC_MinMintFee = 1 * CENT;
         consensus.ZC_MinStakeDepth = 200;
-        consensus.ZC_TimeStart = 1508214600;        // October 17, 2017 4:30:00 AM
 
         // Network upgrades
         consensus.vUpgrades[Consensus::BASE_NETWORK].nActivationHeight =
@@ -493,6 +493,7 @@ public:
         consensus.nTargetSpacing = 1 * 60;
         consensus.nTimeSlotLength = 15;
         consensus.nMaxProposalPayments = 20;
+        consensus.PCOIN_TimeStart = 0;                 // not implemented on regtest
 
         /* Spork Key for RegTest:
         WIF private key: 932HEevBSujW2ud7RfB1YF91AFygbBRQj3de3LyaCRqNzKKgWXi
@@ -517,7 +518,6 @@ public:
         consensus.ZC_MinMintConfirmations = 10;
         consensus.ZC_MinMintFee = 1 * CENT;
         consensus.ZC_MinStakeDepth = 10;
-        consensus.ZC_TimeStart = 0;                 // not implemented on regtest
 
         // Network upgrades
         consensus.vUpgrades[Consensus::BASE_NETWORK].nActivationHeight =

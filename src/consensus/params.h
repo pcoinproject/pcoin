@@ -188,6 +188,7 @@ struct Params {
     int nTimeSlotLength;
     int nMaxProposalPayments;
     int nLastBigReward;
+    int PCOIN_TimeStart;
 
     // spork keys
     std::string strSporkPubKey;
@@ -243,7 +244,7 @@ struct Params {
     int ZC_MinMintConfirmations;
     CAmount ZC_MinMintFee;
     int ZC_MinStakeDepth;
-    int ZC_TimeStart;
+
 
     libzerocoin::ZerocoinParams* Zerocoin_Params(bool useModulusV1) const
     {
