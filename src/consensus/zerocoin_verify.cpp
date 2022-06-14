@@ -126,9 +126,6 @@ bool ContextualCheckZerocoinTx(const CTransactionRef& tx, CValidationState& stat
             if (!hasPrivateSpendInputs)
                 return state.DoS(100, error("%s: zerocoin spend tx %s has mixed spend inputs",
                                             __func__, txId), REJECT_INVALID, "bad-txns-zc-private-spend-mixed-types");
-            if (++nSpendCount > consensus.ZC_MaxSpendsPerTx)
-                return state.DoS(100, error("%s: zerocoin spend tx %s has more than %d inputs",
-                                            __func__, txId, consensus.ZC_MaxSpendsPerTx), REJECT_INVALID, "bad-txns-zc-private-spend-max-inputs");
 
         } else if (in.IsZerocoinPublicSpend()) {
             if (fRejectPublicSpends)
