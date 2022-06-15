@@ -1,8 +1,0 @@
-/usr/bin/pcoin-cli		--	gen_context(system_u:object_r:pcoin_exec_t,s0)
-/usr/sbin/pcoind		--	gen_context(system_u:object_r:pcoin_exec_t,s0)
-/usr/lib(64)?/pcoin/pcoind		--	gen_context(system_u:object_r:pcoin_exec_t,s0)
-
-/etc/pcoin(/.*)?		gen_context(system_u:object_r:pcoin_conf_t,s0)
-/var/lib/pcoin(/.*)?		gen_context(system_u:object_r:pcoin_var_lib_t,s0)
-
-(/var)?/run/pcoind(/.*)?   gen_context(system_u:object_r:pcoin_var_run_t,s0)
