@@ -34,10 +34,10 @@ EXCLUDE_DIRS = [
     "src/leveldb/",
     "src/secp256k1/",
     "src/univalue/",
-    "src/crc32c",
+    "src/crc32c/",
 ]
 
-INCLUDE = ['*.h', '*.cpp', '*.cc', '*.c', '*.py']
+INCLUDE = ['*.h', '*.cpp', '*.cc', '*.c', '*.mm', '*.py', '*.sh', '*.bash-completion']
 INCLUDE_COMPILED = re.compile('|'.join([fnmatch.translate(m) for m in INCLUDE]))
 
 def applies_to_file(filename):
@@ -88,7 +88,7 @@ ANY_COPYRIGHT_STYLE_OR_YEAR_STYLE = ("%s %s" % (ANY_COPYRIGHT_STYLE,
 ANY_COPYRIGHT_COMPILED = re.compile(ANY_COPYRIGHT_STYLE_OR_YEAR_STYLE)
 
 def compile_copyright_regex(copyright_style, year_style, name):
-    return re.compile('%s %s,? %s\n' % (copyright_style, year_style, name))
+    return re.compile(r'%s %s,? %s( +\*)?\n' % (copyright_style, year_style, name))
 
 EXPECTED_HOLDER_NAMES = [
     r"Satoshi Nakamoto",
@@ -340,15 +340,13 @@ def get_most_recent_git_change_year(filename):
 ################################################################################
 
 def read_file_lines(filename):
-    f = open(filename, 'r', encoding="utf8")
-    file_lines = f.readlines()
-    f.close()
+    with open(filename, 'r', encoding="utf8") as f:
+        file_lines = f.readlines()
     return file_lines
 
 def write_file_lines(filename, file_lines):
-    f = open(filename, 'w', encoding="utf8")
-    f.write(''.join(file_lines))
-    f.close()
+    with open(filename, 'w', encoding="utf8") as f:
+        f.write(''.join(file_lines))
 
 ################################################################################
 # update header years execution
@@ -391,7 +389,7 @@ def create_updated_copyright_line(line, last_git_change_year):
     space_split = after_copyright.split(' ')
     year_range = space_split[0]
     start_year, end_year = parse_year_range(year_range)
-    if end_year == last_git_change_year:
+    if end_year >= last_git_change_year:
         return line
     return (before_copyright + copyright_splitter +
             year_range_to_str(start_year, last_git_change_year) + ' ' +
@@ -480,14 +478,14 @@ CPP_HEADER = '''
 def get_cpp_header_lines_to_insert(start_year, end_year):
     return reversed(get_header_lines(CPP_HEADER, start_year, end_year))
 
-PYTHON_HEADER = '''
+SCRIPT_HEADER = '''
 # Copyright (c) %s The PCOIN developers
 # Distributed under the MIT software license, see the accompanying
 # file COPYING or http://www.opensource.org/licenses/mit-license.php.
 '''
 
-def get_python_header_lines_to_insert(start_year, end_year):
-    return reversed(get_header_lines(PYTHON_HEADER, start_year, end_year))
+def get_script_header_lines_to_insert(start_year, end_year):
+    return reversed(get_header_lines(SCRIPT_HEADER, start_year, end_year))
 
 ################################################################################
 # query git for year of last change
@@ -516,17 +514,18 @@ def file_has_hashbang(file_lines):
         return False
     return file_lines[0][:2] == '#!'
 
-def insert_python_header(filename, file_lines, start_year, end_year):
+def insert_script_header(filename, file_lines, start_year, end_year):
     if file_has_hashbang(file_lines):
         insert_idx = 1
     else:
         insert_idx = 0
-    header_lines = get_python_header_lines_to_insert(start_year, end_year)
+    header_lines = get_script_header_lines_to_insert(start_year, end_year)
     for line in header_lines:
         file_lines.insert(insert_idx, line)
     write_file_lines(filename, file_lines)
 
 def insert_cpp_header(filename, file_lines, start_year, end_year):
+    file_lines.insert(0, '\n')
     header_lines = get_cpp_header_lines_to_insert(start_year, end_year)
     for line in header_lines:
         file_lines.insert(0, line)
@@ -538,8 +537,8 @@ def exec_insert_header(filename, style):
         sys.exit('*** %s already has a copyright by The PCOIN developers'
                  % (filename))
     start_year, end_year = get_git_change_year_range(filename)
-    if style == 'python':
-        insert_python_header(filename, file_lines, start_year, end_year)
+    if style in ['python', 'shell']:
+        insert_script_header(filename, file_lines, start_year, end_year)
     else:
         insert_cpp_header(filename, file_lines, start_year, end_year)
 
@@ -580,11 +579,13 @@ def insert_cmd(argv):
     if not os.path.isfile(filename):
         sys.exit("*** bad filename: %s" % filename)
     _, extension = os.path.splitext(filename)
-    if extension not in ['.h', '.cpp', '.cc', '.c', '.py']:
+    if extension not in ['.h', '.cpp', '.cc', '.c', '.py', '.sh']:
         sys.exit("*** cannot insert for file extension %s" % extension)
 
     if extension == '.py':
         style = 'python'
+    elif extension == '.sh':
+        style = 'shell'
     else:
         style = 'cpp'
     exec_insert_header(filename, style)
