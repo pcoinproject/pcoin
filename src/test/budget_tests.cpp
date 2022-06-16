@@ -45,14 +45,9 @@ void enableMnSyncAndSuperblocksPayment()
 
 BOOST_AUTO_TEST_CASE(budget_value)
 {
-    SelectParams(CBaseChainParams::TESTNET);
-    int nHeightTest = Params().GetConsensus().vUpgrades[Consensus::UPGRADE_V5_3].nActivationHeight + 1;
-    CheckBudgetValue(nHeightTest-1, "testnet", 7200*COIN);
-    CheckBudgetValue(nHeightTest, "testnet", 144*COIN);
-
     SelectParams(CBaseChainParams::MAIN);
-    nHeightTest = Params().GetConsensus().vUpgrades[Consensus::UPGRADE_V5_3].nActivationHeight + 1;
-    CheckBudgetValue(nHeightTest, "mainnet", 43200*COIN);
+    int nHeightTest = Params().GetConsensus().vUpgrades[Consensus::UPGRADE_V5_3].nActivationHeight + 1;
+    CheckBudgetValue(nHeightTest, "mainnet", 86400*COIN);
 }
 
 BOOST_FIXTURE_TEST_CASE(block_value, TestnetSetup)
@@ -357,28 +352,6 @@ BOOST_FIXTURE_TEST_CASE(IsCoinbaseValueValid_test, TestingSetup)
     cbase.vout[0].nValue /= 2;
     cbase.vout.emplace_back(cbase.vout[0]);
     BOOST_CHECK(IsCoinbaseValueValid(MakeTransactionRef(cbase), 0, state));
-
-    // Underpaying with SPORK_8 disabled (good)
-    cbase.vout.clear();
-    cbase.vout.emplace_back(mnAmt - 1, cbaseScript);
-    BOOST_CHECK(IsCoinbaseValueValid(MakeTransactionRef(cbase), 0, state));
-    cbase.vout[0].nValue = mnAmt/2;
-    cbase.vout.emplace_back(cbase.vout[0]);
-    cbase.vout[1].nValue = mnAmt/2 - 1;
-    BOOST_CHECK(IsCoinbaseValueValid(MakeTransactionRef(cbase), 0, state));
-
-    // Overpaying with SPORK_8 disabled
-    cbase.vout.clear();
-    cbase.vout.emplace_back(mnAmt + 1, cbaseScript);
-    BOOST_CHECK(!IsCoinbaseValueValid(MakeTransactionRef(cbase), 0, state));
-    BOOST_CHECK_EQUAL(state.GetRejectReason(), "bad-cb-amt-spork8-disabled");
-    state = CValidationState();
-    cbase.vout[0].nValue = mnAmt/2;
-    cbase.vout.emplace_back(cbase.vout[0]);
-    cbase.vout[1].nValue = mnAmt/2 + 1;
-    BOOST_CHECK(!IsCoinbaseValueValid(MakeTransactionRef(cbase), 0, state));
-    BOOST_CHECK_EQUAL(state.GetRejectReason(), "bad-cb-amt-spork8-disabled");
-    state = CValidationState();
 
     // enable SPORK_8
     int64_t nTime = GetTime() - 10;
