@@ -1,3 +1,0 @@
-usr/local/bin/pcoind usr/bin
-usr/local/bin/pcoin-cli usr/bin
-debian/examples/pcoin.conf etc/pcoin
