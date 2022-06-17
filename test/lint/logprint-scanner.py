@@ -4,12 +4,12 @@
 # Distributed under the MIT software license, see the accompanying
 # file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-import os, sys
+import os
+import sys
 from subprocess import check_output
 
 def countRelevantCommas(line):
     openParensPosStack = []
-    openParensPos = 0
     charCounter = 0
     numRelevantCommas = 0
     firstOpenParensIndex = line.find("(")
@@ -53,7 +53,7 @@ if __name__ == "__main__":
 
             # Line contains LogPrint, LogPrintf or error
             if tempLine.find("LogPrint") != -1 or \
-                    (tempLine.find("error(") != -1 and tempLine.find("_error") == -1)  or \
+                    (tempLine.find("error(") != -1 and tempLine.find("_error") == -1) or \
                     tempLine.find("strprintf") != -1:
                 if tempLine.count("(") == tempLine.count(")"):
                     havePercents = tempLine.count('%') > 0
