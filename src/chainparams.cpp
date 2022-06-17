@@ -271,9 +271,8 @@ public:
         nDefaultPort = 22501;
 
         // Note that of those with the service bits flag, most only support a subset of possible options
-        vSeeds.emplace_back("pcoin.seed.fuzzbawls.pw", true);     // Primary DNS Seeder from Fuzzbawls
-        vSeeds.emplace_back("pcoin.seed2.fuzzbawls.pw", true);    // Secondary DNS Seeder from Fuzzbawls
-        vSeeds.emplace_back("pcoin-seed.furszy.net", true);     // Primary DNS Seeder from furszy
+        vSeeds.emplace_back("seed1.pcoin.tools", true);     // Primary DNS Seeder
+        vSeeds.emplace_back("seed2.pcoin.tools", true);    // Secondary DNS Seeder
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 55);      // starting with 'P'
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 78);      // starting with 'Y'
@@ -401,8 +400,8 @@ public:
         nDefaultPort = 22503;
 
         // nodes with support for servicebits filtering should be at the top
-        vSeeds.emplace_back("pcoin-testnet.seed.fuzzbawls.pw", true);
-        vSeeds.emplace_back("pcoin-testnet.seed2.fuzzbawls.pw", true);
+        vSeeds.emplace_back("testseed1.pcoin.tools", true);
+        vSeeds.emplace_back("testseed2.pcoin.tools", true);
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 117); // Testnet pcoin addresses start with 'p'
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 140);  // Testnet pcoin script addresses start with 'y'
