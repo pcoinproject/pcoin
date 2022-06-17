@@ -1133,8 +1133,8 @@ UniValue bip38encrypt(const JSONRPCRequest& request)
             "\"key\"                (string) The encrypted private key\n"
 
             "\nExamples:\n" +
-            HelpExampleCli("bip38encrypt", "\"DMJRSsuU9zfyrvxVaAEFQqK4MxZg6vgeS6\" \"mypasphrase\"") +
-            HelpExampleRpc("bip38encrypt", "\"DMJRSsuU9zfyrvxVaAEFQqK4MxZg6vgeS6\" \"mypasphrase\""));
+            HelpExampleCli("bip38encrypt", "\"PHo7rZF26PgcY94pt2Lf8CsM5LHVSAkKBm\" \"mypasphrase\"") +
+            HelpExampleRpc("bip38encrypt", "\"PHo7rZF26PgcY94pt2Lf8CsM5LHVSAkKBm\" \"mypasphrase\""));
 
     LOCK2(cs_main, pwallet->cs_wallet);
 
