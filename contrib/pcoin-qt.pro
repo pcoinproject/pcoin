@@ -310,7 +310,6 @@ HEADERS += src/activemasternode.h \
            src/test/data/script_valid.json.h \
            src/test/data/sig_canonical.json.h \
            src/test/data/sig_noncanonical.json.h \
-           src/test/data/sighash.json.h \
            src/test/data/tx_invalid.json.h \
            src/test/data/tx_valid.json.h \
            src/leveldb/helpers/memenv/memenv.h \
@@ -516,7 +515,6 @@ SOURCES += src/activemasternode.cpp \
            src/script/sign.cpp \
            src/script/standard.cpp \
            src/test/accounting_tests.cpp \
-           src/test/alert_tests.cpp \
            src/test/allocator_tests.cpp \
            src/test/base32_tests.cpp \
            src/test/base58_tests.cpp \
@@ -524,7 +522,6 @@ SOURCES += src/activemasternode.cpp \
            src/test/bip32_tests.cpp \
            src/test/bloom_tests.cpp \
            src/test/checkblock_tests.cpp \
-           src/test/Checkpoints_tests.cpp \
            src/test/coins_tests.cpp \
            src/test/compress_tests.cpp \
            src/test/crypto_tests.cpp \
@@ -539,7 +536,6 @@ SOURCES += src/activemasternode.cpp \
            src/test/multisig_tests.cpp \
            src/test/netbase_tests.cpp \
            src/test/pmt_tests.cpp \
-           src/test/rpc_tests.cpp \
            src/test/rpc_wallet_tests.cpp \
            src/test/sanity_tests.cpp \
            src/test/script_P2SH_tests.cpp \
