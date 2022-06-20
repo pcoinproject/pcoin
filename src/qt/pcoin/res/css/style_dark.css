@@ -454,12 +454,27 @@ HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*/
 }
 
 *[cssClass="amount-small-topbar"] {
-    color:#FFFFFF;
+    color:#ffe100;
     font-size:17px;
 }
 
-*[cssClass="amount-small-popup"] {
-    color:#FFFFFF;
+*[cssClass="amount-labelAmountTopPcoin"] {
+    color:green;
+    font-size:17px;
+}
+
+*[cssClass="amount-labelAmountTopShieldedPcoin"] {
+    color: #0a80ab;
+    font-size:17px;
+}
+
+*[cssClass="amount-small-popup-transparen"] {
+    color:green;
+    font-size:17px;
+}
+
+*[cssClass="amount-small-popup-shielded"] {
+    color:#0a80ab;
     font-size:17px;
 }
 
@@ -2945,7 +2960,7 @@ HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*/
 }
 
 *[cssClass="container-popup"] {
-    background-color:#212121;
+    background-color:#b0212121;
     border-radius:14px;
     border:1px solid #13b9f6;
 }

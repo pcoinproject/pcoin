@@ -20,7 +20,8 @@ BalanceBubble::BalanceBubble(QWidget *parent) :
     ui->setupUi(this);
 
     ui->frame->setProperty("cssClass", "container-popup");
-    setCssProperty({ui->textTransparent, ui->textShielded}, "amount-small-popup");
+    setCssProperty({ui->textTransparent}, "amount-small-popup-transparen");
+    setCssProperty({ui->textShielded}, "amount-small-popup-shielded");
 
     std::initializer_list<QWidget*> lblTitles = {ui->lblFirst, ui->lblSecond};
     setCssProperty(lblTitles, "text-title-topbar");

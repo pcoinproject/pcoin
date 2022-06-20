@@ -74,7 +74,8 @@ TopBar::TopBar(PCOINGUI* _mainWindow, QWidget *parent) :
 
     // Amount information top
     ui->widgetTopAmount->setVisible(false);
-    setCssProperty({ui->labelAmountTopPcoin, ui->labelAmountTopShieldedPcoin}, "amount-small-topbar");
+    setCssProperty({ui->labelAmountTopPcoin}, "amount-labelAmountTopPcoin");
+    setCssProperty({ui->labelAmountTopShieldedPcoin}, "amount-labelAmountTopShieldedPcoin");
     setCssProperty({ui->labelAmountPcoin}, "amount-topbar");
     setCssProperty({ui->labelPendingPcoin, ui->labelImmaturePcoin}, "amount-small-topbar");
 
