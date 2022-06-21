@@ -202,7 +202,7 @@ class MasternodeGovernanceBasicTest(PcoinTier2TestFramework):
         self.log.info("preparing budget proposal..")
         firstProposal = Proposal(
             "super-cool",
-            "https://forum.pcoin.dev/t/test-proposal",
+            "https://github.com/pcoinproject/pcoin/discussions/categories/proposal/test-proposal",
             2,
             self.miner.getnewaddress(),
             300
